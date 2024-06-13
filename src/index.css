@@ -17,3 +17,32 @@ html{
     font-optical-sizing: auto;
     font-style: normal;
   }
+
+  #wave {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background: #e0efe3;
+  }
+  #wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    right: -5px;
+    top: 40px;
+  }
+  #wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: fit-content;
+    height: fit-content;
+    background-color: #e0efe3;
+    left: 0;
+    top: 27px;
+  }
