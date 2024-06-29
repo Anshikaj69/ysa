@@ -14,12 +14,12 @@ const Navbar = () => {
         </div>
         <div className='flex gap-12 '>
           <nav className='flex gap-5 items-center'>
-            <a href='#industries' className='text-[#253359] font-semibold text-md'>Industries</a>
-            <a href='#individuals' className='text-[#253359] font-semibold text-md'>Individual Roles</a>
-            <a href='#marketing' className='text-[#253359] font-semibold text-md'>Marketing Service</a>
-            <a href='#custom' className='text-[#253359] font-semibold text-md'>Custom Service</a>
+            <a href='/#industries' className='text-[#253359] font-semibold text-md'>Industries</a>
+            <a href='/#individuals' className='text-[#253359] font-semibold text-md'>Individual Roles</a>
+            <a href='/#marketing' className='text-[#253359] font-semibold text-md'>Marketing Service</a>
+            <a href='/#custom' className='text-[#253359] font-semibold text-md'>Custom Service</a>
             <Link className='text-[#253359] font-semibold text-md'>About US</Link>
-            <a href='#resources' className='text-[#253359] font-semibold text-md'>Resources</a>
+            <a href='/#resources' className='text-[#253359] font-semibold text-md'>Resources</a>
             <Link className='text-[#253359] font-semibold text-md'>Pricing</Link>
 
           </nav>

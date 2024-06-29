@@ -18,7 +18,7 @@ const Advantages = ({ sectionName }) => {
   const { whyus, services } = sectionData
 
   return (
-    <div className='flex flex-col gap-10 px-40 py-10 '>
+    <div className='flex flex-col gap-10 px-40 py-20 '>
       <div className='flex flex-col gap-5 items-center justify-center'>
         <h1 className='text-[#253359] text-5xl font-bold playfair-display-font text-wrap text-center'
           dangerouslySetInnerHTML={{ __html: whyus.title }}
