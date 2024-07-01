@@ -45,19 +45,18 @@ const Solutions = () => {
       <div className='bg-[#CBD8D3] px-40 py-16 gap-12 flex flex-col'>
         <h1 className='text-[#253359] text-5xl font-bold playfair-display-font text-center'>The YSA Process</h1>
         <div className='flex  w-[100%] gap-[3.3%]'>
-
-          <div className='bg-white rounded-3xl flex flex-col gap-1 items-center justify-start p-8 w-[31%]'>
+        <div className='bg-white rounded-3xl flex flex-col gap-1 items-center justify-start  p-8  w-[31%]'>
             <h3 className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-lg '>STEP 1</h3>
-            <h1 className='text-2xl text-[#253359] text-center font-medium mt-4'>Choose 3 Service Agents</h1>
-            <h6 className='text-[#253359] text-lg text-center font-medium'>And Get a Success Manager Complimentary</h6>
-            <p className='text-[#253359] text-md  text-center font-normal mt-2'>{`The basic plan allows you to choose any 3 service agents for your business, depending on your requirements. Or add on extra agents (extra cost applied)`}
+            <h1 className='text-2xl text-[#253359] text-center font-medium mt-4 text-wrap'>Select a <br></br> Marketing Plan</h1>
+            <p className='text-[#253359] text-md  text-center font-normal mt-2'>Choose the marketing plan that aligns with your requirements. We can also create a tailored marketing plan for your customized needs.
             </p>
           </div>
 
-          <div className='bg-white rounded-3xl flex flex-col gap-1 items-center justify-start  p-8  w-[31%]'>
+          <div className='bg-white rounded-3xl flex flex-col gap-1 items-center justify-start p-8 w-[31%]'>
             <h3 className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-lg '>STEP 2</h3>
-            <h1 className='text-2xl text-[#253359] text-center font-medium mt-4 text-wrap'>Select a <br></br> Marketing Plan</h1>
-            <p className='text-[#253359] text-md  text-center font-normal mt-2'>Choose the marketing plan that aligns with your requirements. We can also create a tailored marketing plan for your customized needs.
+            <h1 className='text-2xl text-[#253359] text-center font-medium mt-4'>Choose 3 Service Agents</h1>
+            <h6 className='text-[#253359] text-lg text-center font-medium'>And Get a Success Manager Complimentary</h6>
+            <p className='text-[#253359] text-md  text-center font-normal mt-2'>{`The basic plan allows you to choose any 3 service agents for your business, depending on your requirements. Or add on extra agents (extra cost applied)`}
             </p>
           </div>
 
