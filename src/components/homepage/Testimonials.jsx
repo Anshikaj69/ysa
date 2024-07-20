@@ -1,12 +1,13 @@
 import React from 'react'
 import { Carousel, IconButton } from "@material-tailwind/react";
 import Container from '../layout/Container';
+import { Fade } from 'react-awesome-reveal';
 
 const Testimonials = () => {
 
     return (
         <>
-            <div className='px-10 py-10  bg-[#B1977C]'>
+            <Fade duration={1500} className='px-10 py-10  bg-[#B1977C]'>
                 <Container>
                     <div className="flex gap-10 flex-col">
 
@@ -99,15 +100,20 @@ const Testimonials = () => {
                         </Carousel >
                     </div>
                 </Container>
-            </div >
+            </Fade >
 
             {/* footer */}
             <Container>
-            <div className='mx-20 my-10 gap-10 flex flex-col justify-center items-center bg-[#253359] rounded-2xl py-10'>
-                <p className='2xl:text-2xl text-xl font-semibold text-white text-center max-w-md px-5'>Craft Your Dream Team With Us
-                    to Excel Beyond Limits!</p>
-                <button className='hover:bg-[#e0efe3] border btn btn1 text-[#253359] rounded-3xl py-2.5 px-5 2xl:text-base text-sm w-fit'>Book a Call</button>
-            </div>
+                <div className='mx-20 my-10 gap-10 flex flex-col justify-center items-center bg-[#253359] rounded-2xl py-10'>
+                    <Fade>
+                        <p className='2xl:text-2xl text-xl font-semibold text-white text-center max-w-md px-5'>Craft Your Dream Team With Us
+                            to Excel Beyond Limits!
+                        </p>
+                    </Fade>
+                    <Fade>
+                        <button className='hover:bg-[#e0efe3] border btn btn1 text-[#253359] rounded-3xl py-2.5 px-5 2xl:text-base text-sm w-fit'>Book a Call</button>
+                    </Fade>
+                </div>
             </Container>
         </>
     )

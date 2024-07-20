@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import state from '../../store'
 import { useSnapshot } from 'valtio'
 import Container from '../layout/Container'
+import { Fade } from 'react-awesome-reveal'
 
 const Step1 = () => {
   const snap = useSnapshot(state)
@@ -98,8 +99,9 @@ const Step1 = () => {
 
 
           <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl 2xl:text-base md:text-sm w-fit'>STEP 1</p>
-          <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl font-bold playfair-display-font'>Select a <span className='italic'>Marketing</span> Plan</h1>
-
+          <Fade>
+            <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl font-bold playfair-display-font'>Select a <span className='italic'>Marketing</span> Plan</h1>
+          </Fade>
           <div className='flex justify-between gap-2 w-full pt-10'>
 
             <div className='flex flex-col bg-white rounded-xl w-[25%]  items-center '>
@@ -149,12 +151,14 @@ const Step1 = () => {
 
           </div>
           <a href='#step2'>
-            <button
-              className="text-white font-medium rounded-full 2xl:text-md md:text-sm w-fit 2xl:px-10 md:px-8 py-3 self-center mt-4 hover:bg-[#e0efe3] btn btn1"
-              onClick={handleClick}
-            >
-              Confirm
-            </button>
+            <Fade>
+              <button
+                className="text-white font-medium rounded-full 2xl:text-md md:text-sm w-fit 2xl:px-10 md:px-8 py-3 self-center mt-4 hover:bg-[#e0efe3] btn btn1"
+                onClick={handleClick}
+              >
+                Confirm
+              </button>
+            </Fade>
           </a>
         </div>
       </Container>

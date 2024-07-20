@@ -3,6 +3,7 @@ import React from 'react'
 import bg1 from '/different.svg'
 import bg2 from '/unleashed.svg'
 import Container from '../layout/Container'
+import { Fade, Slide, Zoom } from 'react-awesome-reveal'
 
 const Different = () => {
   return (
@@ -72,12 +73,16 @@ const Different = () => {
       >
         <Container>
           <div className="flex flex-col gap-5 items-center ">
-            <h1 className='text-[#253359] 2xl:text-5xl text-4xl font-bold playfair-display-font text-center'>Efficiency Unleashed, Growth Amplified, Scale Perfected!</h1>
-            <p className='text-[#253359] 2xl:text-xl text-lg font-normal text-center 2xl:max-w-4xl max-w-3xl'>At Your Support Agent, we specialize in providing top-notch outsourcing solutions tailored to meet your business needs. Our team of dedicated professionals is committed to delivering excellence in every aspect of our services.
-            </p>
-            <div className='2xl:h-fit 2xl:w-fit w-[80%] xl:w-[70%] pt-5'>
+            <Slide direction='up' duration={1500} delay={-300}>
+              <h1 className='text-[#253359] 2xl:text-5xl text-4xl font-bold playfair-display-font text-center'>Efficiency Unleashed, Growth Amplified, Scale Perfected!</h1>
+            </Slide>
+            <Slide direction='up' duration={1500} delay={-300}>
+              <p className='text-[#253359] 2xl:text-xl text-lg font-normal text-center 2xl:max-w-4xl max-w-3xl'>At Your Support Agent, we specialize in providing top-notch outsourcing solutions tailored to meet your business needs. Our team of dedicated professionals is committed to delivering excellence in every aspect of our services.
+              </p>
+            </Slide>
+            <Fade className='2xl:h-fit 2xl:w-fit w-[80%] xl:w-[70%] pt-5'>
               <img src='/group.svg' alt='group' ></img>
-            </div>
+            </Fade>
           </div>
         </Container>
       </div>
@@ -86,30 +91,39 @@ const Different = () => {
       <div className='px-10 py-20'>
         <Container>
           <div className="flex flex-col gap-10">
-
-            <h1 className='text-[#253359] 2xl:text-4xl text-3xl font-bold playfair-display-font text-center'>Why Choose Us As Your Service Agent!</h1>
+            <Fade>
+              <h1 className='text-[#253359] 2xl:text-4xl text-3xl font-bold playfair-display-font text-center'>Why Choose Us As Your Service Agent!</h1>
+            </Fade>
             <div className='flex justify-center w-full h-full gap-[1.7%]'>
-              <div className='bg-[#EFF5F2] border border-[#CBD8D3] flex flex-col gap-4 px-5 py-9 rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Expertise</h3>
-                <p className='text-[#253359] 2xl:text-base text-sm'>With years of experience in the industry, we have the knowledge and skills to deliver exceptional results</p>
-              </div>
+              <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
+                <div className='flex flex-col gap-4 px-5 py-9 w-full h-full'>
+                  <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Expertise</h3>
+                  <p className='text-[#253359] 2xl:text-base text-sm'>With years of experience in the industry, we have the knowledge and skills to deliver exceptional results</p>
+                </div>
+              </Zoom>
 
-              <div className='bg-[#EFF5F2] border border-[#CBD8D3] flex flex-col gap-4 px-5 py-9 rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Customized Solutions</h3>
-                <p className='text-[#253359] 2xl:text-base text-sm'>We understand that every business is unique. That's why we work closely with our clients to develop customized solutions that address their specific needs and goals.</p>
-              </div>
+              <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
+                <div className='flex flex-col gap-4 px-5 py-9 w-full h-full'>
+                  <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Customized Solutions</h3>
+                  <p className='text-[#253359] 2xl:text-base text-sm'>We understand that every business is unique. That's why we work closely with our clients to develop customized solutions that address their specific needs and goals.</p>
+                </div>
+              </Zoom>
 
-              <div className='bg-[#EFF5F2] border border-[#CBD8D3] flex flex-col gap-4 px-5 py-9 rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Reliability</h3>
-                <p className='text-[#253359] 2xl:text-base text-sm'>You can count on us to deliver reliable and consistent service, allowing you to focus on growing your business with peace of mind.
-                </p>
-              </div>
+              <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
+                <div className='flex flex-col gap-4 px-5 py-9 w-full h-full'>
+                  <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Reliability</h3>
+                  <p className='text-[#253359] 2xl:text-base text-sm'>You can count on us to deliver reliable and consistent service, allowing you to focus on growing your business with peace of mind.
+                  </p>
+                </div>
+              </Zoom>
 
-              <div className='bg-[#EFF5F2] border border-[#CBD8D3] flex flex-col gap-4 px-5 py-9 rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Cost-Effectiveness</h3>
-                <p className='text-[#253359] 2xl:text-base text-sm'> Outsourcing to Your Support Agent is not only convenient but also cost-effective. Save time and resources by leveraging our expertise and infrastructure.
-                </p>
-              </div>
+              <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl w-[24%] shadow-xl shadow-[#EFF5F2]'>
+                <div className='flex flex-col gap-4 px-5 py-9 w-full h-full'>
+                  <h3 className='text-[#253359] font-semibold 2xl:text-lg uppercase'>Cost-Effectiveness</h3>
+                  <p className='text-[#253359] 2xl:text-base text-sm'> Outsourcing to Your Support Agent is not only convenient but also cost-effective. Save time and resources by leveraging our expertise and infrastructure.
+                  </p>
+                </div>
+              </Zoom>
             </div>
           </div>
         </Container>
@@ -119,38 +133,44 @@ const Different = () => {
       <div className='px-10 py-20 bg-[#F4F0EA]' id='resources'>
         <Container>
           <div className=" gap-32 flex flex-col ">
-            
-          
-        <div className='flex gap-10 w-full' >
-          <div className='flex flex-col w-[57%] gap-10' >
-            <h1 className='text-[#253359] 2xl:text-4xl xl:text-3xl text-2xl font-bold playfair-display-font text-nowrap'>Free Up Resources, Accelerate Growth,<br /> and Solve for Scale.</h1>
 
-            <p className='text-[#253359] 2xl:text-xl xl:text-lg text-base font-normal'>At SupportNinja, we combine cutting-edge technology with value-centricity to foster high-performing, reliable teams that turn growing pains into efficient pathways to profitability.<br /><br />
-              Our customized, agile, AI-enabled solutions don't just deliver cost savings — they also help you achieve key business outcomes.<br /><br />
-              We work closely with you to continually adjust strategies, realize efficiencies, and drive scale according to your unique needs. Plus, flexibility is baked in from day one, so you're never locked into rigid, long-term contracts.<br /><br />
-              Now that's outsourcing worth talking about.
-            </p>
+
+            <div className='flex gap-10 w-full' >
+              <div className='flex flex-col w-[57%] gap-10' >
+                <Slide duration={1500} delay={-800}>
+                  <h1 className='text-[#253359] 2xl:text-4xl xl:text-3xl text-2xl font-bold playfair-display-font text-nowrap'>Free Up Resources, Accelerate Growth,<br /> and Solve for Scale.</h1>
+                </Slide>
+                <Slide duration={1500} delay={-800}>
+                  <p className='text-[#253359] 2xl:text-xl xl:text-lg text-base font-normal'>At SupportNinja, we combine cutting-edge technology with value-centricity to foster high-performing, reliable teams that turn growing pains into efficient pathways to profitability.<br /><br />
+                    Our customized, agile, AI-enabled solutions don't just deliver cost savings — they also help you achieve key business outcomes.<br /><br />
+                    We work closely with you to continually adjust strategies, realize efficiencies, and drive scale according to your unique needs. Plus, flexibility is baked in from day one, so you're never locked into rigid, long-term contracts.<br /><br />
+                    Now that's outsourcing worth talking about.
+                  </p>
+                </Slide>
+              </div>
+              <Slide direction='left' duration={2000} delay={-500} className="imgcontainer flex items-end w-[38%]">
+                <img src='/freeup.svg' alt='img'></img>
+              </Slide>
+            </div>
+
+            <div className='flex gap-10 w-full' >
+
+              <Slide direction='up' duration={2000} delay={-900} className="imgcontainer flex items-end w-[38%]">
+                <img src='/dontgrow.svg' alt='img'></img>
+              </Slide>
+
+              <div className='flex flex-col w-[57%] gap-10' >
+                <Slide direction='up' duration={1000} delay={0}>
+                  <h1 className='text-[#253359] 2xl:text-4xl xl:text-3xl text-2xl font-bold playfair-display-font text-nowrap'>Don't Grow it Alone!</h1>
+                </Slide>
+                <Slide direction='up' duration={2000} delay={-800}>
+                <p className='text-[#253359] 2xl:text-xl xl:text-lg text-base font-normal max-w-xl xl:max-w-full'>Don't let headcount become a headache. We'll connect you with talent that meets your needs.<br /><br />
+                  Your dedicated new team members will become experts in your world — your customers, your tech, your data, your systems — so they can expand on what you've built.
+                </p>
+                </Slide>
+              </div>
+            </div>
           </div>
-          <div className="imgcontainer flex items-end w-[38%]">
-            <img src='/freeup.svg' alt='img'></img>
-          </div>
-        </div>
-
-        <div className='flex gap-10 w-full' >
-
-          <div className="imgcontainer flex items-end w-[38%]">
-            <img src='/dontgrow.svg' alt='img'></img>
-          </div>
-
-          <div className='flex flex-col w-[57%] gap-10' >
-            <h1 className='text-[#253359] 2xl:text-4xl xl:text-3xl text-2xl font-bold playfair-display-font text-nowrap'>Don't Grow it Alone!</h1>
-
-            <p className='text-[#253359] 2xl:text-xl xl:text-lg text-base font-normal max-w-xl xl:max-w-full'>Don't let headcount become a headache. We'll connect you with talent that meets your needs.<br /><br />
-              Your dedicated new team members will become experts in your world — your customers, your tech, your data, your systems — so they can expand on what you've built.
-            </p>
-          </div>
-        </div>
-        </div>
         </Container>
       </div>
 
