@@ -87,7 +87,7 @@ const Solutions = () => {
                 to complete their staff shortages and demands in a cost-effective manner. Connect with our experts to understand how our personalized partnership works.
               </p>
               <div>
-                <button className='bg-[#253359] text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
+                <button className=' text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base hover:bg-[#fff] btn btn1'>Book a Call</button>
               </div>
             </div>
             <div className='2xl:w-[44%] w-[40%]'>
@@ -112,7 +112,7 @@ const Solutions = () => {
                 {`In addition to traditional marketing tactics, we also offer User Generated Content (UGC) packages to harness the power of user-generated content to enhance your brand's credibility, foster community engagement, and drive conversions.`}
               </p>
               <div>
-                <button className='bg-[#253359] text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
+                <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@ const Solutions = () => {
               <p className='text-[#253359] text-base 2xl:text-xl xl:text-lg font-normal'>Our custom projects are created in domains like 3D sites, Blockchain, Web Development, Software Development, and other services. We recognize that every business is different, which is why we take the time to understand your specific goals, challenges, and industry dynamics before crafting a marketing solution aligning with your staffing needs.
               </p>
               <div>
-                <button className='bg-[#253359] text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
+                <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
               </div>
             </div>
             <div className='2xl:w-[44%] w-[40%]'>

@@ -106,7 +106,7 @@ const Step2 = () => {
 
     <a href='#step3'>
       <button
-        className="bg-[#253359] text-white font-medium rounded-full text-md w-fit px-10 py-3 self-center mt-4"
+        className="hover:bg-[#F4F3F1] btn btn1 text-white font-medium rounded-full text-md w-fit px-10 py-3 self-center mt-4"
         onClick={handleSubmit}
       >
         Confirm

@@ -140,7 +140,7 @@ const step3 = () => {
         </div>
       </div>
       <button
-        className="bg-[#253359] text-white font-medium rounded-full text-md w-fit px-10 py-3 self-center mt-4"
+        className="hover:bg-[#D4DFED] btn btn1 text-white font-medium rounded-full text-md w-fit px-10 py-3 self-center mt-4"
         onClick={handleSubmit}
       >
         Confirm

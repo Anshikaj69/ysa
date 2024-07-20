@@ -27,7 +27,7 @@ const Navbar = () => {
           </nav>
           <div>
             <Link to='/marketplace'>
-            <button className='bg-[#253359] text-white rounded-3xl py-2.5 px-5 text-xs xl:text-sm 2xl:text-base'>Book a Call</button>
+            <button className='hover:bg-[#e0efe3] text-white rounded-3xl py-2.5 px-5 text-xs xl:text-sm 2xl:text-base btn btn1'>Book a Call</button>
             </Link>
           </div>
         </div>
