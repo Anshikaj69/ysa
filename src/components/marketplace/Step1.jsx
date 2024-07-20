@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
+import state from '../../store'
+import { useSnapshot } from 'valtio'
 
 const Step1 = () => {
+  const snap = useSnapshot(state)
 
   const plans = [
     {
@@ -66,11 +69,26 @@ const Step1 = () => {
     }
   ];
 
-  const [selectedPlan, setSelectedPlan] = useState(null);
+  const [selectedPlan, setSelectedPlan] = useState({
+    index : null,
+    selectedPlan: null
+  });
 
-  const handleSelect = (index) => {
-    setSelectedPlan(index);
+  const handleSelect = (sindex, selectedplan) => {
+    setSelectedPlan({
+      index: sindex,
+      selectedPlan: selectedplan
+    });
   };
+
+  const handleClick = () => {
+    if (selectedPlan.selectedPlan === null) {
+      alert('Please select a plan');
+      return;
+    }
+
+    state.plan = selectedPlan.selectedPlan
+  }
 
   return (
     <div className='flex flex-col py-20 px-40 w-full justify-between items-center gap-6 bg-[#CBD8D3]'>
@@ -101,9 +119,9 @@ const Step1 = () => {
         <div
           key={index}
           className={`flex flex-col bg-white rounded-xl w-[25%] items-center cursor-pointer border-2 ${
-            selectedPlan === index ? 'border-[#253359]' : 'border-transparent'
+            selectedPlan.index === index ? 'border-[#253359]' : 'border-transparent'
           }`}
-          onClick={() => handleSelect(index)}
+          onClick={() => handleSelect(index, plan.price)}
         >
           <div className='w-full flex flex-col justify-center items-center rounded-t-xl px-6'>
             <h1 className='text-[#253359] font-extrabold w-fit text-center my-6'>
@@ -111,9 +129,9 @@ const Step1 = () => {
             {!plan.isCustom && <span className='text-lg font-semibold'>/mo.</span>}
             </h1>
             <button className={`w-full border-2 text-sm uppercase font-semibold py-2 rounded-md ${
-              selectedPlan === index ? 'border-transparent bg-[#253359] text-white' : 'border-[#253359] text-[#253359]'
+              selectedPlan.index === index ? 'border-transparent bg-[#253359] text-white' : 'border-[#253359] text-[#253359]'
             }`}>
-              {selectedPlan === index ? 'Selected' : 'Select'}
+              {selectedPlan.index === index ? 'Selected' : 'Select'}
             </button>
           </div>
           <div className='text-black flex flex-col items-center  w-full h-full bg-white my-4'>
@@ -127,11 +145,14 @@ const Step1 = () => {
       ))}
 
       </div>
+     <a href='#step2'>
       <button
         className="bg-[#253359] text-white font-medium rounded-full text-md w-fit px-10 py-3 self-center mt-4"
+        onClick={handleClick}
       >
         Confirm
       </button>
+      </a>
     </div>
   )
 }

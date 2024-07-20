@@ -1,7 +1,12 @@
 import { Check } from 'lucide-react';
 import React, { useState } from 'react';
+import state from '../../store';
+import { useSnapshot } from 'valtio'
 
 const Step2 = () => {
+
+  const snap = useSnapshot(state)
+
   const agentsList = [
     'Customer Support',
     'Web Development',
@@ -68,37 +73,45 @@ const Step2 = () => {
   };
 
   const handleSubmit = () => {
+
+    if(snap.plan === ''){
+      alert("Please Select a plan")
+      return;
+    }
+
     if (selectedAgents.length < 3) {
       alert('Please select at least 3 agents.');
       return;
     }
 
-    console.log('Selected Agents:', selectedAgents);
-    // Example: setState(selectedAgents);
+    state.agents = selectedAgents
+    console.log(state.agents, state.plan)
   };
 
   return (
-    <div className="flex flex-col py-20 px-40 w-full justify-between items-center gap-6 bg-[#F4F3F1]">
-      <p className="bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-md w-fit">STEP 2</p>
+    <div className="flex flex-col py-20 px-40 w-full justify-between items-center gap-6 bg-[#F4F3F1]" >
+      <p className="bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-md w-fit" id='step2'>STEP 2</p>
       <h1 className="text-[#253359] text-5xl font-bold playfair-display-font">
         Our Range of <span className="italic">individual</span> Agents
       </h1>
 
-      <div className="items-center flex flex-col ">
+      <div className="items-center flex flex-col " >
         <h4 className="text-[#253359] text-2xl font-semibold">Choose 3 Service Agents</h4>
         <h5 className="text-[#253359] text-md font-semibold">Includes success manager</h5>
       </div>
 
-      <div className="grid grid-cols-5 gap-5 mt-4">
+      <div className="grid grid-cols-5 gap-5 mt-4" >
         {renderAgents()}
       </div> 
 
+    <a href='#step3'>
       <button
         className="bg-[#253359] text-white font-medium rounded-full text-md w-fit px-10 py-3 self-center mt-4"
         onClick={handleSubmit}
       >
         Confirm
       </button>
+      </a>
     </div>
   );
 };

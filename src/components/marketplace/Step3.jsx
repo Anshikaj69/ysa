@@ -1,13 +1,20 @@
 import React, { useState } from 'react'
 import Calendar from 'react-calendar'
 import './Calendar.css';
-
+import state from '../../store';
+import { useSnapshot } from 'valtio';
+import { BookingForm } from '../Form';
 
 const step3 = () => {
 
+  const snap = useSnapshot(state)
+  const today = new Date();
+
+  const formattedDate = today.toISOString().split('T')[0];
+
   const [value, onChange] = useState(new Date());
   const [selectedTime, setSelectedTime] = useState('');
-  const [selectedDate, setSelectedDate] = useState('');
+  const [selectedDate, setSelectedDate] = useState(formattedDate);
 
 
 
@@ -23,6 +30,10 @@ const step3 = () => {
   };
 
   const handleDateChange = (date) => {
+    if(snap.agents.length === 0){
+      alert('Please select agents')
+      return
+    }
     const formattedDate = formatDate(Array.isArray(date) ? date[0] : date);
     setSelectedDate(formattedDate);
     onChange(date);
@@ -49,15 +60,32 @@ const step3 = () => {
   };
 
   const handleTimeSelect = (time) => {
+    if(snap.agents.length === 0){
+      alert('Please select agents')
+      return
+    }
     setSelectedTime(time);
   };
 
+  const handleSubmit = () =>{
+
+    if(selectedTime === ''){
+      alert("Please select Time")
+      return;
+    }
+
+    state.date = selectedDate
+    state.time = selectedTime
+    state.open = true
+
+  }
+
   return (
     <div className='flex flex-col py-20 w-full justify-between items-center gap-6 bg-[#D4DFED]'>
-      <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-md w-fit'>STEP 3</p>
+      <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-md w-fit' id='step3'>STEP 3</p>
       <h1 className='text-[#253359] text-5xl font-bold playfair-display-font'>Schedule a Call on the Calendar</h1>
 
-      <div className='bg-white mt-10 pt-10 px-20 flex flex-col justify-between gap-10 pb-2'>
+      <div className='bg-white mt-10 pt-10 px-20 flex flex-col justify-between gap-10 pb-10'>
         <div className='flex flex-col gap-10 md:flex-row md:gap-5  '>
           <div className='flex flex-col gap-5 justify-center items-center'>
             <h3 className='font-medium text-center'>Pick a Date and Time</h3>
@@ -110,9 +138,14 @@ const step3 = () => {
           </div>
 
         </div>
-        <button className='bg-[#78BCFF] text-white font-medium rounded-sm text-sm w-fit px-8 py-3 self-center'>Select Date</button>
       </div>
-
+      <button
+        className="bg-[#253359] text-white font-medium rounded-full text-md w-fit px-10 py-3 self-center mt-4"
+        onClick={handleSubmit}
+      >
+        Confirm
+      </button>
+      <BookingForm />
 
     </div>
   )
