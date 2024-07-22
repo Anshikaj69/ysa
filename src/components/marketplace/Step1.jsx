@@ -11,7 +11,7 @@ const Step1 = () => {
     {
       price: "$3500",
       features: [
-        "$500/mo.",
+        "N/A",
         "$100/mo.",
         "Local SEO",
         "Meta Ads, 1 Post Per Week",

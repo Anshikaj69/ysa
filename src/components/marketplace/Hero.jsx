@@ -21,9 +21,8 @@ const Hero = ({ sectionName }) => {
 
   const { heroSection } = sectionData
   return (
-    <div className='px-10 pt-6 '>
+    <div className='px-10 pt-6 mt-24'>
       <Container>
-        <Navbar />
         <div className='flex  py-20 w-full justify-between'>
           <div className='flex flex-col gap-8 2xl:w-[52%] md:w-[55%] xl:w-[50%]  self-center 2xl:max-w-2xl max-w-3xl'>
             <Slide direction='left' duration={1500} delay={-800}>

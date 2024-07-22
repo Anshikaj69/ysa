@@ -6,12 +6,10 @@ import { Fade, Slide } from 'react-awesome-reveal'
 
 const Hero = () => {
   return (
-    <div className='px-10 pt-6 bg-[#F4F3F1] pb-24'
+    <div className='px-10 pt-7 mt-14 bg-[#F4F3F1] pb-24'
       style={{ backgroundImage: `url(${hero})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <Container>
-        <Navbar></Navbar>
-
         <div className='flex justify-between gap-5 xl:gap-10 2xl:gap-8 py-20 2xl:py-24 w-full items-start  '>
           <div className=' flex flex-col gap-10 pt-16'>
             <Slide direction='left' duration={1500} delay={-800} >
