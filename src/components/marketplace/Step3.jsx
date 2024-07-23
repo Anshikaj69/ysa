@@ -153,7 +153,9 @@ const step3 = () => {
               Confirm
             </button>
           </Fade>
+          <div className='hidden'>
           <BookingForm />
+          </div>
         </div>
       </Container>
     </div>

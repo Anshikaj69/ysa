@@ -229,5 +229,37 @@
             "content1":  "At Your Support Agent, we understand the pivotal role that social media plays in today's digital landscape. That's why we're here to be your trusted partner in outsourcing social media services, helping you unlock the full potential of social platforms to elevate your brand, engage your audience, and drive business growth. From content creation and community management to advertising and analytics, we offer comprehensive solutions designed to help you stand out in a crowded digital world.",            
             "content2": "Ready to take your social media presence to the next level? Contact Your Support Agent today to learn more about how we can help you achieve your social media goals. Let us be your trusted partner in navigating the ever-changing world of social media and driving meaningful results for your business."
         }
+    },
+
+    "Blockchain": {
+        "heroSection": {
+            "title": "Connect Your Business With Top-Tier <em>Blockchain</em> Experts",
+            "description": "Redefine the landscape of talent acquisition; hire industry experts through our innovative blockchain outsourcing solutions."
+        },
+        "whyus": {
+            "title": "Our <em>Blockchain</em> Outsourcing Services Offer Unparalleled Benefits",
+            "advantages": [
+                {
+                    "title": "Smart Contracts",
+                    "description": "Outsourcing social media experts can help your strategy as they can develop a strategic plan tailored to your business goals, target audience, and industry trends, ensuring that every post and campaign is aligned with your objectives."                },
+                {
+                    "title": "Creative Content",
+                    "description": "Outsourced social media agents excel at creating visually appealing graphics, compelling copy, and interactive multimedia content that resonates with your followers and encourages engagement."
+                },
+                {
+                    "title": "Consistent Brand Voice",
+                    "description": "Social media experts can ensure that your messaging, tone, and visual elements are cohesive and reflective of your brand values and personality."
+                },
+                {
+                    "title": "Analytics and Insights",
+                    "description": "Social media managers have the knowledge and tools to monitor analytics, identify trends, and extract actionable insights that drive continuous improvement and informed decision-making."
+                }
+            ]
+        },
+        "aboutUs": {
+            "heading": "Why Choose YSA?",
+            "content1":  "At Your Support Agent, we understand the pivotal role that social media plays in today's digital landscape. That's why we're here to be your trusted partner in outsourcing social media services, helping you unlock the full potential of social platforms to elevate your brand, engage your audience, and drive business growth. From content creation and community management to advertising and analytics, we offer comprehensive solutions designed to help you stand out in a crowded digital world.",            
+            "content2": "Ready to take your social media presence to the next level? Contact Your Support Agent today to learn more about how we can help you achieve your social media goals. Let us be your trusted partner in navigating the ever-changing world of social media and driving meaningful results for your business."
+        }
     }
 }
