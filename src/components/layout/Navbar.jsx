@@ -1,43 +1,42 @@
-import React from 'react'
-
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link, useNavigate } from "react-router-dom";
 import Container from './Container';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleLinkClick = (path) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
-  
-      {/* Navbar */}
       <Container>
-      
-      <div className='flex justify-between md:px-10 2xl:px-0 '>
-        
-      
-        <div className='box-border'>
-          <Link to='/'><img src='/logo.svg' alt='YSA LOGO' className='flex items-center md:h-[90%] md:w-[90%]'></img></Link>
-        </div>
-        <div className='flex gap-12 '>
-          <nav className='flex gap-5 items-center'>
-            <a href='/#industries' className='text-[#253359] font-semibold text-xs   2xl:text-base'>Industries</a>
-            <a href='/#individuals' className='text-[#253359] font-semibold text-xs   2xl:text-base'>Individual Roles</a>
-            <a href='/#marketing' className='text-[#253359] font-semibold text-xs   2xl:text-base'>Marketing Service</a>
-            <a href='/#custom' className='text-[#253359] font-semibold text-xs   2xl:text-base'>Custom Service</a>
-            <a className='text-[#253359] font-semibold text-xs   2xl:text-base'>About Us</a>
-            <a href='/#resources' className='text-[#253359] font-semibold text-xs   2xl:text-base'>Resources</a>
-            <a className='text-[#253359] font-semibold text-xs   2xl:text-base'>Pricing</a>
-
-          </nav>
-          <div>
-            <Link to='/marketplace'>
-            <button className='hover:bg-[#e0efe3] text-white rounded-3xl py-2.5 px-5 text-xs  2xl:text-base btn btn1'>Book a Call</button>
-            </Link>
+        <div className='flex justify-between md:px-10 2xl:px-0 '>
+          <div className='box-border'>
+            <Link to='/'><img src='/logo.svg' alt='YSA LOGO' className='flex items-center md:h-[90%] md:w-[90%]'></img></Link>
+          </div>
+          <div className='flex gap-12 items-center'>
+            <nav className='flex gap-5 items-center text-[#253359] 2xl:text-sm md:text-xs'>
+              <Link to='/#industries' className=' font-semibold'>Industries</Link>              
+              <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
+              <span onClick={() => handleLinkClick('/marketplace')} className='cursor-pointer font-semibold'>Marketing Service</span>
+              <Link to='/#custom' className=' font-semibold   '>Custom Service</Link>
+              <Link to='/marketplace#aboutus' className=' font-semibold   '>About Us</Link>
+              <Link to='/#resources' className=' font-semibold   '>Resources</Link>
+              <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
+            </nav>
+            <div>
+              <span onClick={() => handleLinkClick('/marketplace#step1')}>
+                <button className='hover:bg-[#e0efe3] bg-[#253359] font-normal rounded-3xl py-2 px-3 text-xs text-white 2xl:text-sm btn btn1'>Book a Call</button>
+              </span>
+            </div>
           </div>
         </div>
-       
-      </div>
       </Container>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

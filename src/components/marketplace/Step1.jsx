@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect, useRef} from 'react'
 import state from '../../store'
 import { useSnapshot } from 'valtio'
 import Container from '../layout/Container'
 import { Fade } from 'react-awesome-reveal'
+import { useLocation } from 'react-router-dom'
 
 const Step1 = () => {
   const snap = useSnapshot(state)
@@ -92,13 +93,23 @@ const Step1 = () => {
     state.plan = selectedPlan.selectedPlan
   }
 
+  const step1Ref = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === '#step1') {
+      step1Ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [location]);
+
+
   return (
     <div className='py-20 px-10 bg-[#CBD8D3]'>
       <Container>
         <div className="flex flex-col w-full justify-between items-center gap-6 ">
 
 
-          <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl 2xl:text-base md:text-sm w-fit'>STEP 1</p>
+          <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl 2xl:text-base md:text-sm w-fit' >STEP 1</p>
           <Fade>
             <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl font-bold playfair-display-font'>Select a <span className='italic'>Marketing</span> Plan</h1>
           </Fade>
@@ -129,7 +140,7 @@ const Step1 = () => {
                   }`}
                 onClick={() => handleSelect(index, plan.price)}
               >
-                <div className='w-full flex flex-col justify-center items-center rounded-t-xl px-6'>
+                <div className='w-full flex flex-col justify-center items-center rounded-t-xl px-6' id='step1' ref={step1Ref}>
                   <h1 className='text-[#253359] font-extrabold w-fit text-center 2xl:my-6  md:my-[28px]'>
                     <span className={`2xl:text-2xl md:text-xl ${plan.isCustom ? 'text-[#CBAF85]' : ''}`}>{plan.price}</span>
                     {!plan.isCustom && <span className='2xl:text-lg md:text-base font-semibold'>/mo.</span>}
@@ -139,7 +150,7 @@ const Step1 = () => {
                     {selectedPlan.index === index ? 'Selected' : 'Select'}
                   </button>
                 </div>
-                <div className='text-black flex flex-col items-center  w-full h-full bg-white my-4 '>
+                <div className='text-black flex flex-col items-center  w-full h-full bg-white my-4 ' >
                   {plan.features.map((feature, i) => (
                     <h4 key={i} className={`text-center text-nowrap 2xl:text-sm md:text-xs 2xl:p-3 p-2.5 font-normal w-full h-full ${i % 2 === 0 ? 'bg-[#F3F2F2]' : 'bg-white'}`}>
                       {feature}
@@ -153,7 +164,7 @@ const Step1 = () => {
           <a href='#step2'>
             <Fade>
               <button
-                className="text-white font-medium rounded-full 2xl:text-md md:text-sm w-fit 2xl:px-10 md:px-8 py-3 self-center mt-4 hover:bg-[#e0efe3] btn btn1"
+                className="text-white font-medium rounded-full 2xl:text-md md:text-sm w-fit 2xl:px-10 md:px-8 py-3 self-center mt-4 hover:bg-[#e0efe3] bg-[#253359] btn btn1"
                 onClick={handleClick}
               >
                 Confirm

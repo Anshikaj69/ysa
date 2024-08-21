@@ -17,11 +17,16 @@ const Hero = ({ sectionName }) => {
     }
   }, [sectionName]);
 
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
+
   if (!sectionData) return <div>Loading...</div>;
 
   const { heroSection } = sectionData
+ 
   return (
-    <div className='px-10 pt-6 mt-24'>
+    <div className='px-10 pt-6 2xl:mt-28 md:mt-16'>
       <Container>
         <div className='flex  py-20 w-full justify-between'>
           <div className='flex flex-col gap-8 2xl:w-[52%] md:w-[55%] xl:w-[50%]  self-center 2xl:max-w-2xl max-w-3xl'>

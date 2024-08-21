@@ -1,0 +1,245 @@
+{
+    "Customer Support": {
+        "heroSection": {
+            "image_url": "https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg",
+            "title": "Offer unhindered support to your clients and address their queries with expert assistance to enhance customer satisfaction and engagement.",
+            "time" : "2/3 Days",
+            "cost" : "$300-$500"
+        },
+        "perks": {
+            "title": "Perks of Outsourcing <em>Customer Support</em>",
+            "list": [
+                {
+                    "title": "24x7 Support",
+                    "description": "Outsourcing support services means round-the-clock support to your customers without the need to maintain a night shift team. "
+                },
+                {
+                    "title": "Expert Solutions",
+                    "description": "Bestow your clients with expert solutions for their problems with the assistance of highly skilled support agents experienced in various industries."
+                },
+                {
+                    "title": "Save Costs",
+                    "description": "Avoid expenses related to recruitment, training, salaries, benefits, and infrastructure while getting the benefits of an in-house team."
+                },
+                {
+                    "title": "Multilingual Support",
+                    "description": "With our customer support outsourcing services, you break down language barriers and expand your global reach."
+                }
+            ]
+        },
+        "roles": {
+            "title": "<em>Customer Support</em> Roles",
+            "description": "At Your Support Agent, we offer a variety of customer support roles to meet your business needs.",
+            "list": [
+                {
+                    "title": "Customer Service Representatives",
+                    "description": "These agents handle general inquiries, order processing, and basic troubleshooting."
+                },
+                {
+                    "title": "Technical Support Specialists",
+                    "description": "Technical support experts assist customers with complex issues, such as software problems, hardware troubleshooting, and product setup."
+                },
+                {
+                    "title": "Live Chat Operators",
+                    "description": "Live chat operators provide real-time assistance, answer questions, and resolve issues promptly, enhancing the customer experience."
+                },
+                {
+                    "title": "Email Support Agents",
+                    "description": "Email support agents manage customer queries, complaints, and feedback through email, ensuring timely and accurate responses."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily. "
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us. "
+                },
+                {
+                    "title": "Quality Assuarance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+
+
+    "Sourcing Agent": {
+        "heroSection": {
+            "image_url": "https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg",
+            "title": "Handle supply chains with ease. Outsource sourcing agents from Your Support Agent, and streamline your sourcing processes by enhancing efficiency.",
+            "time" : "2/3 Days",
+            "cost" : "$300-$500"
+        },
+        "perks": {
+            "title": "Perks of Outsourcing <em>Sourcing Agent</em>",
+            "list": [
+                {
+                    "title": "Time and Cost Savings",
+                    "description": "Sourcing agents handle supplier research, negotiation, and logistics, reducing operational costs and freeing up your time."
+                },
+                {
+                    "title": "Expertise and Local Insights",
+                    "description": "They possess in-depth knowledge of market trends, regulations, and cultural nuances, minimizing risks and expediting processes."
+                },
+                {
+                    "title": "Trusted Network of Manufacturers",
+                    "description": "Sourcing agents work with reliable manufacturers, ensuring quality and efficient procurement."
+                },
+                {
+                    "title": "Peace of Mind",
+                    "description": "With their assistance, you can focus on core business activities while they manage sourcing complexities."
+                }
+            ]
+        },
+        "roles": {
+            "title": "<em>Sourcing Agent</em> Roles",
+            "description": "At Your Support Agent, we offer a myriad of sourcing agent roles to meet your business needs. ",
+            "list": [
+                {
+                    "title": "Customer Service Representative (CSR)",
+                    "description": "CSRs are the frontline of customer support. They handle inquiries, resolve issues, and provide information about products and services. "
+                },
+                {
+                    "title": "Technical Support Agent",
+                    "description": "Technical support agents specialize in assisting customers with technical problems related to products or services. Whether it’s troubleshooting software issues or resolving hardware concerns, they play a vital role in ensuring smooth user experiences."
+                },
+                {
+                    "title": "Systems Administrator",
+                    "description": "Systems administrators manage an organization’s IT infrastructure. They handle servers, networks, databases, and security protocols."
+                },
+                {
+                    "title": "Information Technology Manager",
+                    "description": "IT managers oversee technology operations within an organization. They lead teams, manage projects, and ensure efficient technology implementation. Their strategic vision aligns technology with business goals."
+                },
+                {
+                    "title": "Account Executive",
+                    "description": "Account executives focus on sales and relationship management. They work closely with clients, understanding their needs, and providing tailored solutions. Building strong client relationships is key to their success."
+                },
+                {
+                    "title": "Project Manager",
+                    "description": "Project managers are responsible for planning, executing, and closing projects. They ensure objectives are met, timelines are adhered to, and budgets are managed effectively."
+                },
+                {
+                    "title": "Client Services Manager",
+                    "description": "Client services managers maintain strong relationships with clients. They address client needs, resolve issues, and ensure satisfaction with services or products. Their role is pivotal in retaining loyal customers."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily. "
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us. "
+                },
+                {
+                    "title": "Quality Assuarance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of executive experts, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+
+    "Payroll": {
+        "heroSection": {
+            "image_url": "https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg",
+            "title": "Managing payroll can be complex and time-consuming, especially if you have employees in multiple locations. That’s where we come in. Our payroll outsourcing services allow you to focus on what matters most while we handle the details.",
+            "time" : "2/3 Days",
+            "cost" : "$300-$500"
+        },
+        "perks": {
+            "title": "Perks of Outsourcing <em>Payrollt</em>",
+            "list": [
+                {
+                    "title": "Optimize time",
+                    "description": "Our experts handle administrative tasks like calculating wages and tax withholdings. This allows you to optimize your time on core business activities better."
+                },
+                {
+                    "title": "Accuracy",
+                    "description": "With expertise in precise calculations you can reduce the risk of miscalculations in employee paychecks, compliance filings, and tax withholdings."
+                },
+                {
+                    "title": "Compliance confidence",
+                    "description": "Tax compliances are complex but crucial. Our team will keep you up-to-date about the ever-changing tax laws, thus preventing penalties."
+                },
+                {
+                    "title": "Cost efficiency",
+                    "description": "Maintaining an in-house payroll team can be expensive. Outsourcing can cut down costs on salaries, benefits, and training expenses."
+                },
+                {
+                    "title": "Data security",
+                    "description": "At YSA, data protection is our utmost priority. Be it sensitive employee information or payroll details, you can minimize the risk of breaches by choosing our payroll services."
+                }
+            ]
+        },
+        "roles": {
+            "title": "<em>Payroll</em> Services Roles",
+            "description": "From tax compliance to handing out salaries, we offer a dynamic and diverse team of specialists tailor-made for our customer's demands. ",
+            "list": [
+                {
+                    "title": "Payroll administrator",
+                    "description": "Their main job is to process, and calculate employee’s wages and to ensure accurate deductions in line with your company’s policies. They additionally maintain a record of employees, tax forms, and compliance with labor laws."
+                },
+                {
+                    "title": "Tax Specialist",
+                    "description": "They coordinate tax compliance efforts like withholding taxes, filing tax returns, and updating tax regulations in the payroll."
+                },
+                {
+                    "title": "Benefits Coordinator",
+                    "description": "They primarily administer all kinds of employee benefits like health insurance, retirement plans, social security, etc. They coordinate the enrollment process and communicate benefits to the employees."
+                },
+                {
+                    "title": "Compliance Officer",
+                    "description": "While monitoring legal requirements these officers also ensure that payroll practices align with labor laws. They are also responsible for addressing compliance issues accordingly."
+                },
+                {
+                    "title": "Data analyst",
+                    "description": "These experts will provide you with all payroll data trends, cost control, and process improvements. They help streamline reports for the management of audits."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Scalability and Flexibility",
+                    "description": "YSA seamlessly adapts to changing business needs. Whether you’re a startup or a full-fledged business, you can choose from a tailor-made set of services from our platform."
+                },
+                {
+                    "title": "Compliance expertise",
+                    "description": "Choose YSA and make sure your payroll is in line with tax and labor laws. "
+                },
+                {
+                    "title": "Data-driven insights",
+                    "description": "You can streamline the selection process by gaining insights from user behavior, preferences, and reviews."
+                },
+                {
+                    "title": "Efficiency",
+                    "description": "Our expert team of payroll specialists will streamline your payroll process, saving time for your strategic endeavors."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "Our platform allows you to choose from a diverse pool of skilled payroll experts worldwide, thus bringing in expertise and efficiency."
+                }
+            ]
+        }
+    }
+}

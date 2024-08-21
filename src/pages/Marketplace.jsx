@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import { Hero, Process, Step1, Step2, Step3, Advantages, About } from '../components/marketplace'
 import { Contact } from '../components/layout'
 

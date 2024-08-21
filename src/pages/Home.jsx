@@ -1,4 +1,4 @@
-import React ,  { Suspense, lazy }from 'react'
+import React ,  { Suspense, lazy , useEffect}from 'react'
 import {Hero,  Testimonials} from '../components/homepage'
 import { Contact } from '../components/layout'
 
@@ -6,6 +6,10 @@ const Solutions = lazy(() => import('../components/homepage/Solutions'));
 const Different = lazy(() => import('../components/homepage/Different'));
 
 const Home = () => {
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <div className=''>

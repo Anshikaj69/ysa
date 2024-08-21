@@ -42,25 +42,18 @@
                     "description": "Get experts who can address user queries, resolve issues, and provide assistance throughout the buyer journey, ensuring a positive experience."
                 },
                 {
-                    "title": "Web Development",
-                    "description": "Rope in web developers who can ensure that your marketplace is user-friendly, responsive, and optimized for various devices."
-                },
-                {
-                    "title": "Design & Graphics",
-                    "description": "Partner with a design and graphics team that can foster consistent branding and create high-quality graphics that contribute to the marketplace's credibility and professionalism, influencing users' perceptions and purchase decisions."
-                },
-                {
                     "title": "Logistics & Operations",
                     "description": "Tie up with logistics service providers who ensure timely delivery of products, accurate tracking, and efficient inventory management to ensure streamlined operations optimize processes, reduce costs, and minimize errors."
                 },
                 {
-                    "title": "Virtual Administrative Assistant",
-                    "description": "Get virtual assistants who can help you manage appointments, respond to emails, organize data, and perform other administrative duties, allowing marketplace owners to focus on core business activities."
+                    "title": "Lead Generation & Sales",
+                    "description": "Unlock growth by signing in for our lead generation and sales services at YSA. We outsource SEO strategies, and PPC campaigns and ensure success through our compelling content."
                 },
                 {
-                    "title": "Remote Monitoring",
-                    "description": "Get remote monitoring services that can help you monitor network activity, detect potential threats or issues, and provide real-time alerts and insights to prevent downtime and mitigate risks."
+                    "title": "Data Entry",
+                    "description": "Ensure efficient and accurate processing of data by outsourcing data entry roles at Your Support Agent."
                 }
+                
             ]
         },
         "aboutUs": {
@@ -70,6 +63,223 @@
         }
     },
 
+    "Social Media": {
+        "heroSection": {
+            "title": "<em>Socialize</em> Smarter, Not Harder, with Your Support Agent",
+            "description": "Upscale your business and its digital presence with expertly crafted social media strategies and services that deliver measurable results, without putting a load on your pocket."
+        },
+        "whyus": {
+            "title": "Your <em>Social Media</em> Success Starts With Outsourcing!",
+            "advantages": [
+                {
+                    "title": "Strategic Expertise",
+                    "description": "Outsourcing social media experts can help your strategy as they can develop a strategic plan tailored to your business goals, target audience, and industry trends, ensuring that every post and campaign is aligned with your objectives."                },
+                {
+                    "title": "Creative Content",
+                    "description": "Outsourced social media agents excel at creating visually appealing graphics, compelling copy, and interactive multimedia content that resonates with your followers and encourages engagement."
+                },
+                {
+                    "title": "Consistent Brand Voice",
+                    "description": "Social media experts can ensure that your messaging, tone, and visual elements are cohesive and reflective of your brand values and personality."
+                },
+                {
+                    "title": "Analytics and Insights",
+                    "description": "Social media managers have the knowledge and tools to monitor analytics, identify trends, and extract actionable insights that drive continuous improvement and informed decision-making."
+                }
+            ]
+        },
+        "services": {
+            "title": "<em>Social Media</em> Services by Your Support Agent",
+            "list": [
+                {
+                    "title": "Social Media Manager",
+                    "description": "From updated social media trends to strategies for brand management, handle your social media by outsourcing skilled professionals."
+                },
+                {
+                    "title": "Content Writer",
+                    "description": "Avail outsourced content writing services and get access to quality content aligned with your brand standards. "
+                },
+                {
+                    "title": "Design & Graphics",
+                    "description": "Offer creative solutions to your clients and address their queries with expert assistance on design and graphics. Outsource Design and Graphics with Your Support Agent."
+                },
+                {
+                    "title": "Video Editor",
+                    "description": "Get timely delivery of polished videos and scale up your business by outsourcing video editors."
+                }
+            ]
+        },
+        "aboutUs": {
+            "heading": "Why Choose YSA?",
+            "content1":  "At Your Support Agent, we understand the pivotal role that social media plays in today's digital landscape. That's why we're here to be your trusted partner in outsourcing social media services, helping you unlock the full potential of social platforms to elevate your brand, engage your audience, and drive business growth. From content creation and community management to advertising and analytics, we offer comprehensive solutions designed to help you stand out in a crowded digital world.",            
+            "content2": "Ready to take your social media presence to the next level? Contact Your Support Agent today to learn more about how we can help you achieve your social media goals. Let us be your trusted partner in navigating the ever-changing world of social media and driving meaningful results for your business."
+        }
+    },
+
+    "Financial Services": {
+        "heroSection": {
+            "title": "Connect With Industry Experts to Gain a Strategic Advantage",
+            "description": "Hire specialized talent that possesses the expertise and experience needed to excel in the rapidly evolving Financial Services industry."
+        },
+        "whyus": {
+            "title": "Perks of Outsourcing <em>Financial</em> Services",
+            "advantages": [
+                {
+                    "title": " Specialized Expertise",
+                    "description": "Gain access to a pool of highly skilled professionals with deep expertise in FinTech, banking, financial analysis, risk management, compliance, and more."
+                },
+                {
+                    "title": "Scalability",
+                    "description": "Scale your operations quickly and efficiently by leveraging our flexible outsourcing solutions. Whether you need to ramp up during peak periods or adjust your resources as needed, we've got you covered."
+                },
+                {
+                    "title": "Compliance & Regulation",
+                    "description": "Navigate the complex regulatory landscape with confidence. Our team of experts stays abreast of the latest regulations and compliance standards to ensure that your operations remain compliant at all times."
+                },
+                {
+                    "title": "Innovation",
+                    "description": "Our network of FinTech experts can help you leverage the latest advancements in blockchain, AI, machine learning, and more to drive innovation and enhance your competitive edge."
+                }
+            ]
+        },
+        "services": {
+            "title": "<em>Financial</em> Services by Your Support Agent",
+            "list": [
+                {
+                    "title": "Medical Billing",
+                    "description": "Discover streamlined medical billing services with YSA. Our expertise lies in coding, compliance, and administrative tasks, thus supporting healthcare professionals in billing processes."
+                },
+                {
+                    "title": "Bookkeeping",
+                    "description": "Unlock efficiency and optimize work experience by outsourcing bookkeeping services with YSA. Hire professionals with expertise in a myriad of services like accountants, tax specialists, etc."
+                },
+                {
+                    "title": "Debt Collection",
+                    "description": "Outsource third-party debt collection agencies to handle delinquent borrowers with Your Support Agent."
+                },
+                {
+                    "title": "Payroll",
+                    "description": "From tax compliance to handing out salaries, we offer a dynamic and diverse team of specialists tailor-made for our customer's demands."
+                }
+                
+            ]
+        },
+        "aboutUs": {
+            "heading": "Why Choose YSA?",
+            "content1":  "Whether you need assistance with software development, cybersecurity, data analytics, investment management, or any other aspect of FinTech and financial services, Your Support Agent is here to help. Our dedicated team will work closely with you to understand your unique requirements and connect you with the right talent to achieve your business objectives.",            
+            "content2": "Experience the difference that our FinTech & Financial Services Outsourcing Service can make for your business. Contact us today to learn more and start outsourcing with confidence."
+        }
+    },
+
+    "Accounting Firm": {
+        "heroSection": {
+            "title": "Unlock The Power Of Outsourcing Talent; Drive Success In The <em>Accounting Industry</em>",
+            "description":"With our Accounting Firm Outsourcing Services, you can focus on what you do best—providing exceptional service to your clients—while we take care of the rest."
+        },
+        "whyus": {
+            "title": "Outsourcing <em>Accounting</em> Services: Benefits For Your Firm",
+            "advantages": [
+                {
+                    "title": "Focus on Core Competencies",
+                    "description": "By outsourcing non-core functions such as bookkeeping or payroll processing, accounting firms can free up valuable time and resources to focus on core business activities, such as client advisory services, strategic planning, and business development."
+                },
+                {
+                    "title": "Improved Efficiency and Productivity",
+                    "description": "With tasks being handled by external experts who specialize in their respective areas, firms can streamline processes, reduce turnaround times, and improve overall workflow management."
+                },
+                {
+                    "title": "Enhanced Compliance and Risk Management",
+                    "description": "Outsourcing staff can help ensure compliance with regulatory requirements and mitigate risks associated with errors or non-compliance."
+                },
+                {
+                    "title": "Focus on Client Relationships ",
+                    "description": "By outsourcing routine tasks and administrative responsibilities, accounting firms can devote more time and attention to building and nurturing client relationships, thus fostering stronger client loyalty and satisfaction."
+                }
+            ]
+        },
+        "services": {
+            "title": "<em>Accounting</em> Services by Your Support Agent",
+            "list": [
+                {
+                    "title": "Bookkeeping",
+                    "description": "Unlock efficiency and optimize work experience by outsourcing bookkeeping services with YSA. Hire professionals with expertise in a myriad of services like accountants, tax specialists, etc."
+                },
+                {
+                    "title": "Lead Generation & Sales",
+                    "description": "Unlock growth by signing in for our lead generation and sales services at YSA. We outsource SEO strategies, and PPC campaigns and ensure success through our compelling content."
+                },
+                {
+                    "title": "Data Entry",
+                    "description": "Ensure efficient and accurate processing of data by outsourcing data entry roles at Your Support Agent."
+                },
+                {
+                    "title": "Payroll",
+                    "description": "From tax compliance to handing out salaries, we offer a dynamic and diverse team of specialists tailor-made for our customer's demands."
+                }
+                
+            ]
+        },
+        "aboutUs": {
+            "heading": "Why Choose YSA?",
+            "content1": "In today's competitive landscape, accounting firms face a myriad of challenges, from staying compliant with ever-changing regulations to managing complex financial data and delivering exceptional client service. That's where we come in. With our Accounting Firm Outsourcing Services, we offer accounting firms a strategic solution to optimize their operations, enhance efficiency, and scale their business with confidence. Whether you're a small boutique firm or a large multinational corporation, we have the expertise and resources to meet your outsourcing needs.",
+            "content2":"Experience the difference that outsourcing talent can make for your accounting firm. Contact us today to learn more about our services and start outsourcing with confidence."
+        }
+    },
+
+    "Real Estate": {
+        "heroSection": {
+            "title": "Acquire Talent to Support Your <em>Real-Estate</em> Business Objectives",
+            "description":"Navigate complexities, drive innovation, and deliver exceptional results by outsourcing talent from the real estate industry."
+        },
+        "whyus": {
+            "title": "How Can Outsourcing Help You?",
+            "advantages": [
+                {
+                    "title": "Scalability",
+                    "description": "Whether you need to expand your team during peak periods or adjust your resources based on fluctuating market conditions, we've got you covered."
+                },
+                {
+                    "title": "Specialized Expertise",
+                    "description": "Gain access to a pool of highly skilled professionals with deep expertise in various aspects of the real estate industry, including sales, leasing, property management, marketing, finance, and more."
+                },
+                {
+                    "title": "Cost Efficiency",
+                    "description": "Achieve significant cost savings compared to traditional hiring models by outsourcing your real estate services to us. "
+                },
+                {
+                    "title": "Focus on Core Business Activities ",
+                    "description": "Free up valuable time and resources to focus on core business activities, such as client relationship management, business development, and strategic planning."
+                }
+            ]
+        },
+        "services": {
+            "title": "<em>Accounting</em> Services by Your Support Agent",
+            "list": [
+                {
+                    "title": "Bookkeeping",
+                    "description": "Unlock efficiency and optimize work experience by outsourcing bookkeeping services with YSA. Hire professionals with expertise in a myriad of services like accountants, tax specialists, etc."
+                },
+                {
+                    "title": "Lead Generation & Sales",
+                    "description": "Unlock growth by signing in for our lead generation and sales services at YSA. We outsource SEO strategies, and PPC campaigns and ensure success through our compelling content."
+                },
+                {
+                    "title": "Customer Support",
+                    "description": "Get experts who can address user queries, resolve issues, and provide assistance throughout the buyer journey, ensuring a positive experience."
+                },
+                {
+                    "title": "IT Support & Integration",
+                    "description": "From troubleshooting to seamless integration, we deliver top-notch IT support and integration services. Our team of IT specialists and system integrators provides comprehensive solutions to keep your technology running smoothly."
+                }
+                
+            ]
+        },
+        "aboutUs": {
+            "heading": "Why Choose YSA?",
+            "content1": "In today's dynamic real estate market, staying ahead means having access to top-tier talent that can navigate complexities, drive innovation, and deliver exceptional results. With our Real Estate Services Outsourcing Service, we offer real estate businesses a strategic advantage by connecting them with specialized talent that possesses the expertise and experience needed to excel in this fast-paced industry. Whether you need assistance with property marketing, sales support, tenant screening, lease administration, financial analysis, or any other aspect of real estate services, Your Support Agent is here to help. Our dedicated team will work tirelessly to ensure that your outsourcing needs are met with excellence and professionalism.",
+            "content2":"Experience the difference that outsourcing talent can make for your real estate business. Contact us today to learn more about our Real Estate Services Outsourcing Service and start outsourcing with confidence."
+        }
+    },
 
     "E-Commerce & Retail": {
         "heroSection": {
@@ -103,23 +313,23 @@
             ]
         },
         "services": {
-            "title": "What We Offer?",
+            "title": "<em>E-Commerce</em> services by Your Support Agent",
             "list": [
                 {
-                    "title": "Cost Savings",
-                    "description": "Hiring virtual staff allows your business to reduce overhead costs associated with traditional in-house employees, such as office space, equipment, and benefits."
+                    "title": "Customer Support",
+                    "description": "Get experts who can address user queries, resolve issues, and provide assistance throughout the buyer journey, ensuring a positive experience."
                 },
                 {
-                    "title": "Access to Global Talent",
-                    "description": "By hiring virtual staff, your business can gain access to a diverse pool of talent from around the world."
+                    "title": "IT Support & Integration",
+                    "description": "From troubleshooting to seamless integration, we deliver top-notch IT support and integration services. Our team of IT specialists and system integrators provides comprehensive solutions to keep your technology running smoothly."
                 },
                 {
-                    "title": "24/7 Support",
-                    "description": "With virtual staff located in different time zones, your business can provide round-the-clock customer support and assistance to their customers."
+                    "title": "Logistics & Operations",
+                    "description": "Tie up with logistics service providers who ensure timely delivery of products, accurate tracking, and efficient inventory management to ensure streamlined operations optimize processes, reduce costs, and minimize errors."
                 },
                 {
-                    "title": "Specialized Skills",
-                    "description": "Hiring virtual staff allows your business to access professionals with expertise in multiple areas, without the need for extensive training or recruitment efforts."
+                    "title": "Sourcing Agent",
+                    "description": "Handle supply chains with ease. Outsource sourcing agents from Your Support Agent, and streamline your sourcing processes by enhancing efficiency."
                 }
             ]
         },
@@ -157,6 +367,28 @@
                 }
             ]
         },
+        "services": {
+            "title": "<em>Back Office Processing</em> Services by Your Support Agent",
+            "list": [
+                {
+                    "title": "Payroll",
+                    "description": "From tax compliance to handing out salaries, we offer a dynamic and diverse team of specialists tailor-made for our customer's demands."
+                },
+                {
+                    "title": "Virtual Administrative Assistant",
+                    "description": "Ensure effective engagement with customers and allocation of resources by outsourcing virtual administrative assistants."
+                },
+                {
+                    "title": "Executive Assistance",
+                    "description": "Streamline your executive workload by partnering with us. Outsource executive assistance services and ensure strategic growth in your business. "
+                },
+                {
+                    "title": "Data Entry",
+                    "description": "Ensure efficient and accurate processing of data by outsourcing data entry roles at Your Support Agent."
+                }
+                
+            ]
+        },
         "aboutUs": {
             "heading": "Why Choose YSA?",
             "content1": "Your Support Agent works to empower businesses like yours by providing reliable, cost-effective, and efficient back-office processing services. From data entry and document processing to payroll management and HR support, we offer a wide range of back-office processing services to help streamline your operations and improve efficiency. Our team of experienced professionals is dedicated to delivering accurate, timely, and high-quality results, ensuring that your business runs smoothly and effectively.",
@@ -191,6 +423,28 @@
                 }
             ]
         },
+        "services": {
+            "title": "<em>Marketing</em> Services by Your Support Agent",
+            "list": [
+                {
+                    "title": "Social Media Manager",
+                    "description": "From updated social media trends to strategies for brand management, handle your social media by outsourcing skilled professionals."
+                },
+                {
+                    "title": "Lead Generation & Sales",
+                    "description": "Unlock growth by signing in for our lead generation and sales services at YSA. We outsource SEO strategies, and PPC campaigns and ensure success through our compelling content."
+                },
+                {
+                    "title": "Content Writer",
+                    "description": "Avail outsourced content writing services and get access to quality content aligned with your brand standards. "
+                },
+                {
+                    "title": "Design & Graphics",
+                    "description": "Offer creative solutions to your clients and address their queries with expert assistance on design and graphics. Outsource Design and Graphics with Your Support Agent."
+                }
+                
+            ]
+        },
         "aboutUs": {
             "heading": "Why Choose YSA?",
             "content1": "We are committed to helping our clients achieve their marketing goals, exceed their expectations, and stay ahead of the competition in today's ever-evolving marketplace. From digital marketing and social media management to content creation and advertising, we help you outsource a wide range of marketing services to meet your needs and objectives. Whether you're looking to increase brand awareness, generate leads, drive website traffic, or boost sales, we can match you with the expertise and resources to make it happen.",
@@ -198,68 +452,61 @@
         }
     },
 
-
-    "Social Media": {
+    "Hospitality": {
         "heroSection": {
-            "title": "<em>Socialize</em> Smarter, Not Harder, with Your Support Agent",
-            "description": "Upscale your business and its digital presence with expertly crafted social media strategies and services that deliver measurable results, without putting a load on your pocket."
+            "title": "Experience Difference in Results; Outsource Talent for Your <em>Hospitality</em> Business",
+            "description": "Get access to access to top-tier talent that can drive innovation, enhance guest experiences, and elevate your business to new heights."
         },
         "whyus": {
-            "title": "Your <em>Social Media</em> Success Starts With Outsourcing!",
+            "title": "Host of Benefits Accompanied by Outsourcing",
             "advantages": [
                 {
-                    "title": "Strategic Expertise",
-                    "description": "Outsourcing social media experts can help your strategy as they can develop a strategic plan tailored to your business goals, target audience, and industry trends, ensuring that every post and campaign is aligned with your objectives."                },
-                {
-                    "title": "Creative Content",
-                    "description": "Outsourced social media agents excel at creating visually appealing graphics, compelling copy, and interactive multimedia content that resonates with your followers and encourages engagement."
+                    "title": "Enhanced Guest Experiences",
+                    "description": "Get expert staff that ensures that every guest interaction exceeds expectations, fostering positive reviews, repeat business, and referrals."
                 },
                 {
-                    "title": "Consistent Brand Voice",
-                    "description": "Social media experts can ensure that your messaging, tone, and visual elements are cohesive and reflective of your brand values and personality."
+                    "title": "Operational Efficiency",
+                    "description": "Whether you need assistance with property maintenance, reservations management, revenue optimization, or back-office support, we have you covered."
                 },
                 {
-                    "title": "Analytics and Insights",
-                    "description": "Social media managers have the knowledge and tools to monitor analytics, identify trends, and extract actionable insights that drive continuous improvement and informed decision-making."
+                    "title": "Cost Savings",
+                    "description": ": With our competitive pricing and transparent billing, you can optimize your resources and maximize your ROI."
+                },
+                {
+                    "title": "Expertise",
+                    "description": "Enhance the overall experience of your customers with the help of curated expertise that outsourced talent possesses. "
                 }
+            ]
+        },
+        "services": {
+            "title": "<em>Hospitality</em> Services by Your Support Agent",
+            "list": [
+                {
+                    "title": "Customer Support",
+                    "description": "Get experts who can address user queries, resolve issues, and provide assistance throughout the buyer journey, ensuring a positive experience."
+                },
+                {
+                    "title": "Data Entry",
+                    "description": "Ensure efficient and accurate processing of data by outsourcing data entry roles at Your Support Agent."
+                },
+                {
+                    "title": "Executive Assistance",
+                    "description": "Streamline your executive workload by partnering with us. Outsource executive assistance services and ensure strategic growth in your business. "
+                },
+                {
+                    "title": "Bookkeeping",
+                    "description": "Unlock efficiency and optimize work experience by outsourcing bookkeeping services with YSA. Hire professionals with expertise in a myriad of services like accountants, tax specialists, etc."
+                }
+                
             ]
         },
         "aboutUs": {
             "heading": "Why Choose YSA?",
-            "content1":  "At Your Support Agent, we understand the pivotal role that social media plays in today's digital landscape. That's why we're here to be your trusted partner in outsourcing social media services, helping you unlock the full potential of social platforms to elevate your brand, engage your audience, and drive business growth. From content creation and community management to advertising and analytics, we offer comprehensive solutions designed to help you stand out in a crowded digital world.",            
-            "content2": "Ready to take your social media presence to the next level? Contact Your Support Agent today to learn more about how we can help you achieve your social media goals. Let us be your trusted partner in navigating the ever-changing world of social media and driving meaningful results for your business."
-        }
-    },
-
-    "Blockchain": {
-        "heroSection": {
-            "title": "Connect Your Business With Top-Tier <em>Blockchain</em> Experts",
-            "description": "Redefine the landscape of talent acquisition; hire industry experts through our innovative blockchain outsourcing solutions."
-        },
-        "whyus": {
-            "title": "Our <em>Blockchain</em> Outsourcing Services Offer Unparalleled Benefits",
-            "advantages": [
-                {
-                    "title": "Smart Contracts",
-                    "description": "Outsourcing social media experts can help your strategy as they can develop a strategic plan tailored to your business goals, target audience, and industry trends, ensuring that every post and campaign is aligned with your objectives."                },
-                {
-                    "title": "Creative Content",
-                    "description": "Outsourced social media agents excel at creating visually appealing graphics, compelling copy, and interactive multimedia content that resonates with your followers and encourages engagement."
-                },
-                {
-                    "title": "Consistent Brand Voice",
-                    "description": "Social media experts can ensure that your messaging, tone, and visual elements are cohesive and reflective of your brand values and personality."
-                },
-                {
-                    "title": "Analytics and Insights",
-                    "description": "Social media managers have the knowledge and tools to monitor analytics, identify trends, and extract actionable insights that drive continuous improvement and informed decision-making."
-                }
-            ]
-        },
-        "aboutUs": {
-            "heading": "Why Choose YSA?",
-            "content1":  "At Your Support Agent, we understand the pivotal role that social media plays in today's digital landscape. That's why we're here to be your trusted partner in outsourcing social media services, helping you unlock the full potential of social platforms to elevate your brand, engage your audience, and drive business growth. From content creation and community management to advertising and analytics, we offer comprehensive solutions designed to help you stand out in a crowded digital world.",            
-            "content2": "Ready to take your social media presence to the next level? Contact Your Support Agent today to learn more about how we can help you achieve your social media goals. Let us be your trusted partner in navigating the ever-changing world of social media and driving meaningful results for your business."
+            "content1": "At Your Support Agent, we understand the unique challenges and opportunities that businesses in the hospitality sectors face. From property management and guest services to marketing, sales, and administration, we help you outsource services to cover a wide range of functions to support your business objectives.",
+            "content2": "Whether you're looking to enhance guest experiences, streamline operations, or drive growth, Your Support Agent is here to help. We’ll connect you with experts who will work closely with you to understand your unique requirements and tailor a solution that meets your specific needs and objectives. Experience the difference that outsourcing talent can make for your real estate and hospitality business. Contact us today to learn more about outsourcing Hospitality Services and start outsourcing with confidence."
         }
     }
+
+
+   
 }

@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import data from '../../utils/data.json'
 import Container from '../layout/Container';
+import { useNavigate } from 'react-router-dom';
+import state from '../../store';
+import { useSnapshot } from 'valtio';
 
 const Advantages = ({ sectionName }) => {
 
   const [sectionData, setSectionData] = useState(null);
+  const snap = useSnapshot(state)
+  const navigate = useNavigate()
 
   useEffect(() => {
     if (data[sectionName]) {
@@ -17,6 +22,11 @@ const Advantages = ({ sectionName }) => {
   if (!sectionData) return <div>Loading...</div>;
 
   const { whyus, services } = sectionData
+
+  const changeService = (item) => {
+    state.role = item
+    navigate('/individual-roles')
+  }
 
   return (
     <div className=' px-10 py-20 '>
@@ -63,7 +73,10 @@ const Advantages = ({ sectionName }) => {
                   <div className='bg-[#F4F3F1] flex w-full  gap-5 py-8 px-10 rounded-xl justify-between' key={item.title}>
                     <h4 className='text-[#253359] 2xl:text-lg md:text-sm font-semibold text-left text-wrap w-[10%]'>{item.title}</h4>
                     <p className='text-[#253359] 2xl:text-base md:text-xs font-medium text-left pt-1 text-wrap w-[70%]'>{item.description}</p>
-                    <p className='text-[#BA7C44] 2xl:text-base md:text-xs font-medium self-center mr-2 cursor-pointer'>Read More</p>
+                    
+                    <p className='text-[#BA7C44] 2xl:text-base md:text-xs font-medium self-center mr-2 cursor-pointer'
+                    onClick={()=> changeService(item.title)}
+                    >Read More</p>
                   </div>
                 ))}
               </div>

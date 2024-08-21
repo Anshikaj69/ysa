@@ -111,7 +111,7 @@ const Testimonials = () => {
                         </p>
                     </Fade>
                     <Fade>
-                        <button className='hover:bg-[#e0efe3] border btn btn1 text-[#253359] rounded-3xl py-2.5 px-5 2xl:text-base text-sm w-fit'>Book a Call</button>
+                        <button className='hover:bg-[#e0efe3] border btn btn1 text-[#253359] bg-white rounded-3xl py-2.5 px-5 2xl:text-base text-sm w-fit'>Book a Call</button>
                     </Fade>
                 </div>
             </Container>

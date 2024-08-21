@@ -81,7 +81,7 @@ const Different = () => {
               </p>
             </Slide>
             <Fade className='2xl:h-fit 2xl:w-fit w-[80%] xl:w-[70%] pt-5'>
-              <img src='/group.svg' alt='group' ></img>
+              <img src='/group.svg' alt='group' loading='lazy' ></img>
             </Fade>
           </div>
         </Container>
@@ -149,14 +149,14 @@ const Different = () => {
                 </Slide>
               </div>
               <Slide direction='left' duration={2000} delay={-500} className="imgcontainer flex items-end w-[38%]">
-                <img src='/freeup.svg' alt='img'></img>
+                <img src='/freeup.svg' alt='img' loading='lazy'></img>
               </Slide>
             </div>
 
             <div className='flex gap-10 w-full' >
 
               <Slide direction='up' duration={2000} delay={-900} className="imgcontainer flex items-end w-[38%]">
-                <img src='/dontgrow.svg' alt='img'></img>
+                <img src='/dontgrow.svg' alt='img' loading='lazy'></img>
               </Slide>
 
               <div className='flex flex-col w-[57%] gap-10' >

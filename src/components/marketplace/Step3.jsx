@@ -94,7 +94,7 @@ const step3 = () => {
           <div className='bg-white mt-10 pt-10 2xl:px-20 md:px-14 flex flex-col justify-between gap-10 pb-10'>
             <div className='flex flex-col gap-10 md:flex-row md:gap-5  '>
               <div className='flex flex-col gap-5 justify-center items-center'>
-                <h3 className='font-medium md:text-sm 2xl:text-base text-center'>Pick a Date and Time</h3>
+                <h3 className='font-medium md:text-sm 2xl:text-base text-center'>When are you expecting to start?</h3>
                 <Calendar
                   minDate={new Date()}
                   className='px-4 pt-3 2xl:pb-20 md:pb-14 shadow-xl  '
@@ -147,7 +147,7 @@ const step3 = () => {
           </div>
           <Fade>
             <button
-              className="hover:bg-[#D4DFED] btn btn1 text-white font-medium rounded-full 2xl:text-base md:text-sm w-fit 2xl:px-10 md:px-8 py-3 self-center mt-4"
+              className="hover:bg-[#D4DFED] bg-[#253359] btn btn1 text-white font-medium rounded-full 2xl:text-base md:text-sm w-fit 2xl:px-10 md:px-8 py-3 self-center mt-4"
               onClick={handleSubmit}
             >
               Confirm

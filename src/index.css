@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-  scroll-behavior: smooth;
+:root {
+  color-scheme: light;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
+
 
 .poppins {
     font-family: "Poppins", sans-serif;
@@ -48,12 +52,9 @@ html{
   }
 
   /* styles.css */
-  .btn {
-    color: #FFF;
-  }
+
   
   .btn1 {
-    background-color: #253359;
     transition: all 0.3s ease-in-out;
   }
   
