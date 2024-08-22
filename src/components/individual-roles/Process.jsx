@@ -6,25 +6,25 @@ import {  Slide } from 'react-awesome-reveal';
 
 const Process = () => {
   return (
-    <div className='px-10 pt-20 pb-14  '>
+    <div className='md:px-10 md:pt-20 md:pb-14 py-8 px-4  '>
       <Container>
-        <div className="flex flex-col  gap-8 items-center">
+        <div className="flex flex-col gap-4 md:gap-8 items-center">
 
           <Slide direction='up' delay={-300}>
-            <h1 className='text-[#253359]  md:text-4xl font-bold playfair-display-font text-center'>The YSA Process</h1>
+            <h1 className='text-[#253359]  md:text-4xl text-xl font-bold playfair-display-font text-center'>The YSA Process</h1>
           </Slide>
-          <div className='flex w-[95%] gap-[3%] items-center justify-center'>
+          <div className='flex flex-col md:flex-row w-[95%] md:gap-[3%] gap-4 items-center justify-center'>
 
-            <div className='bg-[#F4F3F1] flex gap-7  2xl:py-10 md:py-7 xl:py-8 rounded-2xl justify-center items-center 2xl:w-[31%] md:w-[29%]'>
-              <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-sm w-fit'>STEP 1</p>
-              <p className='text-[#253359] text-center font-semibold text-lg'>Choose individual<br /> Agents</p>
-              <img src='/step2.svg' />
+            <div className='bg-[#F4F3F1] flex md:gap-7 gap-3  2xl:py-10 md:py-7 xl:py-8 p-3 rounded-2xl justify-center items-center 2xl:w-[31%] md:w-[29%]'>
+              <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-xs md:text-sm w-fit'>STEP 1</p>
+              <p className='text-[#253359] text-center font-semibold text-sm md:text-lg'>Choose individual<br /> Agents</p>
+              <img src='/step2.svg' className='h-10 md:h-14'/>
             </div>
 
-            <div className='bg-[#D4DFED] flex  gap-7 2xl:py-10 md:py-7 xl:py-8 rounded-2xl justify-center items-center 2xl:w-[31%] md:w-[29%]'>
-              <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-sm w-fit'>STEP 2</p>
-              <p className='text-[#253359] text-center font-semibold text-lg'>Schedule a Call on <br /> the Calendar</p>
-              <img src='/step3.svg' />
+            <div className='bg-[#D4DFED] flex md:gap-7 gap-3 2xl:py-10 md:py-7 xl:py-8  p-3 rounded-2xl justify-center items-center 2xl:w-[31%] md:w-[29%]'>
+              <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-xs md:text-sm w-fit'>STEP 2</p>
+              <p className='text-[#253359] text-center font-semibold text-sm md:text-lg'>Schedule a Call on <br /> the Calendar</p>
+              <img src='/step3.svg' className='h-10 md:h-14'/>
             </div>
           </div>
         </div>

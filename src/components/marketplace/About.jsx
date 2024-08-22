@@ -29,7 +29,7 @@ const About = ({ sectionName }) => {
 
   return (
     <div
-      className="px-10 pt-40 pb-60"
+      className="px-4 pt-20 md:px-10 md:pt-40 md:pb-60"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundRepeat: 'no-repeat',
@@ -37,19 +37,19 @@ const About = ({ sectionName }) => {
     >
       <Container>
         <div className="flex justify-between" id="aboutus" ref={aboutRef}>
-          <div className="flex justify-between items-center w-full">
-            <div className="flex flex-col gap-8 w-[55%]">
-              <h1 className="text-[#253359] 2xl:text-5xl md:text-4xl font-bold playfair-display-font text-balance">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-5 md:gap-0">
+            <div className="flex flex-col md:gap-8 gap-4 md:w-[55%]">
+              <h1 className="text-[#253359] 2xl:text-5xl md:text-4xl text-xl font-bold playfair-display-font text-balance">
                 {aboutUs.heading}
               </h1>
-              <p className="text-[#253359] 2xl:text-lg md:text-base font-normal max-w-xl">
+              <p className="text-[#253359] 2xl:text-lg md:text-base text-sm font-normal max-w-xl">
                 {aboutUs.content1}
                 <br />
                 <br />
                 {aboutUs.content2}
               </p>
             </div>
-            <div className="img w-[40%] flex items-center">
+            <div className="img md:w-[40%] flex items-center">
               <img src="/aboutimg.svg" alt="img" />
             </div>
           </div>

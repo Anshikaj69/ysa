@@ -23,7 +23,7 @@ let count1 = 0
 let count2 =0
 
   return (
-    <div className=' px-10 pb-10 pt-14'>
+    <div className=' md:px-10 md:pb-10 md:pt-14 px-4 py-8'>
       <Container>
         <div className="flex flex-col gap-6 mb-10">
 
@@ -34,7 +34,7 @@ let count2 =0
             {perks.list.map((perk) => {
               count+=1;
               return (
-                <h3 className='flex gap-1 font-semibold md:text-xs xl:text-sm text-nowrap items-start leading-5'>{count}. {perk.title}:<span className='font-normal text-black text-wrap'>{perk.description}</span></h3>
+                <h3 className='flex gap-1 text-xs xl:text-sm md:text-nowrap items-start leading-5'><strong className='font-semibold text-nowrap'>{count}. {perk.title}:</strong>{perk.description}</h3>
               )
             })}
           </div>
@@ -44,13 +44,13 @@ let count2 =0
           <div className="flex flex-col gap-5 mb-11">
           <div className='flex flex-col gap-3 justify-center '>
             <h1 className=' md:text-lg xl:text-xl font-bold playfair-display-font'>02. {roles.title}</h1>
-            <p className='md:text-xs xl:text-sm font-mono'>{roles.description}</p>
+            <p className='md:text-xs xl:text-sm text-xs font-mono'>{roles.description}</p>
           </div>
           <div className="flex flex-col mx-3 gap-5 font-mono">
             {roles.list.map((role) => {
               count1+=1;
               return (
-                <h3 className='flex gap-1 font-semibold md:text-xs xl:text-sm text-nowrap max-w-[95%]'>{count1}. {role.title}:<span className='font-normal text-black text-wrap'>{role.description}</span></h3>
+                <h3 className='flex gap-1 text-xs xl:text-sm md:text-nowrap max-w-[95%]'><strong className='font-semibold text-wrap'>{count1}. {role.title}:</strong>{role.description}</h3>
               )
             })}
           
@@ -65,7 +65,7 @@ let count2 =0
             {whyus.advantages.map((advantage) => {
               count2+=1;
               return (
-                <h3 className='flex gap-1 font-semibold md:text-xs xl:text-sm text-nowrap max-w-[95%]'>{count2}. {advantage.title}:<span className='font-normal text-black text-wrap'>{advantage.description}</span></h3>
+                <h3 className='flex gap-1 text-xs xl:text-sm md:text-nowrap max-w-[95%]'><strong className='font-semibold text-nowrap'>{count2}. {advantage.title}:</strong><span className='font-normal text-black text-wrap'>{advantage.description}</span></h3>
               )
             })}
           

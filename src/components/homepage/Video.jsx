@@ -30,34 +30,34 @@ const Video = () => {
 
   return (
     <div className="flex 2xl:my-16 md:my-14 w-full justify-end self-end items-end">
-      <div className="flex relative rounded-[1.2rem] 2xl:border-[7px] md:border-[5px] border-white transition md:w-[90%] h-fit 2xl:w-fit">
+      <div className="flex relative rounded-[1.2rem] 2xl:border-[7px] border-[4px] md:border-[5px] border-white aspect-[21/9] md:aspect-[16/9] items-center justify-center bg-white transition md:w-[90%] h-fit 2xl:w-fit">
         {!isPlaying && (
           
-          <div className=" flex items-center justify-center aspect-[16/9]  2xl:w-fit">
+          <div className=" flex items-center justify-center aspect-[21/9] md:aspect-[16/9]  2xl:w-fit">
             <img 
               src="/heroImg.svg"
               alt="Thumbnail" 
-              className="w-full h-full object-cover rounded-xl"
+              className="w-full h-full object-cover rounded-2xl"
               loading="eager"
             />
             <Fade>
             <button
               onClick={togglePlayPause}
-              className="h-[70px] w-[70px] flex items-center justify-center bg-[#ffffffd6] backdrop-blur-xl shadow-md rounded-full absolute top-[35%] right-[45%] "
+              className="h-[50px] w-[50px] md:h-[70px] md:w-[70px] flex items-center justify-center bg-[#ffffffd6] backdrop-blur-xl shadow-md rounded-full absolute md:top-[35%] md:right-[45%] top-[33%] right-[44%]"
             >
               <Tooltip title="Play" placement="bottom">
-                <Play color="#253359" size={32} fill="#253359"/>
+                <Play color="#253359" className="md:h-[48px] h-[28px]" fill="#253359"/>
               </Tooltip>
             </button>
             </Fade>
           </div>
         )}
         <Fade>
-        <div className={`flex h-fit 2xl:w-fit justify-center aspect-[16/9]  ${isPlaying ? 'block' : 'hidden'}`}>
+        <div className={`flex h-fit 2xl:w-fit justify-center aspect-[21/9] md:aspect-[16/9]  ${isPlaying ? 'block' : 'hidden'}`}>
         <video
           ref={videoRef}
           src={cld.video('/hero_video').quality('auto').toURL()}
-          className={`rounded-[1rem] border-0 2xl:w-full flex justify-end items-end object-cover aspect-[16/9]`}
+          className={`rounded-[1rem] border-0 2xl:w-full flex justify-end items-end object-cover aspect-[21/9] md:aspect-[16/9]`}
           loop
         ></video>
         </div>
@@ -66,10 +66,10 @@ const Video = () => {
           <Fade>
           <button
             onClick={togglePlayPause}
-            className="h-[70px] w-[70px] flex items-center justify-center bg-[#ffffffd6] backdrop-blur-xl shadow-md rounded-full mr-4 absolute top-[36%] right-[43%] "
+            className="h-[50px] w-[50px] md:h-[70px] md:w-[70px] flex items-center justify-center bg-[#ffffffd6] backdrop-blur-xl shadow-md rounded-full mr-4 absolute top-[30%] right-[40%] md:top-[36%] md:right-[43%] "
           >
             <Tooltip title="Pause" placement="bottom">
-              <Pause color="#253359" size={32} fill="#253359" />
+              <Pause color="#253359" className="md:h-[48px] h-[28px]" fill="#253359" />
             </Tooltip>
           </button>
           </Fade>

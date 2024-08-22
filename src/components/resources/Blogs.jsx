@@ -15,12 +15,12 @@ const Blogs = () => {
 
   return (
     <Container>
-      <div className="grid grid-cols-3 2xl:mt-24 md:mt-16 py-10 gap-10">
+      <div className="grid md:grid-cols-3 grid-cols-1 2xl:mt-24 md:mt-20 mt-16 py-10 gap-10 md:px-10 px-5">
         {/* Main Blog Content */}
-        <div className="w-full flex col-span-2">
+        <div className="w-full flex md:col-span-2 ">
           {currentBlog && (
-            <div className="flex flex-col gap-8">
-              <h1 className='md:text-4xl font-bold text-center playfair-display-font'>{currentBlog.title}</h1>
+            <div className="flex flex-col md:gap-8 gap-2 md:text-base text-xs">
+              <h1 className='md:text-4xl text-lg font-bold text-center playfair-display-font'>{currentBlog.title}</h1>
               <Minus className='self-center' />
               <div className="flex flex-col gap-6 text-gray-800">
                 {currentBlog.content.map((paragraph, index) => (
@@ -31,37 +31,37 @@ const Blogs = () => {
               
               {/* Steps and Content */}
               {currentBlog.step1 && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading1 text-2xl font-semibold">{currentBlog.step1.heading}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4 ">
+                  <h4 className="subheading1 md:text-2xl text-base font-semibold">{currentBlog.step1.heading}</h4>
                   <pre className='poppins w-fit text-wrap max-w-4xl' dangerouslySetInnerHTML={{ __html: currentBlog.step1.content.replace(/\n/g, '<br>') }} />
                 </div>
               )}
               
               {currentBlog.step2 && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading2 text-2xl font-semibold">{currentBlog.step2.heading}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading2 md:text-2xl text-base font-semibold">{currentBlog.step2.heading}</h4>
                   <p dangerouslySetInnerHTML={{ __html: currentBlog.step2.content.replace(/\n/g, '<br>') }} />
                 </div>
               )}
               
               {currentBlog.step3 && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading3 text-2xl font-semibold">{currentBlog.step3.heading}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading3 md:text-2xl text-base font-semibold">{currentBlog.step3.heading}</h4>
                   <p dangerouslySetInnerHTML={{ __html: currentBlog.step3.content.replace(/\n/g, '<br>') }} />
                 </div>
               )}
               
               {currentBlog.step4 && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading4 text-2xl font-semibold">{currentBlog.step4.heading}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading4 md:text-2xl text-base font-semibold">{currentBlog.step4.heading}</h4>
                   <p dangerouslySetInnerHTML={{ __html: currentBlog.step4.content.replace(/\n/g, '<br>') }} />
                 </div>
               )}
               
               {/* Table */}
               {currentBlog.table && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading5 text-2xl font-semibold">Comparison Table</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading5 md:text-2xl text-base font-semibold">Comparison Table</h4>
                   <table className="min-w-full border-collapse border border-gray-300">
                     <thead>
                       <tr>
@@ -85,8 +85,8 @@ const Blogs = () => {
 
               {/* Downsides */}
               {currentBlog.downsides && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading6 text-2xl font-semibold">{currentBlog.downsides.title}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading6 md:text-2xl text-base font-semibold">{currentBlog.downsides.title}</h4>
                   {currentBlog.downsides.content.map((item, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
                   ))}
@@ -95,8 +95,8 @@ const Blogs = () => {
 
               {/* Freelance Advantages */}
               {currentBlog.freelanceAdvantages && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading7 text-2xl font-semibold">{currentBlog.freelanceAdvantages.title}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading7 md:text-2xl text-base font-semibold">{currentBlog.freelanceAdvantages.title}</h4>
                   {currentBlog.freelanceAdvantages.content.map((item, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
                   ))}
@@ -105,8 +105,8 @@ const Blogs = () => {
 
               {/* Freelance Downsides */}
               {currentBlog.freelanceDownsides && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading8 text-2xl font-semibold">{currentBlog.freelanceDownsides.title}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading8 md:text-2xl text-base font-semibold">{currentBlog.freelanceDownsides.title}</h4>
                   {currentBlog.freelanceDownsides.content.map((item, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
                   ))}
@@ -115,8 +115,8 @@ const Blogs = () => {
 
               {/* Hybrid Approach */}
               {currentBlog.hybridApproach && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading9 text-2xl font-semibold">{currentBlog.hybridApproach.title}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading9 md:text-2xl text-base font-semibold">{currentBlog.hybridApproach.title}</h4>
                   {currentBlog.hybridApproach.content.map((item, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
                   ))}
@@ -125,18 +125,45 @@ const Blogs = () => {
 
               {/* Agency Downsides */}
               {currentBlog.agencyDownsides && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading10 text-2xl font-semibold">{currentBlog.agencyDownsides.title}</h4>
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading10 md:text-2xl text-base font-semibold">{currentBlog.agencyDownsides.title}</h4>
                   {currentBlog.agencyDownsides.content.map((item, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
                   ))}
                 </div>
               )}
 
-              {/* Conclusion */}
-              {currentBlog.conclusion && (
-                <div className="flex flex-col gap-5">
-                  <h4 className="subheading11 text-2xl font-semibold">{currentBlog.conclusion.title}</h4>
+
+              {/* Benefits */}
+              {currentBlog.benefits && (
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  {currentBlog.benefits.map((benefit, index) => (
+                    <div key={index}>
+                      <h4 className="subheading md:text-2xl text-base font-semibold mb-4">{benefit.heading}</h4>
+                      <p dangerouslySetInnerHTML={{ __html: benefit.content.replace(/\n/g, '<br>') }} />
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Sections */}
+              {currentBlog.sections && (
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  {currentBlog.sections.map((section, index) => (
+                    <div key={index}>
+                      <h4 className="subheading md:text-2xl text-base font-semibold mb-3">{section.heading}</h4>
+                      {section.content.map((item, itemIndex) => (
+                        <p key={itemIndex} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              )}
+
+               {/* Conclusion */}
+               {currentBlog.conclusion && (
+                <div className="flex flex-col md:gap-5 gap-2 mt-4">
+                  <h4 className="subheading11 md:text-2xl text-base font-semibold">{currentBlog.conclusion.title}</h4>
                   {Array.isArray(currentBlog.conclusion.content) ? (
                     currentBlog.conclusion.content.map((item, index) => (
                       <p key={index} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
@@ -146,44 +173,18 @@ const Blogs = () => {
                   )}
                 </div>
               )}
-
-              {/* Benefits */}
-              {currentBlog.benefits && (
-                <div className="flex flex-col gap-5">
-                  {currentBlog.benefits.map((benefit, index) => (
-                    <div key={index}>
-                      <h4 className="subheading text-2xl font-semibold mb-4">{benefit.heading}</h4>
-                      <p dangerouslySetInnerHTML={{ __html: benefit.content.replace(/\n/g, '<br>') }} />
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              {/* Sections */}
-              {currentBlog.sections && (
-                <div className="flex flex-col gap-5">
-                  {currentBlog.sections.map((section, index) => (
-                    <div key={index}>
-                      <h4 className="subheading text-2xl font-semibold mb-3">{section.heading}</h4>
-                      {section.content.map((item, itemIndex) => (
-                        <p key={itemIndex} dangerouslySetInnerHTML={{ __html: item.replace(/\n/g, '<br>') }} />
-                      ))}
-                    </div>
-                  ))}
-                </div>
-              )}
             </div>
           )}
         </div>
 
         {/* Sidebar with Other Blog Posts */}
-        <div className="col-span-1">
+        <div className="md:col-span-1 md:ml-5">
           <h2 className="text-xl font-bold mb-4">Other Resources</h2>
           <div className="flex flex-col gap-4">
             {blogs.map(blog => (
-              <div key={blog.id} className={` transition flex items-center cursor-pointer ${blog.id === currentBlogId ? 'bg-gray-200 p-2 rounded' : ''}`} onClick={() => setCurrentBlogId(blog.id)}>
+              <div key={blog.id} className={` transition flex items-center cursor-pointer ${blog.id === currentBlogId ? 'bg-gray-300 p-2 rounded' : ''}`} onClick={() => setCurrentBlogId(blog.id)}>
                 <img src={blog.image} alt={blog.title} className="w-16 h-16 object-cover mr-4" />
-                <span className="font-semibold">{blog.title}</span>
+                <span className="font-semibold md:text-base text-sm">{blog.title}</span>
               </div>
             ))}
           </div>

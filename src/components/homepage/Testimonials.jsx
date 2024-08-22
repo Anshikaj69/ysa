@@ -7,13 +7,13 @@ const Testimonials = () => {
 
     return (
         <>
-            <Fade duration={1500} className='px-10 py-10  bg-[#B1977C]'>
+            <Fade duration={1500} className='px-4 md:px-10 md:py-10 py-5  bg-[#B1977C]'>
                 <Container>
-                    <div className="flex gap-10 flex-col">
+                    <div className="flex md:gap-10 gap-4 flex-col">
 
-                        <h1 className='text-white playfair-display-font font-bold 2xl:text-4xl text-3xl text-center'>Hear From Our Customers</h1>
-                        <div className="quote w-fit h-fit self-center ">
-                            <img src='/quote.svg' className='w-[90%] h-[90%] 2xl:w-full 2xl:h-full'></img>
+                        <h1 className='text-white playfair-display-font font-bold 2xl:text-4xl md:text-3xl text-xl text-center'>Hear From Our Customers</h1>
+                        <div className="quote w-fit h-fit self-center flex justify-center items-center">
+                            <img src='/quote.svg' className='w-[50%] h-[50%] md:w-[90%] md:h-[90%] 2xl:w-full 2xl:h-full'></img>
                         </div>
 
                         <Carousel className="rounded-xl overflow-hidden"
@@ -24,7 +24,7 @@ const Testimonials = () => {
                                     color="white"
                                     size="sm"
                                     onClick={handlePrev}
-                                    className="!absolute bottom-[2%] !left-[44%] -translate-y-2/4 bg-white hover:bg-gray-300 flex justify-center items-center rounded-3xl text-[#B1977C] text-center "
+                                    className="!absolute bottom-[2%] md:!left-[44%] left-[35%] md:h-11 md:w-11 h-6 w-6 -translate-y-2/4 bg-white hover:bg-gray-300 flex justify-center items-center rounded-3xl text-[#B1977C] text-center "
                                 >
                                     <svg
                                         width="13"
@@ -47,7 +47,7 @@ const Testimonials = () => {
                                     variant="text"
                                     size="sm"
                                     onClick={handleNext}
-                                    className="!absolute bottom-[2%] !right-[44%] -translate-y-2/4 bg-white hover:bg-gray-300 rounded-3xl text-[#B1977C] text-center "
+                                    className="!absolute bottom-[2%] md:!right-[44%] right-[35%] md:h-11 md:w-11 h-6 w-6  -translate-y-2/4 bg-white hover:bg-gray-300 rounded-3xl text-[#B1977C] text-center "
                                 >
                                     <svg
                                         width="13"
@@ -65,35 +65,35 @@ const Testimonials = () => {
                             )}
                             navigation={({ activeIndex, length }) => (
                                 <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2 text-white">
-                                    <div className="text-xl font-semibold">
-                                        <span className="text-2xl font-semibold">{activeIndex + 1}</span>/{length}
+                                    <div className="text-sm md:text-xl font-semibold">
+                                        <span className="md:text-2xl text-base font-semibold">{activeIndex + 1}</span>/{length}
                                     </div>
                                 </div>
                             )}
 
                         >
                             <div className=' flex justify-center'>
-                                <p className='text-white font-medium 2xl:text-lg text-center 2xl:max-w-4xl max-w-3xl '>
+                                <p className='text-white font-medium 2xl:text-lg md:text-base text-xs text-center 2xl:max-w-4xl max-w-3xl '>
                                     Outsourcing our customer support to Your Service Agent was the best decision we made for our company. Their team handled every inquiry with professionalism and efficiency, allowing us to focus on our core business. Highly recommend their services!
                                 </p>
                             </div>
                             <div className=' flex justify-center'>
-                                <p className='text-white font-medium 2xl:text-lg text-center 2xl:max-w-4xl max-w-3xl '>
+                                <p className='text-white font-medium 2xl:text-lg md:text-base text-xs text-center 2xl:max-w-4xl max-w-3xl '>
                                     We've been using Your Support Agent for our medical billing needs for over a year now, and the results have been outstanding. Their attention to detail and expertise in healthcare billing regulations have significantly improved our revenue cycle management. Couldn't be happier with their service!
                                 </p>
                             </div>
                             <div className='pb-20 flex justify-center'>
-                                <p className='text-white font-medium 2xl:text-lg text-center 2xl:max-w-4xl max-w-3xl '>
+                                <p className='text-white font-medium 2xl:text-lg md:text-base text-xs text-center 2xl:max-w-4xl max-w-3xl '>
                                     I was struggling to find the time and resources to develop a professional website for my business until I found Your Support Agent. Their web development team exceeded my expectations, delivering a stunning website that perfectly captures the essence of my brand. Thanks to them, my online presence has never been stronger.
                                 </p>
                             </div>
                             <div className='pb-10 flex justify-center'>
-                                <p className='text-white font-medium 2xl:text-lg text-center 2xl:max-w-4xl max-w-3xl '>
+                                <p className='text-white font-medium 2xl:text-lg md:text-base text-xs text-center 2xl:max-w-4xl max-w-3xl '>
                                     Your Support Agent has been instrumental in streamlining our payroll process. Their payroll outsourcing services are reliable and accurate, saving us time and eliminating the hassle of payroll management. It's been a game-changer for our HR department.
                                 </p>
                             </div>
                             <div className='pb-10 flex justify-center'>
-                                <p className='text-white font-medium 2xl:text-lg text-center 2xl:max-w-4xl max-w-3xl '>
+                                <p className='text-white font-medium 2xl:text-lg md:text-base text-xs text-center 2xl:max-w-4xl max-w-3xl '>
                                     We enlisted Your Support Agent to bolster our sales efforts, and they delivered exceptional results. Their sales team is proactive, knowledgeable, and skilled at closing deals. Our sales numbers have soared since partnering with them.
                                 </p>
                             </div>
@@ -104,14 +104,14 @@ const Testimonials = () => {
 
             {/* footer */}
             <Container>
-                <div className='mx-20 my-10 gap-10 flex flex-col justify-center items-center bg-[#253359] rounded-2xl py-10'>
+                <div className='md:mx-20 mx-5 md:my-10 my-6 md:gap-10 gap-3 flex flex-col justify-center items-center bg-[#253359] rounded-2xl nd:py-10 py-5'>
                     <Fade>
-                        <p className='2xl:text-2xl text-xl font-semibold text-white text-center max-w-md px-5'>Craft Your Dream Team With Us
+                        <p className='2xl:text-2xl text-base md:text-xl font-semibold text-white text-center max-w-md px-5'>Craft Your Dream Team With Us
                             to Excel Beyond Limits!
                         </p>
                     </Fade>
                     <Fade>
-                        <button className='hover:bg-[#e0efe3] border btn btn1 text-[#253359] bg-white rounded-3xl py-2.5 px-5 2xl:text-base text-sm w-fit'>Book a Call</button>
+                        <button className='hover:bg-[#e0efe3] border btn btn1 text-[#253359] bg-white rounded-3xl md:py-2.5 md:px-5 px-2 py-1 2xl:text-base text-sm w-fit'>Book a Call</button>
                     </Fade>
                 </div>
             </Container>
