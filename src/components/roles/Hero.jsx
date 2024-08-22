@@ -34,11 +34,11 @@ const Hero = ({ RoleName }) => {
                                 {heroSection.title}
                             </div>
                         </div>
-                        <div className="flex flex-col bg-black px-6 py-4 gap-2 absolute bottom-[-10%] left-[20%] rounded-xl text-white">
+                        <div className="flex flex-col bg-black px-6 py-4 gap-2 absolute bottom-[-10%] left-[18%] rounded-xl text-white ">
                             <p className='font-medium 2xl:text-sm md:text-xs'>Category :</p>
                             <p className=' 2xl:text-sm md:text-xs'>{snap.service}</p>
                         </div>
-                        <div className="flex flex-col bg-black px-6 py-4 gap-2 absolute bottom-[-10%] left-[35%] rounded-xl text-white">
+                        <div className="flex flex-col bg-black px-6 py-4 gap-2 absolute bottom-[-10%] left-[35%] rounded-xl text-white ">
                             <p className='font-medium 2xl:text-sm md:text-xs'>Role :</p>
                             <p className=' 2xl:text-sm md:text-xs'>{RoleName}</p>
                         </div>

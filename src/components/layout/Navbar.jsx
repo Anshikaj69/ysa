@@ -23,8 +23,8 @@ const Navbar = () => {
               <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
               <span onClick={() => handleLinkClick('/marketplace')} className='cursor-pointer font-semibold'>Marketing Service</span>
               <Link to='/#custom' className=' font-semibold   '>Custom Service</Link>
-              <Link to='/marketplace#aboutus' className=' font-semibold   '>About Us</Link>
-              <Link to='/#resources' className=' font-semibold   '>Resources</Link>
+              <Link to='/marketplace#aboutus' className='font-semibold'>About Us</Link>
+              <Link to='/resources' className=' font-semibold   '>Resources</Link>
               <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
             </nav>
             <div>

@@ -1,15 +1,18 @@
-import { Check } from 'lucide-react';
-import React, { useState, useRef, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import state from '../../store';
 import { useSnapshot } from 'valtio';
 import Container from '../layout/Container';
+
+import { Check, ArrowUpRight } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Fade } from 'react-awesome-reveal';
 import Tooltip from '@mui/material/Tooltip';
 import data from '../../utils/data.json';
 
 const Step2 = () => {
   const snap = useSnapshot(state);
+  const navigate = useNavigate()
+  const [selectedAgents, setSelectedAgents] = useState([]);
 
   const agentsList = [
     'Customer Support',
@@ -34,8 +37,6 @@ const Step2 = () => {
     'Remote Monitoring'
   ];
 
-  const [selectedAgents, setSelectedAgents] = useState([]);
-
   // Function to handle agent selection
   const handleAgentSelect = (agent) => {
     const currentIndex = selectedAgents.indexOf(agent);
@@ -48,7 +49,11 @@ const Step2 = () => {
     }
   };
 
-  // Render agents
+  const changeService = (item) => {
+    state.role = item
+    navigate(`/individual-roles/${item}`)
+  }
+
   const renderAgents = () => {
     const recommendedAgents = data[snap.service]?.services?.list.map(service => service.title) || [];
 
@@ -69,7 +74,7 @@ const Step2 = () => {
           <label
             key={index}
             className={`flex flex-col justify-center items-center border-2 relative rounded-lg  2xl:p-9 md:py-9 md:px-5 w-[100%] 
-          cursor-pointer bg-white transition-all ease-out
+          cursor-pointer bg-white transition-all ease-out overflow-hidden
           ${selectedAgents.includes(agent) ? 'border-[#CBAF85]' : 'border-[#F0F0F0]'} 
            ${isRecommended ? 'bg-[#ffc42127]' : 'bg-white'}`}
           >
@@ -79,6 +84,20 @@ const Step2 = () => {
             >
               <Check className='w-5 h-5 font-semibold text-white' />
             </Fade>
+
+            {/* more info */}
+            <div className="absolute w-full top-1 right-1 flex items-end justify-end">
+              <div className="flex gap-x-6 justify-center">
+                <button
+                  onClick={() => { changeService(agent) }}
+                  className="text-[#CBAF85] z-20 rounded-full flex "
+                >
+                  <Tooltip title='More Details'>
+                  <ArrowUpRight size={22}/>
+                  </Tooltip>
+                </button>
+              </div>
+            </div>
 
             <input
               type="checkbox"
