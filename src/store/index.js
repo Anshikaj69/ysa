@@ -3,7 +3,7 @@ import { proxy } from "valtio";
 const state = proxy({
     service : "MarketPlace",
     role: 'Customer Support',
-    plan: '',
+    plan: 'No package',
     agents: [{
         name: '',
         option: ''

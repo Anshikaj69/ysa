@@ -1,19 +1,18 @@
 import React from 'react'
-import { Contact } from '../components/layout'
-import {Navbar} from '../components/layout'
+import { Contact,  Footer } from '../components/layout'
+import { Process, Step1 ,Agents} from '../components/individual-roles'
+import { Step3 } from '../components/marketplace'
 
-import { useSnapshot } from 'valtio'
-import state from '../store'
-import { Hero, Perks } from '../components/individual-roles'
 
 const IndividualRoles = () => {
-  const snap = useSnapshot(state)
   return (
     <>
-    <Contact />
-    <Navbar />
-    <Hero RoleName={snap.role}/>
-    <Perks RoleName={snap.role}/>
+    <Contact /> 
+    <Agents />
+    <Process />
+    <Step1 />
+    <Step3 />
+    <Footer />
     </>
   )
 }

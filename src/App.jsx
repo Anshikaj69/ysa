@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import {Home, IndividualRoles, Marketplace} from './pages'
+import {Home, IndividualRoles, Marketplace, Roles} from './pages'
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -12,6 +11,7 @@ function App() {
          <Route path='/' element={<Home/>} />
          <Route path='/marketplace' element={<Marketplace/>} />
          <Route path='/individual-roles' element={<IndividualRoles/>} />
+         <Route path='/individual-roles/:role' element={<Roles/>} />
        </Routes>
     </div>
   )

@@ -1,6 +1,6 @@
 import React ,  { Suspense, lazy , useEffect}from 'react'
 import {Hero,  Testimonials} from '../components/homepage'
-import { Contact } from '../components/layout'
+import { Contact, Footer } from '../components/layout'
 
 const Solutions = lazy(() => import('../components/homepage/Solutions'));
 const Different = lazy(() => import('../components/homepage/Different'));
@@ -22,6 +22,7 @@ const Home = () => {
         <Different />
       </Suspense>
       <Testimonials/>
+      <Footer />
     </div>
   )
 }

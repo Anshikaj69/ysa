@@ -10,7 +10,7 @@ const Step1 = () => {
 
   const plans = [
     {
-      price: "$3500",
+      price: "$4500",
       features: [
         "N/A",
         "$100/mo.",
@@ -25,7 +25,7 @@ const Step1 = () => {
       ]
     },
     {
-      price: "$5500",
+      price: "$6500",
       features: [
         "$750/mo.",
         "FREE",
@@ -40,7 +40,7 @@ const Step1 = () => {
       ]
     },
     {
-      price: "$7500",
+      price: "$8500",
       features: [
         "$1000/mo.",
         "FREE",

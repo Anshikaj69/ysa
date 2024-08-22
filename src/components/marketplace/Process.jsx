@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Container from '../layout/Container';
-import { Fade, Slide } from 'react-awesome-reveal';
+import {  Slide } from 'react-awesome-reveal';
 
 
 const Process = () => {

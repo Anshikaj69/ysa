@@ -22,16 +22,15 @@ const Hero = ({ RoleName }) => {
     const { heroSection } = sectionData
     console.log(heroSection)
     return (
-        <div className="px-10 pt-6 pb-10 2xl:mt-20 md:mt-16">
+        <div className="px-10 pt-6 pb-8 2xl:mt-28 md:mt-24">
             <Container>
-
 
                 {/* banner */}
                 <div className="rounded-xl " >
-                    <div className="rounded-xl relative aspect-[16/9] md:aspect-[18/6]  bg-cover "
+                    <div className="rounded-xl relative aspect-[4/1] bg-cover bg-center "
                         style={{ backgroundImage: `url(${heroSection.image_url})` }}>
-                        <div className="h-full w-full flex flex-col justify-center items-center text-center gap-y-8 rounded-xl  backdrop-blur">
-                            <div className="font-semibold text-xl sm:text-2xl lg:text-3xl sm:max-w-3xl max-w-xs  ">
+                        <div className="h-full w-full flex flex-col justify-center items-center text-center gap-y-8 rounded-xl backdrop-brightness-50">
+                            <div className="font-medium text-xl sm:text-2xl sm:max-w-3xl max-w-xs  text-white">
                                 {heroSection.title}
                             </div>
                         </div>
@@ -45,11 +44,11 @@ const Hero = ({ RoleName }) => {
                         </div>
                         <div className="flex flex-col bg-black px-6 py-4 gap-2 absolute bottom-[-10%] left-[55%] rounded-xl text-white">
                             <p className='font-medium 2xl:text-sm md:text-xs'>Time :</p>
-                            <p className=' 2xl:text-sm md:text-xs'>{snap.service}</p>
+                            <p className=' 2xl:text-sm md:text-xs'>{heroSection.time}</p>
                         </div>
                         <div className="flex flex-col bg-black px-6 py-4 gap-2 absolute bottom-[-10%] left-[70%] rounded-xl text-white">
                             <p className='font-medium 2xl:text-sm md:text-xs'>Cost :</p>
-                            <p className=' 2xl:text-sm md:text-xs'>$300-$500</p>
+                            <p className=' 2xl:text-sm md:text-xs'>{heroSection.cost}</p>
                         </div>
                     </div>
                 </div>

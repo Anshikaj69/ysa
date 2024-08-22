@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <Container>
-        <div className='flex justify-between md:px-10 2xl:px-0 '>
+        <div className='flex justify-between md:px-10 2xl:px-0'>
           <div className='box-border'>
             <Link to='/'><img src='/logo.svg' alt='YSA LOGO' className='flex items-center md:h-[90%] md:w-[90%]'></img></Link>
           </div>

@@ -1,13 +1,13 @@
 {
     "Customer Support": {
         "heroSection": {
-            "image_url": "https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg",
+            "image_url": "https://images.pexels.com/photos/7682340/pexels-photo-7682340.jpeg?cs=srgb&dl=pexels-mikhail-nilov-7682340.jpg&fm=jpg",
             "title": "Offer unhindered support to your clients and address their queries with expert assistance to enhance customer satisfaction and engagement.",
-            "time" : "2/3 Days",
-            "cost" : "$300-$500"
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
         },
         "perks": {
-            "title": "Perks of Outsourcing <em>Customer Support</em>",
+            "title": "Perks of Outsourcing Customer Support",
             "list": [
                 {
                     "title": "24x7 Support",
@@ -28,7 +28,7 @@
             ]
         },
         "roles": {
-            "title": "<em>Customer Support</em> Roles",
+            "title": "Customer Support Roles",
             "description": "At Your Support Agent, we offer a variety of customer support roles to meet your business needs.",
             "list": [
                 {
@@ -71,17 +71,91 @@
             ]
         }
     },
-
-
+    "IT Support & Integration": {
+    "heroSection": {
+      "image_url": "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg",
+      "title": "Outsource experts who ensure that your systems run smoothly, securely, and efficiently, from managing day-to-day IT operations to integrating cutting-edge technologies.",
+      "time": "Hourly | Monthly",
+      "cost": "$7.50/hr | $1200/Mo."
+    },
+    "perks": {
+      "title": "Benefits of Outsourcing IT Support and Integration Services",
+      "list": [
+        {
+          "title": "Access to Expertise",
+          "description": "Benefit from the knowledge and experience of certified IT professionals who stay updated with the latest industry trends and technologies."
+        },
+        {
+          "title": "Scalability and Flexibility",
+          "description": "Scale your IT services as your business grows, without the hassle of hiring and training new staff."
+        },
+        {
+          "title": "Focus on Core Business",
+          "description": "Free up your internal resources to concentrate on strategic business activities while experts handle your IT needs."
+        },
+        {
+          "title": "Enhanced Security",
+          "description": "Protect your business from cyber threats with proactive security measures, ensuring your data remains safe and secure."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Common IT Support and Integration Roles",
+      "description": "At Your Support Agent, we offer a range of IT support and integration roles to ensure your systems operate efficiently and securely.",
+      "list": [
+        {
+          "title": "Help Desk Technicians",
+          "description": "Help Desk Technicians are the frontline support staff who handle immediate IT issues reported by end-users."
+        },
+        {
+          "title": "Network Administrators",
+          "description": "They are professionals responsible for managing and maintaining an organization’s network infrastructure. They ensure that networks are secure, reliable, and optimized for performance."
+        },
+        {
+          "title": "System Administrators",
+          "description": "System Administrators manage and oversee the organization’s servers and overall IT infrastructure."
+        },
+        {
+          "title": "IT Integration Specialists",
+          "description": "These specialists focus on integrating new systems, applications, and technologies into the existing IT infrastructure. They ensure seamless interoperability and alignment with business processes."
+        },
+        {
+          "title": "Cybersecurity Analysts",
+          "description": "Cybersecurity Analysts protect an organization’s IT systems from cyber threats. They monitor for security breaches, implement security protocols, and respond to incidents to minimize risk."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Proven Track Record",
+          "description": "With years of experience, we’ve successfully supported and integrated IT systems for companies across various industries."
+        },
+        {
+          "title": "Customer-Centric Approach",
+          "description": "We prioritize your needs and customize our services to align with your business goals."
+        },
+        {
+          "title": "24/7 Support",
+          "description": "Our dedicated support team is available around the clock to ensure your IT systems are always up and running."
+        },
+        {
+          "title": "Cutting-Edge Technology",
+          "description": "We leverage the latest technologies to provide innovative solutions that drive business growth."
+        }
+      ]
+    }
+  },
     "Sourcing Agent": {
         "heroSection": {
-            "image_url": "https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg",
+            "image_url": "https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041853.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724198400&semt=ais_hybrid",
             "title": "Handle supply chains with ease. Outsource sourcing agents from Your Support Agent, and streamline your sourcing processes by enhancing efficiency.",
-            "time" : "2/3 Days",
-            "cost" : "$300-$500"
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
         },
         "perks": {
-            "title": "Perks of Outsourcing <em>Sourcing Agent</em>",
+            "title": "Perks of Outsourcing Sourcing Agent",
             "list": [
                 {
                     "title": "Time and Cost Savings",
@@ -102,7 +176,7 @@
             ]
         },
         "roles": {
-            "title": "<em>Sourcing Agent</em> Roles",
+            "title": "Sourcing Agent Roles",
             "description": "At Your Support Agent, we offer a myriad of sourcing agent roles to meet your business needs. ",
             "list": [
                 {
@@ -157,16 +231,15 @@
             ]
         }
     },
-
     "Payroll": {
         "heroSection": {
-            "image_url": "https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg",
+            "image_url": "https://png.pngtree.com/thumb_back/fh260/background/20240418/pngtree-payroll-overtime-binder-data-finance-report-business-with-graph-analysis-in-image_15659965.jpg",
             "title": "Managing payroll can be complex and time-consuming, especially if you have employees in multiple locations. That’s where we come in. Our payroll outsourcing services allow you to focus on what matters most while we handle the details.",
-            "time" : "2/3 Days",
-            "cost" : "$300-$500"
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
         },
         "perks": {
-            "title": "Perks of Outsourcing <em>Payrollt</em>",
+            "title": "Perks of Outsourcing Payroll",
             "list": [
                 {
                     "title": "Optimize time",
@@ -191,7 +264,7 @@
             ]
         },
         "roles": {
-            "title": "<em>Payroll</em> Services Roles",
+            "title": "Payroll Services Roles",
             "description": "From tax compliance to handing out salaries, we offer a dynamic and diverse team of specialists tailor-made for our customer's demands. ",
             "list": [
                 {
@@ -241,5 +314,1321 @@
                 }
             ]
         }
+    },
+    "Medical Billing": {
+        "heroSection": {
+            "image_url": "https://cdn-ilambfh.nitrocdn.com/oGRdBFoFYscZNwJgpGFaQpzCcTlazuEe/assets/images/optimized/wp-content/uploads/2022/04/2a93f853c5b8738e0dfa473dfea71116.Ed2Go_Career_MedicalBilling_Main-min-1-1024x392.jpg",
+            "title": "Discover streamlined medical billing services with YSA. Our expertise lies in coding, compliance, and administrative tasks, thus supporting healthcare professionals in billing processes.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Medical Billing",
+            "list": [
+                {
+                    "title": "Cost Efficiency",
+                    "description": "Outsourcing medical billing will significantly reduce overhead costs associated with in-house billing staff, software, and the pre-requisite infrastructure."
+                },
+                {
+                    "title": "Expertise",
+                    "description": "Our team of trained professionals stays updated with industry changes and regulations. They bring in diverse expertise and technical know-how."
+                },
+                {
+                    "title": "Accuracy",
+                    "description": "Outsourcing minimizes the risks of billing errors which can lead to faster reimbursements and improved revenue cycles."
+                },
+                {
+                    "title": "Focus on Patient Care",
+                    "description": "Healthcare providers can concentrate on patient needs while leaving billing tasks to experts."
+                },
+                {
+                    "title": "Scalability",
+                    "description": "At YSA, data protection is our utmost priority. Be it sensitive employee information or payroll details, you can minimize the risk of breaches by choosing our payroll services."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Medical Billing Services Roles",
+            "description": "At YSA, our team of skilled medical billing professionals specializes in various aspects of the billing process.",
+            "list": [
+                {
+                    "title": "Medical Biller",
+                    "description": "They are responsible for preparing and submitting billing data and medical claims to insurance companies. They additionally ensure accurate patient information and handle invoices for medical procedures and services."
+                },
+                {
+                    "title": "Medical Coder",
+                    "description": "They translate medical services into billing codes and help ensure accurate claims submission."
+                },
+                {
+                    "title": "Collections Specialist",
+                    "description": "They monitor and collect delinquent accounts, establishing payment arrangements with patients and helping pursue outstanding balances."
+                },
+                {
+                    "title": "Insurance Claims Processor",
+                    "description": "These specialists handle insurance claims efficiently, ensuring timely payment for medical services."
+                },
+                {
+                    "title": "Referral Coordinator",
+                    "description": "They collect and review referrals and pre-authorizations, facilitating seamless billing processes."
+                },
+                {
+                    "title": "Accounts Receivable Clerk",
+                    "description": " These experts manage outstanding balances, follow up on late payments, and ensure revenue generation."
+                },
+                {
+                    "title": "Billing Compliance Officer",
+                    "description": "These officers help ensure adherence to legal and regulatory requirements. They also safeguard billing accuracy and ethical practices."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Tailor-made services",
+                    "description": "YSA seamlessly adapts to changing business needs.  Whether you’re a startup or a full-fledged business, you are given both flexibility and scalability to choose from."
+                },
+                {
+                    "title": "Compliance expertise",
+                    "description": "Our expert team will make sure that your billing process is in line with tax and labor laws. "
+                },
+                {
+                    "title": "Data-driven insights",
+                    "description": "You can streamline the selection process by gaining insights from user behavior, preferences, and reviews."
+                },
+                {
+                    "title": "Efficiency",
+                    "description": "Our expert team of medical billing specialists will streamline your billing process, saving time for your medical processes."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "Our platform allows you to choose from a diverse pool of skilled billing experts worldwide, thus bringing in expertise and efficiency."
+                }
+            ]
+        }
+    },
+    "Bookkeeping": {
+        "heroSection": {
+            "image_url": "https://akaunting.com/blog/wp-content/uploads/2022/12/finance-accounting-concept-business-woman-working-desk-using-calculator.jpg",
+            "title": "Unlock efficiency and optimize work experience by outsourcing bookkeeping services with YSA. Hire professionals with expertise in a myriad of services like accountants, tax specialists, etc.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Bookkeeping  Services",
+            "list": [
+                {
+                    "title": "Cost Efficiency",
+                    "description": "Hiring in-house staff can be cumbersome, with additional costs of training, salaries, and maintenance. Outsourcing gives you the leverage of getting trained technicians directly."
+                },
+                {
+                    "title": "Expertise",
+                    "description": "You can choose from a diverse pool of technicians who have work experience and exposure to the latest technologies."
+                },
+                {
+                    "title": "Accuracy",
+                    "description": "Professional bookkeepers reduce the chances of errors in data analytics and processing."
+                },
+                {
+                    "title": "Time Savings",
+                    "description": "Outsourcing bookkeeping services can free up your time so that you can focus on core business activities."
+                },
+                {
+                    "title": "Scalability",
+                    "description": "By easily adjusting services as per your business growth take control of the scale and quality of professionals."
+                },
+                {
+                    "title": "Security",
+                    "description": " Data protection and confidentiality are the core of bookkeeping services. Our team of professionals takes data security as their utmost priority."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Bookkeeping Services Roles",
+            "description": "At YSA, our team of skilled medical billing professionals specializes in various aspects of the billing process.",
+            "list": [
+                {
+                    "title": "Bookkeeper",
+                    "description": "The bookkeeper handles a plethora of day-to-day transactions, reconciliations, and financial records."
+                },
+                {
+                    "title": "Accountants",
+                    "description": "They analyze financial data, prepare reports, and provide strategic advice for optimum bookkeeping services."
+                },
+                {
+                    "title": "Tax Specialist",
+                    "description": "Tax specialists manage tax filings and ensure compliance with the latest tax norms."
+                },
+                {
+                    "title": "Financial Analyst",
+                    "description": "Financial analysts learn and analyze financial trends and provide respective insights."
+                },
+                {
+                    "title": "Payroll Specialist",
+                    "description": "Payroll specialist manages employee payroll and benefits that are entitled to employees."
+                },
+                {
+                    "title": "Controller",
+                    "description": "A controller oversees the company's financial operations and internal controls."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Tailor-made Solutions",
+                    "description": "YSA adapts seamlessly to your evolving business needs. Whether you’re a startup or an established business, enjoy flexibility and scalability."
+                },
+                {
+                    "title": "Compliance Mastery",
+                    "description": "Our expert team ensures your bookkeeping aligns with tax and labor laws, keeping your business compliant."
+                },
+                {
+                    "title": "Data-driven Decisions",
+                    "description": "Leverage user behavior, preferences, and reviews to streamline your selection process efficiently."
+                },
+                {
+                    "title": "Operational Efficiency",
+                    "description": "Our skilled bookkeeping specialists optimize billing processes, saving valuable time for your business operations."
+                },
+                {
+                    "title": "Global Talent",
+                    "description": "Choose from a diverse pool of skilled experts worldwide, bringing both expertise and efficiency to your business."
+                }
+            ]
+        }
+    },
+    "Lead Generation & Sales": {
+        "heroSection": {
+            "image_url": "https://static.vecteezy.com/system/resources/thumbnails/023/556/119/small_2x/lead-generation-business-growth-and-finance-concept-background-photo.jpg",
+            "title": "Unlock growth by signing in for our lead generation and sales services at YSA. We outsource SEO strategies, PPC campaigns, and ensure success through our compelling content.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Lead Generation and Sales Services",
+            "list": [
+                {
+                    "title": "Expertise",
+                    "description": "Our executive assistants are skilled in managing complex schedules, coordinating meetings across time zones, and handling communications with ease."
+                },
+                {
+                    "title": "Efficiency",
+                    "description": "Outsourcing can optimize your productivity by taking charge of administrative details, allowing you to focus on high-impact activities."
+                },
+                {
+                    "title": "Cost-Effective",
+                    "description": "No need for in-house hires. Our outsourced EAs provide top-notch support without the overhead of recruitment and management."
+                },
+                {
+                    "title": "Flexibility",
+                    "description": "Whether you need assistance for a specific project or ongoing support, we tailor our services to your unique needs."
+                },
+                {
+                    "title": "Security",
+                    "description": "Data protection and confidentiality are the core of lead generation and sales services. Our team of professionals takes data security as their utmost priority."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Lead Generation and Sales Services Roles",
+            "description": "At YSA, our team of skilled professionals specializes in various aspects of the lead generation and sales process.",
+            "list": [
+                {
+                    "title": "Lead Prospector",
+                    "description": "A lead prospector identifies potential leads through research and data analysis."
+                },
+                {
+                    "title": "Content Marketer",
+                    "description": "Content marketers create engaging content to attract and capture leads for your business."
+                },
+                {
+                    "title": "SEO Specialist",
+                    "description": "SEO Specialists optimize website content for search engines."
+                },
+                {
+                    "title": "PPC Analyst",
+                    "description": "PPC analysts help manage the pay-per-click advertising campaigns for your company."
+                },
+                {
+                    "title": "Email Marketer",
+                    "description": "Email marketers help craft effective email campaigns to nurture leads for your brand."
+                },
+                {
+                    "title": "Sales Representative",
+                    "description": "Sales representatives engage with leads, qualify prospects, and close deals."
+                },
+                {
+                    "title": "Account Executive",
+                    "description": "Account executives manage client relationships and engage in upselling products and services."
+                },
+                {
+                    "title": "Sales Manager",
+                    "description": "Sales managers oversee the sales team, set targets, and strategize sales growth for the team."
+                },
+                {
+                    "title": "Business Development Manager",
+                    "description": "Business development managers identify growth opportunities and build partnerships."
+                },
+                {
+                    "title": "Customer Success Manager",
+                    "description": "Customer success managers ensure client satisfaction post-sales."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Tailor-Made Solutions",
+                    "description": "YSA adapts seamlessly to your evolving business needs. Whether you’re a startup or an established business, enjoy flexibility and scalability."
+                },
+                {
+                    "title": "Compliance Mastery",
+                    "description": "Our expert team ensures your lead generation and sales services align with industry standards, keeping your business compliant."
+                },
+                {
+                    "title": "Data-Driven Decisions",
+                    "description": "Leverage user behavior, preferences, and reviews to streamline your selection process efficiently."
+                },
+                {
+                    "title": "Operational Efficiency",
+                    "description": "Our skilled professionals optimize lead generation and sales processes, saving valuable time for your business operations."
+                },
+                {
+                    "title": "Global Talent",
+                    "description": "Choose from a diverse pool of skilled experts worldwide, bringing both expertise and efficiency to your business."
+                }
+            ]
+        }
+    },
+    "Executive Assistance": {
+        "heroSection": {
+            "image_url": "https://media.licdn.com/dms/image/D4E12AQE1bS3y7eXmWA/article-cover_image-shrink_720_1280/0/1697836667371?e=2147483647&v=beta&t=FPVhs1r73qL51ZLZ5WUYyrktT_WMhIkfhz4YTwBb6Sg",
+            "title": "Streamline your executive workload by partnering with us. Outsource executive assistance services and ensure strategic growth in your business.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Executive Assistance",
+            "list": [
+                {
+                    "title": "Expert Assistance",
+                    "description": "Get field experts and ensure hassle-free work. Be it calendar management, communications, document drafting, or meetings, get it all done by outsourcing executive assistance."
+                },
+                {
+                    "title": "Save Costs",
+                    "description": "Outsourcing an executive assistant allows you to avoid expenses related to full-time employees, such as taxes, insurance, pensions, and leave."
+                },
+                {
+                    "title": "Wider Talent Pool",
+                    "description": "Get access to a diverse skill set by not limiting yourself to geographical constraints."
+                },
+                {
+                    "title": "Flexibility",
+                    "description": "By outsourcing, you get to choose support levels based on your urgent requirements. Whether it is a temporary increase during busy periods or scaling down during quieter times."
+                },
+                {
+                    "title": "Reduced Stress",
+                    "description": "Save yourself from the complexities of executive tasks and let executive assistants handle the workload."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Executive Assistance Roles",
+            "description": "At Your Support Agent, we offer a variety of executive support roles to meet your business needs.",
+            "list": [
+                {
+                    "title": "Executive Assistant (EA)",
+                    "description": "EAs provide comprehensive support to executives, managing their calendars, scheduling meetings, handling correspondence, and organizing travel arrangements."
+                },
+                {
+                    "title": "Executive Administrative Assistant",
+                    "description": "These professionals handle tasks for executives, including file management, document preparation, and project coordination."
+                },
+                {
+                    "title": "Senior Executive Assistant",
+                    "description": "They supervise other administrative staff, oversee office procedures, and coordinate special events or projects."
+                },
+                {
+                    "title": "Executive Assistant to the CEO",
+                    "description": "EAs in this position handle confidential matters, prepare reports, and manage the CEO’s schedule."
+                },
+                {
+                    "title": "Data Entry Executive",
+                    "description": "These officials input and manage data efficiently, ensuring data integrity and supporting decision-making processes across the organization."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Customizable Solutions",
+                    "description": "YSA tailors its services to your specific needs. Whether you require executive assistance, technical assistance, or specialized tasks, we adapt our offerings to align with your business goals."
+                },
+                {
+                    "title": "Security and Confidentiality",
+                    "description": "Our executive agents adhere to strict privacy protocols, ensuring that sensitive information remains protected."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Scalability",
+                    "description": "Our flexible solutions allow seamless scalability. You can hire executive agents as per your business needs."
+                }
+            ]
+        }
+    },
+    "Design & Graphics": {
+        "heroSection": {
+            "image_url": "https://wallpaperswide.com/download/god_is_graphic_designer-wallpaper-2560x1440.jpg",
+            "title": "Offer creative solutions to your clients and address their queries with expert assistance on design and graphics. Outsource Design and Graphics with Your Support Agent.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Design and Graphics",
+            "list": [
+                {
+                    "title": "Expert Specialization",
+                    "description": "Get creative designs and unique ideas for your business."
+                },
+                {
+                    "title": "24x7 Support",
+                    "description": "Get round-the-clock support for your design to ensure efficiency and productivity."
+                },
+                {
+                    "title": "Save Costs",
+                    "description": "Hire experts directly and save the excessive costs of getting an in-house team."
+                },
+                {
+                    "title": "Diverse Skill Set",
+                    "description": "With our design and graphics outsourcing services, you can break down exposure barriers and expand your global reach."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Design and Graphics Roles",
+            "description": "At Your Support Agent, we offer a myriad of design and graphic roles to meet your business needs.",
+            "list": [
+                {
+                    "title": "Graphic Designers",
+                    "description": "These professionals create visual content for various media, such as websites, advertisements, brochures, and logos."
+                },
+                {
+                    "title": "Illustrators",
+                    "description": "Illustrators specialize in creating hand-drawn or digital illustrations."
+                },
+                {
+                    "title": "UI/UX Designers",
+                    "description": "User Interface (UI) and User Experience (UX) designers focus on enhancing the usability and overall experience of digital products."
+                },
+                {
+                    "title": "Art Directors",
+                    "description": "Art directors oversee the creative direction, manage teams of designers, and balance aesthetics."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "Logistics & Operations": {
+        "heroSection": {
+            "image_url": "https://png.pngtree.com/background/20231101/original/pngtree-d-rendering-of-a-logistics-company-s-import-export-shipping-operations-picture-image_5835460.jpg",
+            "title": "Get consistent logistics and operations support by outsourcing services with Your Support Agent. Through third-party logistics providers, ensure efficiency and get a step ahead in your business.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Logistics and Operations",
+            "list": [
+                {
+                    "title": "24x7 Support",
+                    "description": "Outsourcing support services means round-the-clock support to your customers without the need to maintain a night shift team."
+                },
+                {
+                    "title": "Cost Savings",
+                    "description": "By outsourcing, you can reduce overall logistics costs, avoid infrastructure investments, and benefit from freight buying power."
+                },
+                {
+                    "title": "Flexibility and Agility",
+                    "description": "Outsourcing transforms fixed costs into variable costs, allowing you to adjust space and labor based on demand."
+                },
+                {
+                    "title": "Expertise and Specialization",
+                    "description": "Outsourcing allows you to tap into the expertise of professionals who specialize in logistics and supply chain management."
+                },
+                {
+                    "title": "Risk Mitigation",
+                    "description": "Third-party logistics providers (3PLs) lower the risks like handling, delays, damages, and compliance."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Logistics and Operations Roles",
+            "description": "From inventory to communication, at Your Support Agent, we offer a plethora of logistics and operations roles.",
+            "list": [
+                {
+                    "title": "Logistics Operations Support",
+                    "description": "These professionals handle day-to-day logistics tasks like inventory management and order processing."
+                },
+                {
+                    "title": "Logistics Assistants",
+                    "description": "They support logistics processes, including coordination and communication with carriers and suppliers."
+                },
+                {
+                    "title": "Logistics Executives",
+                    "description": "These executives are responsible for strategic planning and optimizing supply chain efficiency."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "Human Resources": {
+        "heroSection": {
+            "image_url": "https://images.pexels.com/photos/4344860/pexels-photo-4344860.jpeg?cs=srgb&dl=pexels-edmond-dantes-4344860.jpg&fm=jpg",
+            "title": "Get the best human resource personnel and handle operating costs with ease. From payroll administration to performance evaluations, we’ve got you covered, so you can concentrate on driving organizational success.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Human Resources",
+            "list": [
+                {
+                    "title": "Cost Savings",
+                    "description": "Allow your business to avoid the overhead costs of maintaining an internal HR team."
+                },
+                {
+                    "title": "Efficiency and Focus",
+                    "description": "Hire HR experts directly and delegate administrative tasks to them such as payroll, benefits, and compliance."
+                },
+                {
+                    "title": "Expertise and Compliance",
+                    "description": "Our expert professionals stay updated on industry best practices ensuring compliance, thus reducing the risk of penalties."
+                },
+                {
+                    "title": "Scalability",
+                    "description": "Whether it’s recruitment, employee onboarding, or talent management, external providers offer flexibility and scalability."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Human Resource Roles",
+            "description": "Human resource management requires expertise within a variety of roles. At Your Support Agent, we outsource streamlined HR services for personnel management.",
+            "list": [
+                {
+                    "title": "Payroll Specialists",
+                    "description": "They are responsible for accurate and timely payroll processing, tax calculations, and compliance with wage laws."
+                },
+                {
+                    "title": "Benefits Administrators",
+                    "description": "These administrators manage employee benefits, including health insurance, retirement plans, and other perks."
+                },
+                {
+                    "title": "Recruitment and Talent Acquisition Specialists",
+                    "description": "These professionals handle sourcing, screening, and hiring new employees to ensure a seamless onboarding process."
+                },
+                {
+                    "title": "Employee Relations Managers",
+                    "description": "Focused on maintaining positive employee experiences, they address workplace issues, conflicts, and employee engagement."
+                },
+                {
+                    "title": "HR Compliance Officers",
+                    "description": "These officers are responsible for ensuring adherence to labor laws, safety regulations, and company policies."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "Content Writer": {
+        "heroSection": {
+            "image_url": "https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg",
+            "title": "Avail outsourced content writing services and get access to quality content aligned with your brand standards.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Content Writer",
+            "list": [
+                {
+                    "title": "Time-Saving",
+                    "description": "Get experienced writers who can create engaging blog posts for your business."
+                },
+                {
+                    "title": "High-Quality Work",
+                    "description": "Professional content writers have expertise and thus avoid common mistakes like keyword stuffing and grammar errors."
+                },
+                {
+                    "title": "Cost-Effective",
+                    "description": "Outsourcing is more affordable than hiring an in-house writer. Pay only for subject-matter experts you need at reasonable prices."
+                },
+                {
+                    "title": "Wider Talent Pool",
+                    "description": "Get access to a diverse skill set by not limiting yourself to geographical constraints."
+                },
+                {
+                    "title": "Flexibility",
+                    "description": "By outsourcing, you get to choose support levels based on your urgent requirements, whether it is a temporary increase during busy periods or scaling down during quieter times."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Content Writer Roles",
+            "description": "At Your Support Agent, we offer a variety of Content Writer roles through which you can optimize your audience engagement.",
+            "list": [
+                {
+                    "title": "Blog Writer",
+                    "description": "Blog writers specialize in crafting engaging blog posts, articles, and opinion pieces."
+                },
+                {
+                    "title": "Copywriter",
+                    "description": "Copywriters create persuasive content for marketing materials, advertisements, product descriptions, and promotional campaigns."
+                },
+                {
+                    "title": "Technical Writer",
+                    "description": "They excel in explaining complex topics in a clear, user-friendly manner."
+                },
+                {
+                    "title": "Social Media Content Creator",
+                    "description": "These experts create content for platforms like Instagram, Twitter, and Facebook. They understand social media trends, hashtags, and audience preferences."
+                },
+                {
+                    "title": "SEO Content Specialist",
+                    "description": "These specialists create content that ranks well on search engines, incorporating relevant keywords and maintaining readability."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "3D Animation & Rendering": {
+        "heroSection": {
+            "image_url": "https://png.pngtree.com/background/20230827/original/pngtree-low-poly-gaming-city-in-cartoon-style-3d-render-with-isolated-picture-image_4839880.jpg",
+            "title": "Tap into existing 3D animation studios by outsourcing animation studios with our team of experts.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing 3D Animation & Rendering",
+            "list": [
+                {
+                    "title": "Time and Cost Savings",
+                    "description": "Outsourcing allows you to avoid the time-consuming process of hiring individual artists and benefit from cost-effective solutions."
+                },
+                {
+                    "title": "Experience and Quality Assurance",
+                    "description": "Animation studios have extensive experience in various trends and cutting-edge tools. This ensures high-quality results without significant capital investment."
+                },
+                {
+                    "title": "Access to Specialized Skills",
+                    "description": "By outsourcing, you can get access to a pool of skilled professionals like concept artists, modelers, animators, and more."
+                },
+                {
+                    "title": "Efficiency and Quick Turnaround",
+                    "description": "Outsourcing streamlines the production pipeline, resulting in faster project completion."
+                },
+                {
+                    "title": "Superior Quality",
+                    "description": "Animation outsourcing studios create visually stunning 3D animations that captivate audiences."
+                }
+            ]
+        },
+        "roles": {
+            "title": "3D Animation & Rendering Roles",
+            "description": "At Your Support Agent, we offer skilled professionals with the expertise to ensure realistic, detailed renders.",
+            "list": [
+                {
+                    "title": "3D Animator",
+                    "description": "Collaborates with the animation team to create visually appealing 3D animations. Interprets creative briefs and implements engaging animation sequences."
+                },
+                {
+                    "title": "Concept Artist",
+                    "description": "Develops visual concepts, character designs, and environments. Their work sets the foundation for the animation process."
+                },
+                {
+                    "title": "Modeler",
+                    "description": "Creates 3D models of characters, objects, or environments. They focus on accuracy, topology, and texture mapping."
+                },
+                {
+                    "title": "Rigger",
+                    "description": "Sets up the skeletal structure for characters, enabling realistic movement. Rigging ensures smooth animation."
+                },
+                {
+                    "title": "Lighting and Rendering Artist",
+                    "description": "Enhances scenes with proper lighting and applies rendering techniques to produce the final visual output."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "Video Editor": {
+        "heroSection": {
+            "image_url": "https://wallpaperaccess.com/full/4215920.jpg",
+            "title": "Get timely delivery of polished videos and scale up your business by outsourcing video editors.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Video Editor",
+            "list": [
+                {
+                    "title": "Cost Efficiency and Budget Flexibility",
+                    "description": "Pay only for the editing services you need and eliminate the need for costly hardware and software."
+                },
+                {
+                    "title": "Access to a Global Talent Pool of Video Editors",
+                    "description": "Outsourcing opens the door to professional video editors with diverse skills and creative insights."
+                },
+                {
+                    "title": "Creative Expertise",
+                    "description": "Outsourced video editors often bring fresh perspectives and creative ideas to your content."
+                },
+                {
+                    "title": "Efficient Turnaround",
+                    "description": "Professional video editors work efficiently, meeting deadlines, especially for time-sensitive projects."
+                },
+                {
+                    "title": "Focus on Core Competencies",
+                    "description": "By outsourcing video editing, your in-house team can concentrate on their core tasks—whether it’s content creation, marketing, or other strategic activities."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Video Editor Roles",
+            "description": "At Your Support Agent, we offer skilled and efficient video editors to meet your company's creative needs.",
+            "list": [
+                {
+                    "title": "Content Developer",
+                    "description": "Content developers create web content, including articles, photos, and SEO-optimized material."
+                },
+                {
+                    "title": "Video Content Creator",
+                    "description": "These professionals develop and share entertaining videos online and manage metrics and equipment."
+                },
+                {
+                    "title": "Film Editor",
+                    "description": "They shape longer-form productions like movies by editing visual and sound elements."
+                },
+                {
+                    "title": "Multimedia Designer",
+                    "description": "These designers craft visual content for websites, presentations, and marketing materials."
+                },
+                {
+                    "title": "Broadcast Engineer",
+                    "description": "They ensure the smooth operation of broadcasting equipment, like video editing systems."
+                },
+                {
+                    "title": "Animator",
+                    "description": "These professionals create moving images using animation software for various purposes."
+                },
+                {
+                    "title": "Videographers",
+                    "description": "They capture video footage for events, documentaries, or promotional videos."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "Debt Collection": {
+        "heroSection": {
+            "image_url": "https://png.pngtree.com/thumb_back/fh260/background/20230321/pngtree-the-debt-and-loan-concept-with-businesswoman-debt-and-loan-concept-photo-image_1995535.jpg",
+            "title": "Outsource third-party debt collection agencies to handle delinquent borrowers with Your Support Agent.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Debt Collection",
+            "list": [
+                {
+                    "title": "Lower Delinquency Rates",
+                    "description": "Get access to well-trained agents who function as your full-time staff."
+                },
+                {
+                    "title": "Lesser Collection Costs",
+                    "description": "Outsourcing firms allow you to manage recruitment, hiring, training, and employee management, thus saving costs."
+                },
+                {
+                    "title": "Saves Collection Time",
+                    "description": "By outsourcing, your in-house employees have more room to focus on other important tasks, such as revenue generation."
+                },
+                {
+                    "title": "Boosts Productivity and Revenue",
+                    "description": "With debt collection handled externally, your team can concentrate on reaching business goals, improving customer experiences, and building brand loyalty."
+                },
+                {
+                    "title": "Increases Collection Rate",
+                    "description": "Experienced professionals in debt collection agencies enhance recovery rates, ensuring more efficient and effective debt collection."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Debt Collection Roles",
+            "description": "We have a myriad of debt collection specialists, with expertise in converting debts into assets.",
+            "list": [
+                {
+                    "title": "Collections Specialist",
+                    "description": "Collection specialists are responsible for monitoring accounts, contacting debtors, and encouraging timely payments."
+                },
+                {
+                    "title": "Legal Collections Specialist",
+                    "description": "These experts focus on the legal aspects of debt recovery."
+                },
+                {
+                    "title": "Healthcare Collections Specialist",
+                    "description": "They deal specifically with medical debts."
+                },
+                {
+                    "title": "Accounts Receivable Collections Specialist",
+                    "description": "These manage overdue payments of individuals and businesses."
+                },
+                {
+                    "title": "Credit Controller",
+                    "description": "These professionals ensure compliance with credit policies and procedures."
+                },
+                {
+                    "title": "Loan Officer",
+                    "description": "These officers evaluate loan applications and assist borrowers."
+                },
+                {
+                    "title": "Debt Recovery Agent",
+                    "description": "These agents work to recover outstanding debts from individuals or businesses."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "Data Entry": {
+        "heroSection": {
+            "image_url": "https://img.freepik.com/free-photo/closeup-hands-using-computer-laptop-with-screen-showing-analysis-data_53876-23014.jpg",
+            "title": "Ensure efficient and accurate processing of data by outsourcing data entry roles at Your Support Agent.",
+            "time": "Hourly | Monthly",
+            "cost": "$7.50/hr | $1200/Mo."
+        },
+        "perks": {
+            "title": "Perks of Outsourcing Data Entry",
+            "list": [
+                {
+                    "title": "Cost Savings",
+                    "description": "Outsourcing data entry tasks reduces expenses by eliminating the need to hire and train in-house employees."
+                },
+                {
+                    "title": "Access to Expertise",
+                    "description": "Outsourcing data entry specialists employ skilled professionals who specialize in data entry."
+                },
+                {
+                    "title": "Focus on Core Activities",
+                    "description": "By outsourcing, your business can concentrate on core functions like product development and customer service."
+                },
+                {
+                    "title": "Scalability",
+                    "description": "Outsourcing provides flexibility. You can adjust the level of outsourcing as your data entry needs fluctuate."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "Service providers use cutting-edge tools for data entry, ensuring efficiency and compliance with industry standards."
+                }
+            ]
+        },
+        "roles": {
+            "title": "Data Entry Roles",
+            "description": "At Your Support Agent, we offer a variety of Data Entry Roles to meet your business needs.",
+            "list": [
+                {
+                    "title": "Virtual Assistant",
+                    "description": "They manage administrative tasks like scheduling, data entry, and email handling."
+                },
+                {
+                    "title": "Data Entry Specialist",
+                    "description": "These professionals input and manage data in various systems and databases."
+                },
+                {
+                    "title": "Data Processing Clerk",
+                    "description": "They process and organize data to ensure accuracy and completeness."
+                },
+                {
+                    "title": "Database Administrator",
+                    "description": "Database Administrators oversee database systems, ensuring data integrity and security."
+                },
+                {
+                    "title": "Data Verification Specialist",
+                    "description": "These specialists verify the accuracy of entered data and correct discrepancies."
+                },
+                {
+                    "title": "Document Management Specialist",
+                    "description": "They handle document organization and maintenance, ensuring easy retrieval and secure storage."
+                }
+            ]
+        },
+        "whyus": {
+            "title": "Why Choose YSA?",
+            "advantages": [
+                {
+                    "title": "Intuitive Platform",
+                    "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+                },
+                {
+                    "title": "Advanced Technology",
+                    "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+                },
+                {
+                    "title": "Quality Assurance",
+                    "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+                },
+                {
+                    "title": "Global Reach",
+                    "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+                }
+            ]
+        }
+    },
+    "Social Media Manager": {
+    "heroSection": {
+      "image_url": "https://media.istockphoto.com/id/1367616997/photo/customer-feedback-experience-review-concept.jpg?s=612x612&w=0&k=20&c=oJH44hrjDvZadw2YWiR1bt7QDRiNoHBqn1g-lvhTyNc=",
+      "title": "From updated social media trends to strategies for brand management, handle your social media by outsourcing skilled professionals.",
+      "time": "Hourly | Monthly",
+      "cost": "$7.50/hr | $1200/Mo."
+    },
+    "perks": {
+      "title": "Perks of Outsourcing Social Media Manager",
+      "list": [
+        {
+          "title": "Access to Expertise",
+          "description": "When you outsource social media management, you gain access to a team of professionals who specialize in social media marketing."
+        },
+        {
+          "title": "Time and Resource Savings",
+          "description": "By outsourcing, you free up your time to focus on other critical aspects of your business, such as product development and customer service."
+        },
+        {
+          "title": "Scalability",
+          "description": "As social media needs change, you can adjust the level of outsourcing without constraints."
+        },
+        {
+          "title": "Cost-Effectiveness",
+          "description": "Outsourcing eliminates the need for in-house training and software investment."
+        },
+        {
+          "title": "Wider Talent Pool",
+          "description": "Get access to a diverse skill set by not limiting yourself to geographical constraints."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Social Media Management Roles",
+      "description": "At Your Support Agent, we offer a variety of social media management roles to level up your engagement with the audience and optimize your social media handles.",
+      "list": [
+        {
+          "title": "Social Media Manager",
+          "description": "These managers are responsible for planning, developing, and implementing social media strategies. They engage with customers, analyze campaigns, and stay updated on trends."
+        },
+        {
+          "title": "Community Manager",
+          "description": "Similar to a social media manager, a community manager focuses on engaging with the audience and building community online."
+        },
+        {
+          "title": "Social Media Marketing Manager",
+          "description": "The social media Marketing Manager oversees content strategies, engagement data analysis, and digital campaign planning."
+        },
+        {
+          "title": "Copywriter",
+          "description": "Copywriters create engaging and persuasive content for social media platforms."
+        },
+        {
+          "title": "Brand Manager",
+          "description": "Brand Managers oversee brand consistency and messaging across social channels."
+        },
+        {
+          "title": "Digital Strategist",
+          "description": "These strategists develop and execute digital marketing strategies, including social media campaigns."
+        },
+        {
+          "title": "Blogger",
+          "description": "Bloggers manage a blog or contribute to content creation on social platforms."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Intuitive Platform",
+          "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+        },
+        {
+          "title": "Advanced Technology",
+          "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+        },
+        {
+          "title": "Global Reach",
+          "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+        }
+      ]
     }
+  },
+  "Virtual Receptionist": {
+    "heroSection": {
+      "image_url": "https://blog.mytelly.in/wp-content/uploads/2021/06/Advantages-Of-Having-Virtual-Receptionist.jpg",
+      "title": "Upscale your business by ensuring fast, consistent, and effective customer service. Hire an outsourced team of virtual receptionists to handle queries.",
+      "time": "Hourly | Monthly",
+      "cost": "$7.50/hr | $1200/Mo."
+    },
+    "perks": {
+      "title": "Perks of Outsourcing Virtual Receptionist",
+      "list": [
+        {
+          "title": "Improved Customer Service",
+          "description": "Virtual receptionists handle inquiries, leaving your other employees to focus on their primary tasks."
+        },
+        {
+          "title": "More Flexibility for Entrepreneurs and Small Business Owners",
+          "description": "By reaping the benefits of a virtual receptionist, your start-up can free up valuable time."
+        },
+        {
+          "title": "Cost Savings",
+          "description": "Outsourcing receptionist duties to a virtual receptionist allows your in-house staff to focus on core business tasks."
+        },
+        {
+          "title": "Professional Image",
+          "description": "Virtual receptionists create a professional first impression for your business."
+        },
+        {
+          "title": "Scalability",
+          "description": "As your business grows, virtual receptionists can easily adapt to increased call volumes."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Virtual Receptionist Roles",
+      "description": "At Your Support Agent, we offer a variety of virtual receptionist roles to meet your business needs.",
+      "list": []
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Intuitive Platform",
+          "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+        },
+        {
+          "title": "Advanced Technology",
+          "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+        },
+        {
+          "title": "Global Reach",
+          "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+        }
+      ]
+    }
+  },
+  "Virtual Administrative Assistant": {
+    "heroSection": {
+      "image_url": "https://www.retailbiz.com.au/wp-content/uploads/2023/05/OpEd-Three-keys-to-mastering-conversational-AI-iStock-1459555134.jpg",
+      "title": "Ensure effective engagement with customers and allocation of resources by outsourcing virtual administrative assistants.",
+      "time": "Hourly | Monthly",
+      "cost": "$7.50/hr | $1200/Mo."
+    },
+    "perks": {
+      "title": "Perks of Outsourcing Virtual Administrative Assistant",
+      "list": [
+        {
+          "title": "Cost Savings",
+          "description": "By hiring skilled virtual assistants, you avoid the costs associated with full-time in-house employees."
+        },
+        {
+          "title": "Increased Efficiency and Productivity",
+          "description": "Virtual assistants handle routine administrative tasks, such as email management, data entry, scheduling, and document preparation."
+        },
+        {
+          "title": "Access to Specialized Skills",
+          "description": "VAs are highly skilled professionals who can assist with a wide range of tasks, from administrative work to social media management."
+        },
+        {
+          "title": "Flexibility and Scalability",
+          "description": "Outsourcing to virtual assistants provides flexibility without the constraints of traditional hiring processes."
+        },
+        {
+          "title": "Focus on Core Business Activities",
+          "description": "Delegating administrative tasks to virtual assistants allows you to concentrate on strategic initiatives, innovation, and customer engagement."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Virtual Administrative Assistant Roles",
+      "description": "At Your Support Agent, we offer a variety of Virtual Administrative Assistant roles to meet your business needs.",
+      "list": [
+        {
+          "title": "General Virtual Assistant (GVA)",
+          "description": "GVAs handle various administrative tasks such as email management, scheduling, and basic customer service, serving as the backbone of daily operations for their clients."
+        },
+        {
+          "title": "Executive Virtual Assistant",
+          "description": "These assistants provide high-level administrative support to executives."
+        },
+        {
+          "title": "Virtual Personal Assistant",
+          "description": "These assistants help with scheduling personal appointments, travel planning, online shopping, and personal finance management."
+        },
+        {
+          "title": "Virtual Project Manager",
+          "description": "From inception to completion, these managers ensure deadlines are met and objectives are achieved, all while working remotely."
+        },
+        {
+          "title": "Virtual Legal Assistant",
+          "description": "These agents support law firms and legal departments with document preparation, research, and other legal processes."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Intuitive Platform",
+          "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+        },
+        {
+          "title": "Advanced Technology",
+          "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+        },
+        {
+          "title": "Global Reach",
+          "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+        }
+      ]
+    }
+  },
+  "Remote Monitoring": {
+    "heroSection": {
+      "image_url": "https://media.istockphoto.com/id/890157172/photo/in-the-security-control-room-officer-monitors-multiple-screens-for-suspicious-activities-hes.jpg?s=612x612&w=0&k=20&c=J6IoGIXwlbi00ivvAVAYS3ZsP1AO7OMxJ2lEb-_BA6I=",
+      "title": "Eliminate the need to hire in-house professionals. Get skilled remote monitoring specialists and meet your business needs by outsourcing.",
+      "time": "Hourly | Monthly",
+      "cost": "$7.50/hr | $1200/Mo."
+    },
+    "perks": {
+      "title": "Perks of Outsourcing Remote Monitoring",
+      "list": [
+        {
+          "title": "Cost Savings",
+          "description": "Outsourcing reduces expenses related to staffing, training, and infrastructure."
+        },
+        {
+          "title": "Expertise and Efficiency",
+          "description": "Specialized providers offer efficient data analysis and help maintain the infrastructure of your business."
+        },
+        {
+          "title": "Risk Mitigation",
+          "description": "Outsourcing minimizes errors and enhances patient safety while maximizing efficiency."
+        },
+        {
+          "title": "Wider Talent Pool",
+          "description": "Get access to a diverse skill set by not limiting yourself to geographical constraints."
+        },
+        {
+          "title": "Flexibility",
+          "description": "By outsourcing, you get to choose support levels based on your urgent requirements. Whether it is a temporary increase during busy periods or scaling down during quieter times."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Remote Monitoring Roles",
+      "description": "At Your Support Agent, we offer a variety of remote monitoring roles to help scale up your business.",
+      "list": [
+        {
+          "title": "Remote Monitoring Specialist",
+          "description": "These experts manage patient data from remote devices and additionally educate patients on device usage."
+        },
+        {
+          "title": "Telehealth Coordinator",
+          "description": "These specialists schedule and coordinate telehealth appointments."
+        },
+        {
+          "title": "Remote Patient Monitoring Technician",
+          "description": "These technicians install and maintain monitoring devices and ensure data transmission."
+        },
+        {
+          "title": "Telemedicine Nurse",
+          "description": "These health professionals conduct virtual patient assessments. They also educate patients on treatment plans."
+        },
+        {
+          "title": "Clinical Data Analyst",
+          "description": "These specialists analyze healthcare data and support evidence-based decision-making."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Intuitive Platform",
+          "description": "Our platform is streamlined and allows businesses to navigate and choose their services/agents easily."
+        },
+        {
+          "title": "Advanced Technology",
+          "description": "We leverage the latest technology and tools to provide efficient and effective support to businesses that partner with us."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Our rigorous quality assurance processes ensure that the agents we onboard are experts in their respective fields."
+        },
+        {
+          "title": "Global Reach",
+          "description": "With a global network of support agents, we can provide multilingual and 24/7 support, helping you cater to customers across different time zones and regions."
+        }
+      ]
+    }
+  }
+
 }

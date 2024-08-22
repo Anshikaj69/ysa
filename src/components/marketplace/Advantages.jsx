@@ -25,7 +25,7 @@ const Advantages = ({ sectionName }) => {
 
   const changeService = (item) => {
     state.role = item
-    navigate('/individual-roles')
+    navigate(`/individual-roles/${item}`)
   }
 
   return (
