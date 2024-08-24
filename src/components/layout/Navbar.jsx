@@ -29,7 +29,6 @@ const Navbar = () => {
               <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
               <span onClick={() => handleLinkClick('/marketplace')} className='cursor-pointer font-semibold'>Marketing Service</span>
               <Link to='/#custom' className=' font-semibold   '>Custom Service</Link>
-              <Link to='/marketplace#aboutus' className='font-semibold'>About Us</Link>
               <Link to='/careers' className=' font-semibold '>Careers</Link>
               <Link to='/resources' className=' font-semibold   '>Resources</Link>
               <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
@@ -66,7 +65,6 @@ const Navbar = () => {
           <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
           <span onClick={() => handleLinkClick('/marketplace')} className='cursor-pointer font-semibold'>Marketing Service</span>
           <Link to='/#custom' onClick={() => handleLinkClick('/#custom')} className='font-semibold'>Custom Service</Link>
-          <Link to='/marketplace#aboutus' onClick={() => handleLinkClick('/marketplace#aboutus')} className='font-semibold'>About Us</Link>
           <Link to='/resources' onClick={() => handleLinkClick('/resources')} className='font-semibold'>Resources</Link>
           <Link to='/careers' className=' font-semibold '>Careers</Link>
           <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
