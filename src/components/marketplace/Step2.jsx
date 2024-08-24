@@ -9,33 +9,33 @@ import { Fade } from 'react-awesome-reveal';
 import Tooltip from '@mui/material/Tooltip';
 import data from '../../utils/data.json';
 
+export const agentsList = [
+  'Customer Support',
+  'IT Support & Integration',
+  'Sourcing Agent',
+  'Payroll',
+  'Medical Billing',
+  'Bookkeeping',
+  'Lead Generation & Sales',
+  'Executive Assistance',
+  'Design & Graphics',
+  'Logistics & Operations',
+  'Human Resources',
+  'Content Writer',
+  '3D Animation & Rendering',
+  'Video Editor',
+  'Debt Collection',
+  'Data Entry',
+  'Social Media Manager',
+  'Virtual Receptionist',
+  'Virtual Administrative Assistant',
+  'Remote Monitoring'
+];
+
 const Step2 = () => {
   const snap = useSnapshot(state);
   const navigate = useNavigate()
   const [selectedAgents, setSelectedAgents] = useState([]);
-
-  const agentsList = [
-    'Customer Support',
-    'IT Support & Integration',
-    'Sourcing Agent',
-    'Payroll',
-    'Medical Billing',
-    'Bookkeeping',
-    'Lead Generation & Sales',
-    'Executive Assistance',
-    'Design & Graphics',
-    'Logistics & Operations',
-    'Human Resources',
-    'Content Writer',
-    '3D Animation & Rendering',
-    'Video Editor',
-    'Debt Collection',
-    'Data Entry',
-    'Social Media Manager',
-    'Virtual Receptionist',
-    'Virtual Administrative Assistant',
-    'Remote Monitoring'
-  ];
 
   // Function to handle agent selection
   const handleAgentSelect = (agent) => {

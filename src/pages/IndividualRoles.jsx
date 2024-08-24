@@ -8,10 +8,10 @@ const IndividualRoles = () => {
   return (
     <>
     <Contact /> 
-    <Agents />
     <Process />
     <Step1 />
     <Step3 />
+    <Agents />
     <Footer />
     </>
   )

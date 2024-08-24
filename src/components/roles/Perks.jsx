@@ -50,7 +50,7 @@ let count2 =0
             {roles.list.map((role) => {
               count1+=1;
               return (
-                <h3 className='flex gap-1 text-xs xl:text-sm md:text-nowrap max-w-[95%]'><strong className='font-semibold text-wrap'>{count1}. {role.title}:</strong>{role.description}</h3>
+                <h3 className='flex gap-1 text-xs xl:text-sm  max-w-[95%]'><strong className='font-semibold text-wrap md:text-nowrap'>{count1}. {role.title}:</strong>{role.description}</h3>
               )
             })}
           

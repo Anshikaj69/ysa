@@ -1,4 +1,4 @@
-import {Home, IndividualRoles, Marketplace, Roles, Resources} from './pages'
+import {Home, IndividualRoles, Marketplace, Roles, Resources, Careers} from './pages'
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -12,6 +12,7 @@ function App() {
          <Route path='/individual-roles' element={<IndividualRoles/>} />
          <Route path='/individual-roles/:role' element={<Roles/>} />
          <Route path='/resources' element={<Resources/>} />
+         <Route path='/careers' element={<Careers/>} />
        </Routes>
     </div>
   )

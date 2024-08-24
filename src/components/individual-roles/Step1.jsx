@@ -1,42 +1,25 @@
-import { Check } from 'lucide-react';
+import { ArrowUpRight, Check } from 'lucide-react';
 import React, { useState, useRef, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import state from '../../store';
-import { useSnapshot } from 'valtio';
 import Container from '../layout/Container';
 import { Fade } from 'react-awesome-reveal';
+import { useNavigate } from 'react-router-dom';
+import roleData from '../../utils/roleData.json'
+import { Tooltip } from '@mui/material';
 
-import Tooltip from '@mui/material/Tooltip';
-import data from '../../utils/data.json'
 
 const Step1 = () => {
-  const snap = useSnapshot(state);
-
-  const agentsList = [
-    'Customer Support',
-    'IT Support & Integration',
-    'Sourcing Agent',
-    'Payroll',
-    'Medical Billing',
-    'Bookkeeping',
-    'Lead Generation & Sales',
-    'Executive Assistance',
-    'Design & Graphics',
-    'Logistics & Operations',
-    'Human Resources',
-    'Content Writer',
-    '3D Animation & Rendering',
-    'Video Editor',
-    'Debt Collection',
-    'Data Entry',
-    'Social Media Manager',
-    'Virtual Receptionist',
-    'Virtual Administrative Assistant',
-    'Remote Monitoring'
-  ];
-
   const [selectedAgents, setSelectedAgents] = useState([]);
   const [agentOptions, setAgentOptions] = useState({});
+  const navigate = useNavigate()
+  const agentsList = Object.keys(roleData);
+
+
+  const changeService = (item) => {
+    state.role = item
+    navigate(`/individual-roles/${item}`)
+  }
 
   // Function to handle agent selection
   const handleAgentSelect = (agent) => {
@@ -59,23 +42,23 @@ const Step1 = () => {
   };
 
   // render agents
-
   const renderAgents = () => {
 
     return agentsList.map((agent, index) => {
 
       return (
         <label
-            key={index}
-            className={`flex flex-col justify-center items-center border-2 relative rounded-lg  2xl:p-9 md:py-9 md:px-5 w-[100%] py-6 px-2 
-          cursor-pointer bg-white transition-all ease-out
-          ${selectedAgents.includes(agent) ? 'border-[#CBAF85]' : 'border-[#F0F0F0]'} `}
-          >
+          key={index}
+          className={` border-2 relative rounded-lg 
+          cursor-pointer bg-white transition-all ease-out overflow-hidden bg-cover bg-center
+          ${selectedAgents.includes(agent) ? 'border-[#97bebc]' : 'border-[#F0F0F0]'} `}
+          style={{ backgroundImage: `url(${roleData[agent].heroSection.image_url})` }}
+        >
+          <div className="flex flex-col justify-center items-center  2xl:p-9 md:py-9 md:px-5 py-6 px-2 backdrop-blur-[2px] backdrop-brightness-50 w-full h-full">
             {/* small check box */}
             <Fade
-              className={`md:w-5 md:h-5 h-4 w-4 mr-2 absolute top-1 left-1 flex items-center justify-center transition-all ease-in  rounded ${selectedAgents.includes(agent) ? 'bg-[#CBAF85]' : 'bg-white border-2'}`}
-            >
-              <Check className='w-5 h-5 font-semibold text-white' />
+              className={`md:w-5 md:h-5 h-4 w-4 mr-2 absolute top-1 left-1 flex items-center justify-center transition-all ease-in  rounded ${selectedAgents.includes(agent) ? 'bg-[#97bebc]' : 'bg-white border-2'}`}>
+              <Check className='w-5 h-5 font-semibold text-white' strokeWidth={3} />
             </Fade>
 
             <input
@@ -84,12 +67,13 @@ const Step1 = () => {
               checked={selectedAgents.includes(agent)}
               onChange={() => handleAgentSelect(agent)}
             />
+
             <Fade>
-              <p className="2xl:text-base xl:text-sm md:text-xs text-[11px] font-semibold text-[#253359] text-center uppercase">{agent}</p>
+              <p className="2xl:text-base xl:text-sm md:text-xs text-[10px] font-semibold text-white text-center uppercase">{agent}</p>
             </Fade>
             {selectedAgents.includes(agent) && (
               <Fade>
-                <div className={`mt-2 flex flex-col gap-2 items-start justify-start transition-all ${selectedAgents.includes(agent) ? 'max-h-20 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
+                <div className={`mt-2 flex flex-col gap-2 items-start justify-start transition-all text-white ${selectedAgents.includes(agent) ? 'max-h-20 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
                   <label className="md:text-xs text-[10px] flex items-center justify-center gap-1">
                     <input
                       type="radio"
@@ -115,7 +99,23 @@ const Step1 = () => {
                 </div>
               </Fade>
             )}
-          </label>
+
+            {/* more info */}
+            <div className="md:w-5 md:h-5 h-4 w-4 absolute top-[2px] md:right-1 right-[2px] flex items-center justify-center bg-white rounded border-gray-200 border-2 ">
+              <div className="flex gap-x-6 justify-center">
+                <button
+                  onClick={() => { changeService(agent) }}
+                  className="text-black z-20 rounded-full flex "
+                >
+                  <Tooltip title='More Details'>
+                    <ArrowUpRight className='md:h-5 md:w-5 h-[16px] w-[16px]' />
+                  </Tooltip>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </label>
 
       )
     }
@@ -125,7 +125,7 @@ const Step1 = () => {
   // handle submit
 
   const handleSubmit = () => {
-  
+
     if (selectedAgents.length < 3) {
       alert('Please select at least 3 agents.');
       return;
@@ -157,21 +157,18 @@ const Step1 = () => {
 
 
   return (
-    <div className="md:py-20 md:px-10 py-8 px-4 bg-[#F4F3F1]">
+    <div className="md:py-10 md:px-10 py-8 px-4 bg-[#f6f6f6]">
       <Container>
-        <div className="flex flex-col w-full justify-between items-center md:gap-6 gap-2.5" >
-          <p className="bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl 2xl:text-base md:text-sm text-xs w-fit" id='step2'>STEP 1</p>
+        <div className="flex flex-col w-full justify-between items-center md:gap-3 gap-1" >
+          <p className="bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl md:text-sm text-xs w-fit" id='step2'>STEP 1</p>
           <Fade>
-            <h1 className="text-[#253359] 2xl:text-5xl md:text-4xl text-xl font-bold playfair-display-font">
+            <h1 className="text-[#253359]  md:text-4xl text-lg font-bold playfair-display-font">
               Our Range of <span className="italic">Individual</span> Agents
             </h1>
           </Fade>
           <div className="items-center flex flex-col" >
             <Fade>
-              <h4 className="text-[#253359] 2xl:text-2xl md:text-xl text-sm font-semibold">Choose 3 Service Agents</h4>
-            </Fade>
-            <Fade>
-              <h5 className="text-[#253359] 2xl:text-base text-sm font-semibold">Includes success manager</h5>
+              <h4 className="text-[#253359]  md:text-lg text-sm font-semibold">Choose Multiple Service Agents</h4>
             </Fade>
           </div>
 

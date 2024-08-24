@@ -3,7 +3,7 @@ import Calendar from 'react-calendar'
 import './Calendar.css';
 import state from '../../store';
 import { useSnapshot } from 'valtio';
-import { BookingForm } from '../Form';
+import { BookingForm } from './Form';
 import Container from '../layout/Container';
 import { Fade } from 'react-awesome-reveal';
 
@@ -89,7 +89,7 @@ const step3 = () => {
 
           <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl 2xl:text-base md:text-sm text-xs w-fit' id='step3'>STEP 3</p>
           <Fade>
-            <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl text-xl font-bold playfair-display-font'>Schedule a Call on the Calendar</h1>
+            <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl text-xl font-bold playfair-display-font text-center '>Schedule a Call on the Calendar</h1>
           </Fade>
 
           <div className='bg-white md:mt-10 mt-5 md:pt-10 pt-6 2xl:px-20 md:px-14 px-4 flex flex-col justify-between md:gap-10 gap-14 md:pb-10 pb-6'>

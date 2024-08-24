@@ -30,6 +30,7 @@ const Navbar = () => {
               <span onClick={() => handleLinkClick('/marketplace')} className='cursor-pointer font-semibold'>Marketing Service</span>
               <Link to='/#custom' className=' font-semibold   '>Custom Service</Link>
               <Link to='/marketplace#aboutus' className='font-semibold'>About Us</Link>
+              <Link to='/careers' className=' font-semibold '>Careers</Link>
               <Link to='/resources' className=' font-semibold   '>Resources</Link>
               <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
             </nav>
@@ -67,8 +68,9 @@ const Navbar = () => {
           <Link to='/#custom' onClick={() => handleLinkClick('/#custom')} className='font-semibold'>Custom Service</Link>
           <Link to='/marketplace#aboutus' onClick={() => handleLinkClick('/marketplace#aboutus')} className='font-semibold'>About Us</Link>
           <Link to='/resources' onClick={() => handleLinkClick('/resources')} className='font-semibold'>Resources</Link>
-          <Link to='/marketplace#pricing' onClick={() => handleLinkClick('/marketplace#pricing')} className='font-semibold'>Pricing</Link>
-        </nav>
+          <Link to='/careers' className=' font-semibold '>Careers</Link>
+          <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
+          </nav>
       </div>
     </>
   );
