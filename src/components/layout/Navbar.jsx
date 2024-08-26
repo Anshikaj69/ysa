@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import Container from './Container';
 import { Menu } from 'lucide-react';
+import state from '../../store'
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -25,10 +26,13 @@ const Navbar = () => {
           </div>
           <div className='gap-12 items-center hidden md:flex'>
             <nav className='flex gap-5 items-center text-[#253359] 2xl:text-sm md:text-xs'>
-              <Link to='/#industries' className=' font-semibold'>Industries</Link>              
+              <Link to='/#industries' className=' font-semibold'>Industries</Link>
               <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
-              <span onClick={() => handleLinkClick('/marketplace')} className='cursor-pointer font-semibold'>Marketing Service</span>
-              <Link to='/#custom' className=' font-semibold   '>Custom Service</Link>
+              <span onClick={() => {
+                state.service = 'Marketing'
+                handleLinkClick('/marketplace')
+              }} className='cursor-pointer font-semibold'>Marketing Service</span>
+              <Link to='/custom-services' className=' font-semibold   '>Custom Service</Link>
               <Link to='/careers' className=' font-semibold '>Careers</Link>
               <Link to='/resources' className=' font-semibold   '>Resources</Link>
               <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
@@ -63,12 +67,15 @@ const Navbar = () => {
         <nav className="flex flex-col items-center justify-start space-y-5 pt-20 text-white ">
           <Link to='/#industries' onClick={() => handleLinkClick('/#industries')} className='font-semibold'>Industries</Link>
           <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
-          <span onClick={() => handleLinkClick('/marketplace')} className='cursor-pointer font-semibold'>Marketing Service</span>
-          <Link to='/#custom' onClick={() => handleLinkClick('/#custom')} className='font-semibold'>Custom Service</Link>
+          <span onClick={() => {
+            state.service = 'Marketing'
+            handleLinkClick('/marketplace')
+          }} className='cursor-pointer font-semibold'>Marketing Service</span>
+          <Link to='/custom-services' className=' font-semibold   '>Custom Service</Link>
           <Link to='/resources' onClick={() => handleLinkClick('/resources')} className='font-semibold'>Resources</Link>
           <Link to='/careers' className=' font-semibold '>Careers</Link>
           <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
-          </nav>
+        </nav>
       </div>
     </>
   );

@@ -13,8 +13,9 @@ const Step1 = () => {
   const [selectedAgents, setSelectedAgents] = useState([]);
   const [agentOptions, setAgentOptions] = useState({});
   const navigate = useNavigate()
-  const agentsList = Object.keys(roleData);
+  const excludeList = ['Web Development', 'App Development', 'Blockchain', '3D Animations', 'Bot Design'];
 
+  const agentsList = Object.keys(roleData).filter(service => !excludeList.includes(service));
 
   const changeService = (item) => {
     state.role = item

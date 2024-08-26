@@ -1629,6 +1629,410 @@
         }
       ]
     }
+  },
+  "Web Development": {
+    "heroSection": {
+      "image_url": "https://png.pngtree.com/thumb_back/fh260/background/20231004/pngtree-a-conceptual-illustration-of-web-design-development-and-seo-optimization-in-image_13584944.png",
+      "title": "Outsource Excellence in Web Development for All Your Digital Needs",
+      "time": "Hourly | Monthly",
+      "cost": "$8.00/hr | $1500/Project"
+    },
+    "perks": {
+      "title": "Benefits of Outsourcing Web Development Services",
+      "list": [
+        {
+          "title": "Access to Expertise",
+          "description": "Benefit from the skills and knowledge of seasoned web developers with diverse industry experience."
+        },
+        {
+          "title": "Cost-Effective Solutions",
+          "description": "Reduce overhead costs related to recruitment, training, and salaries by outsourcing web development."
+        },
+        {
+          "title": "Better Efficiency",
+          "description": "Accelerate project timelines and ensure quality results with experienced developers."
+        },
+        {
+          "title": "Scalability and Flexibility",
+          "description": "Easily adjust your project's scope and size according to your business needs, without long-term commitments."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Common Web Development Roles",
+      "description": "At Your Support Agent, we offer a range of web development roles to ensure your digital success.",
+      "list": [
+        {
+          "title": "Web Developers",
+          "description": "Write code, optimize performance, and ensure the functionality of your website."
+        },
+        {
+          "title": "Web Designers",
+          "description": "Achieve the desired visual results and maintain aesthetics for a seamless user experience."
+        },
+        {
+          "title": "Testers",
+          "description": "Identify and fix errors, bugs, and usability issues early in the development process."
+        },
+        {
+          "title": "Database Managers",
+          "description": "Maintain databases to ensure data integrity, security, and efficient retrieval."
+        },
+        {
+          "title": "UI/UX Designers",
+          "description": "Design user-friendly interfaces focused on usability and accessibility."
+        },
+        {
+          "title": "Project Managers",
+          "description": "Plan and manage tasks, timelines, and resources to ensure successful project execution."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Customization Options",
+          "description": "Tailor your support services, branding, and communication channels to your business needs."
+        },
+        {
+          "title": "Data-Driven Insights",
+          "description": "Leverage user behavior, preferences, and web analytics for informed decision-making."
+        },
+        {
+          "title": "Security Measures",
+          "description": "Our developers follow robust security protocols, ensuring data protection and a safe website experience."
+        },
+        {
+          "title": "Global Reach",
+          "description": "Choose from a diverse pool of skilled web developers worldwide, bringing expertise and efficiency."
+        }
+      ]
+    }
+  },
+  "App Development": {
+    "heroSection": {
+      "image_url": "https://www.imcgrupo.com/wp-content/uploads/2021/06/Overview-of-the-Main-Challenges-in-Mobile-App-Development-01.png",
+      "title": "Outsource Custom App Development for Seamless User Experiences",
+      "time": "Hourly | Monthly",
+      "cost": "$10.00/hr | $2000/Project"
+    },
+    "perks": {
+      "title": "Benefits of Outsourcing App Development Services",
+      "list": [
+        {
+          "title": "Access to Expert Developers",
+          "description": "Work with experienced developers skilled in creating robust apps for iOS, Android, and cross-platform solutions."
+        },
+        {
+          "title": "Cost Efficiency",
+          "description": "Save on costs associated with in-house development, including recruitment, training, and infrastructure."
+        },
+        {
+          "title": "Faster Time-to-Market",
+          "description": "Speed up the development process with a dedicated team, ensuring your app reaches the market quickly."
+        },
+        {
+          "title": "Scalability",
+          "description": "Easily scale your app’s features and functionalities as your business grows."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Common App Development Roles",
+      "description": "We offer a variety of roles to ensure your app is built to meet your business goals.",
+      "list": [
+        {
+          "title": "iOS Developers",
+          "description": "Specialize in building apps for Apple devices, ensuring top performance on iOS."
+        },
+        {
+          "title": "Android Developers",
+          "description": "Create Android apps optimized for a wide range of devices, ensuring accessibility and performance."
+        },
+        {
+          "title": "Cross-Platform Developers",
+          "description": "Develop apps that run seamlessly across multiple platforms, providing consistent user experiences."
+        },
+        {
+          "title": "UI/UX Designers",
+          "description": "Design intuitive interfaces that enhance user engagement and satisfaction."
+        },
+        {
+          "title": "Quality Assurance Testers",
+          "description": "Ensure your app is bug-free, user-friendly, and performs well across all devices."
+        },
+        {
+          "title": "Project Managers",
+          "description": "Oversee the app development process, from initial concept to final deployment."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Tailored Solutions",
+          "description": "We create apps that are customized to meet your specific business needs."
+        },
+        {
+          "title": "Comprehensive Support",
+          "description": "From development to post-launch support, we’re with you every step of the way."
+        },
+        {
+          "title": "Cutting-Edge Technology",
+          "description": "Our developers use the latest tools and technologies to build innovative apps."
+        },
+        {
+          "title": "Global Talent",
+          "description": "Access a global pool of talented developers who bring diverse skills and expertise."
+        }
+      ]
+    }
+  },
+  "Blockchain": {
+    "heroSection": {
+      "image_url": "https://www.saratechnologies.com/images/cryptocurrency-wallet-development-bg.jpg",
+      "title": "Redefine Your Business with Top-Tier Blockchain Solutions",
+      "time": "Hourly | Monthly",
+      "cost": "$15.00/hr | $3000/Project"
+    },
+    "perks": {
+      "title": "Benefits of Outsourcing Blockchain Services",
+      "list": [
+        {
+          "title": "Smart Contracts",
+          "description": "Automate and enforce agreements with smart contracts, minimizing risks and streamlining processes."
+        },
+        {
+          "title": "Global Talent Pool",
+          "description": "Access a diverse pool of blockchain experts from around the world to find the perfect match for your needs."
+        },
+        {
+          "title": "Cost Efficiency",
+          "description": "Achieve significant cost savings with reduced overheads and streamlined processes."
+        },
+        {
+          "title": "Transparency",
+          "description": "Gain complete visibility into your blockchain transactions with our transparent platform."
+        },
+        {
+          "title": "Security",
+          "description": "Ensure your data and intellectual property are securely encrypted and protected."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Blockchain Services by Your Support Agent",
+      "description": "Explore our range of blockchain services designed to meet your specific needs.",
+      "list": [
+        {
+          "title": "Blockchain Developers",
+          "description": "Specialize in building decentralized applications (DApps) and smart contracts."
+        },
+        {
+          "title": "Crypto Advisors",
+          "description": "Provide strategic advice on cryptocurrency investments and blockchain integration."
+        },
+        {
+          "title": "Blockchain Architects",
+          "description": "Design the architecture of blockchain solutions, ensuring scalability and security."
+        },
+        {
+          "title": "Security Analysts",
+          "description": "Protect your blockchain applications from cyber threats with robust security measures."
+        },
+        {
+          "title": "Project Managers",
+          "description": "Oversee the development and implementation of blockchain projects."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Innovation at Its Core",
+          "description": "We are at the forefront of blockchain technology, offering innovative solutions for your business."
+        },
+        {
+          "title": "Trust and Transparency",
+          "description": "Our platform is built on trust, providing complete transparency in every transaction."
+        },
+        {
+          "title": "Security First",
+          "description": "We prioritize the security of your data and intellectual property in all our blockchain services."
+        },
+        {
+          "title": "Global Reach",
+          "description": "Access blockchain experts from around the world, ensuring you get the best talent for your project."
+        }
+      ]
+    }
+  },
+  "3D Animations": {
+    "heroSection": {
+      "image_url": "https://t4.ftcdn.net/jpg/08/19/52/99/360_F_819529930_CG175ISaYnv1ib8zlsRINUAgGEii5HAr.jpg",
+      "title": "Create Stunning Visuals with Our 3D Animation Services",
+      "time": "Hourly | Monthly",
+      "cost": "$20.00/hr | $4000/Project"
+    },
+    "perks": {
+      "title": "Benefits of Outsourcing 3D Animation Services",
+      "list": [
+        {
+          "title": "High-Quality Visuals",
+          "description": "Bring your ideas to life with top-tier 3D animations that captivate and engage audiences."
+        },
+        {
+          "title": "Cost-Effective Solutions",
+          "description": "Outsource 3D animation to reduce costs without compromising on quality."
+        },
+        {
+          "title": "Expert Animators",
+          "description": "Work with skilled animators who specialize in creating stunning visual experiences."
+        },
+        {
+          "title": "Customized Solutions",
+          "description": "Get animations tailored to your brand and project requirements."
+        },
+        {
+          "title": "Faster Turnaround",
+          "description": "Accelerate production timelines with a dedicated team of animation experts."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Common 3D Animation Roles",
+      "description": "Our 3D animation services cover a wide range of roles to meet your project needs.",
+      "list": [
+        {
+          "title": "3D Modelers",
+          "description": "Create detailed 3D models that serve as the foundation for your animations."
+        },
+        {
+          "title": "Animators",
+          "description": "Bring 3D models to life with smooth, realistic animations."
+        },
+        {
+          "title": "Texture Artists",
+          "description": "Enhance 3D models with textures that add depth and realism."
+        },
+        {
+          "title": "Rigging Artists",
+          "description": "Prepare 3D models for animation by creating skeletons that allow movement."
+        },
+        {
+          "title": "Lighting and Rendering Artists",
+          "description": "Create the final look of the animation with lighting, shadows, and rendering techniques."
+        },
+        {
+          "title": "Project Managers",
+          "description": "Coordinate all aspects of the 3D animation process, ensuring timely and quality delivery."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Creative Excellence",
+          "description": "Our animators are artists at heart, bringing creativity and innovation to every project."
+        },
+        {
+          "title": "Tailored Solutions",
+          "description": "We customize our animation services to meet the specific needs of your brand."
+        },
+        {
+          "title": "Advanced Technology",
+          "description": "We use cutting-edge software and tools to create animations that stand out."
+        },
+        {
+          "title": "Global Talent Pool",
+          "description": "Access a diverse team of talented animators from around the world."
+        }
+      ]
+    }
+  },
+  "Bot Design": {
+    "heroSection": {
+      "image_url": "https://bpract.com/wp-content/uploads/2023/09/ai.webp",
+      "title": "Automate Your Business with Custom Bot Design",
+      "time": "Hourly | Monthly",
+      "cost": "$12.00/hr | $2500/Project"
+    },
+    "perks": {
+      "title": "Benefits of Outsourcing Bot Design Services",
+      "list": [
+        {
+          "title": "Enhanced Customer Interaction",
+          "description": "Automate customer service, sales, and more with intelligent bots designed to engage and assist."
+        },
+        {
+          "title": "Cost Savings",
+          "description": "Reduce labor costs by automating repetitive tasks with custom bots."
+        },
+        {
+          "title": "Expert Developers",
+          "description": "Work with developers who specialize in creating bots tailored to your business needs."
+        },
+        {
+          "title": "Scalability",
+          "description": "Easily scale bot functionalities as your business grows."
+        },
+        {
+          "title": "Improved Efficiency",
+          "description": "Streamline operations and improve efficiency with bots that work around the clock."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Common Bot Design Roles",
+      "description": "Our bot design services include various roles to create efficient and effective bots.",
+      "list": [
+        {
+          "title": "Bot Developers",
+          "description": "Create bots that automate tasks, interact with customers, and integrate with your systems."
+        },
+        {
+          "title": "AI Specialists",
+          "description": "Implement artificial intelligence to make your bots smarter and more responsive."
+        },
+        {
+          "title": "UX/UI Designers",
+          "description": "Design user-friendly interfaces for bots that enhance the customer experience."
+        },
+        {
+          "title": "Integration Experts",
+          "description": "Ensure your bots seamlessly integrate with existing systems and software."
+        },
+        {
+          "title": "Project Managers",
+          "description": "Manage the bot design process from concept to deployment, ensuring timely and successful delivery."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Choose YSA?",
+      "advantages": [
+        {
+          "title": "Tailored Solutions",
+          "description": "We design bots specifically for your business needs, ensuring maximum impact."
+        },
+        {
+          "title": "Advanced Technology",
+          "description": "We use the latest technologies to create intelligent and efficient bots."
+        },
+        {
+          "title": "Proven Expertise",
+          "description": "Our team has a proven track record of successful bot design and implementation."
+        },
+        {
+          "title": "Global Reach",
+          "description": "Access a global pool of bot designers and developers to get the best talent for your project."
+        }
+      ]
+    }
   }
 
 }

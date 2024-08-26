@@ -15,13 +15,13 @@ const Process = () => {
           </Slide>
           <div className='flex flex-col md:flex-row w-[95%] md:gap-[3%] gap-4 items-center justify-center'>
 
-            <div className='bg-[#F4F3F1] flex md:gap-7 gap-3  2xl:py-10 md:py-7 xl:py-8 p-3 rounded-2xl justify-center items-center 2xl:w-[31%] md:w-[29%]'>
+            <div className='bg-[#F4F3F1] flex md:gap-7 gap-3  2xl:py-10 md:py-7 xl:py-8 p-3 rounded-2xl justify-center items-center '>
               <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-xs md:text-sm w-fit'>STEP 1</p>
               <p className='text-[#253359] text-center font-semibold text-sm md:text-lg'>Choose individual<br /> Agents</p>
               <img src='/step2.svg' className='h-10 md:h-14'/>
             </div>
 
-            <div className='bg-[#D4DFED] flex md:gap-7 gap-3 2xl:py-10 md:py-7 xl:py-8  p-3 rounded-2xl justify-center items-center 2xl:w-[31%] md:w-[29%]'>
+            <div className='bg-[#D4DFED] flex md:gap-7 gap-3 2xl:py-10 md:py-7 xl:py-8  p-3 rounded-2xl justify-center items-center  '>
               <p className='bg-[#8AA1A0] text-white font-semibold py-1 px-3 rounded-2xl text-xs md:text-sm w-fit'>STEP 2</p>
               <p className='text-[#253359] text-center font-semibold text-sm md:text-lg'>Schedule a Call on <br /> the Calendar</p>
               <img src='/step3.svg' className='h-10 md:h-14'/>

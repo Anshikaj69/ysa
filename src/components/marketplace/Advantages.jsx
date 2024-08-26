@@ -74,9 +74,11 @@ const Advantages = ({ sectionName }) => {
                     <h4 className='text-[#253359] 2xl:text-lg md:text-sm text-xs font-semibold text-left text-wrap md:w-[10%]'>{item.title}</h4>
                     <p className='text-[#253359] 2xl:text-base md:text-xs text-xs font-medium text-left pt-1 text-wrap md:w-[70%]'>{item.description}</p>
                     
+                    {snap.service !== 'Marketing' && 
                     <p className='text-[#BA7C44] 2xl:text-base text-xs font-medium md:self-center mr-2 cursor-pointer'
                     onClick={()=> changeService(item.title)}
                     >Read More</p>
+                    }
                   </div>
                 ))}
               </div>

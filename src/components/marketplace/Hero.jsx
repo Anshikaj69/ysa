@@ -4,10 +4,12 @@ import { Navbar } from '../layout'
 import data from '../../utils/data.json'
 import Container from '../layout/Container';
 import { Fade, Slide } from 'react-awesome-reveal';
+import { Skeleton } from '@mui/material';
 
 const Hero = ({ sectionName }) => {
 
   const [sectionData, setSectionData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true); 
 
   useEffect(() => {
     if (data[sectionName]) {
@@ -20,6 +22,12 @@ const Hero = ({ sectionName }) => {
   useEffect(()=>{
     window.scrollTo(0,0)
   },[])
+
+  
+  const handleImageLoad = () => {
+    setIsLoading(false); 
+  };
+
 
   if (!sectionData) return <div>Loading...</div>;
 
@@ -40,8 +48,11 @@ const Hero = ({ sectionName }) => {
             </Slide>
           </div>
           <div className='img-container 2xl:w-[46%] md:w-[45%]  xl:w-[50%] flex items-center'>
+          {isLoading && (
+              <Skeleton variant="rounded" width={2048} height={268} sx={{ bgcolor: 'grey.200' }}/>
+        )}
             <Fade>
-              <img src='/alibaba.svg' className='w-fit h-fit'></img>
+              <img src='/alibaba.svg' className='w-fit h-fit' onLoad={handleImageLoad} ></img>
             </Fade>
           </div>
         </div>
