@@ -28,21 +28,21 @@ const Navbar = () => {
       description:
         "Empower Your Business with Our Expert Support",
       link: '/',
-      icon: <LightbulbIcon size={19}/>
+      icon: <LightbulbIcon size={19} />
     },
     {
       title: "Resources",
       description:
         "Explore Valuable Resources to Enhance Your Success",
       link: '/resources',
-      icon: <BookOpenText size={19}/>
+      icon: <BookOpenText size={19} />
     },
     {
       title: "Careers",
       description:
         "Become a Part of Our Dynamic Team",
       link: '/careers',
-      icon: <LucideAreaChart size={19}/>
+      icon: <LucideAreaChart size={19} />
     }
   ]
 
@@ -52,97 +52,97 @@ const Navbar = () => {
       description:
         "Custom Webiste and Mobile Apps",
       link: '/custom-services',
-      icon: <FileJson2Icon size={18}/>
+      icon: <FileJson2Icon size={18} />
     },
     {
       title: "Bespoke Marketing",
       description:
         "Tailored Marketing Strategy to Enhance Your Success",
       link: '/custom-services',
-      icon: <NotebookPenIcon size={18}/>
+      icon: <NotebookPenIcon size={18} />
     },
     {
       title: "Blockchain",
       description:
         "Revolutionize Your Business with Blockchain",
       link: '/individual-roles/Blockchain',
-      icon: <BlocksIcon size={18}/>
+      icon: <BlocksIcon size={18} />
     },
     {
       title: "3D Animation & Rendering",
       description:
         "Bring Your Vision to Life in Stunning 3D",
       link: '/individual-roles/3D Animations',
-      icon: <BoxesIcon size={18}/>
+      icon: <BoxesIcon size={18} />
     },
     {
       title: "Trading Bot",
       description:
         "Trade Smarter with Our Advanced Bots",
       link: '/individual-roles/Bot Design',
-      icon: <Bot size={18}/>
+      icon: <Bot size={18} />
     }
   ]
 
   const sectors = [
     {
       title: 'Ecommerce & Marketplace',
-      icon: <ShoppingCartIcon size={15}/>,  
+      icon: <ShoppingCartIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Insurance & Financial Services',
-      icon: <ShieldCheckIcon size={15}/>,  
+      icon: <ShieldCheckIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Digital Marketing & Design',
-      icon: <BrushIcon size={15}/>,  
+      icon: <BrushIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Healthcare & HealthTech',
-      icon: <HeartHandshakeIcon size={15}/>,  
+      icon: <HeartHandshakeIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Hospitality',
-      icon: <CoffeeIcon size={15}/>,  
+      icon: <CoffeeIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Real Estate and Retail',
-      icon: <HousePlus size={15}/>,  
+      icon: <HousePlus size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Maintenance Services',
-      icon: <WrenchIcon size={15}/>,  
+      icon: <WrenchIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Transportation & Logistics',
-      icon: <TruckIcon size={15}/>,  
+      icon: <TruckIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Legal',
-      icon: <ScaleIcon size={15}/>,  
+      icon: <ScaleIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Energy & Utilities',
-      icon: <BatteryChargingIcon size={15}/>,  
+      icon: <BatteryChargingIcon size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Education & Training',
-      icon: <BookOpenText size={15}/>,  
+      icon: <BookOpenText size={15} />,
       link: '/marketplace'
     },
     {
       title: 'Back Office Processing',
-      icon: <ClipboardCheck size={15}/>,  
+      icon: <ClipboardCheck size={15} />,
       link: '/marketplace'
     }
   ];
@@ -150,120 +150,120 @@ const Navbar = () => {
   const roles = [
     {
       title: 'Customer Support',
-      icon: <HeadsetIcon size={15}/>,  
+      icon: <HeadsetIcon size={15} />,
       link: '/individual-roles/Customer Support'
     },
     {
       title: 'IT Support & Integration',
-      icon: <ServerIcon size={15}/>,  
+      icon: <ServerIcon size={15} />,
       link: '/individual-roles/IT Support & Integration'
     },
     {
       title: 'Sourcing Agent',
-      icon: <SearchCheck size={15}/>,  
+      icon: <SearchCheck size={15} />,
       link: '/individual-roles/Sourcing Agent'
     },
     {
       title: 'Payroll',
-      icon: <BadgeDollarSign size={15}/>,  
+      icon: <BadgeDollarSign size={15} />,
       link: '/individual-roles/Payroll'
     },
     {
       title: 'Medical Billing',
-      icon: <FileText size={15}/>,  
+      icon: <FileText size={15} />,
       link: '/individual-roles/Medical Billing'
     },
     {
       title: 'Bookkeeping',
-      icon: <BookOpen size={15}/>,  
+      icon: <BookOpen size={15} />,
       link: '/individual-roles/Bookkeeping'
     },
     {
       title: 'Lead Generation & Sales',
-      icon: <TargetIcon size={15}/>,  
+      icon: <TargetIcon size={15} />,
       link: '/individual-roles/Lead Generation & Sales'
     },
     {
       title: 'Executive Assistance',
-      icon: <Briefcase size={15}/>,  
+      icon: <Briefcase size={15} />,
       link: '/individual-roles/Executive Assistance'
     },
     {
       title: 'Design & Graphics',
-      icon: <PenTool size={15}/>,  
+      icon: <PenTool size={15} />,
       link: '/individual-roles/Design & Graphics'
     },
     {
       title: 'Logistics & Operations',
-      icon: <TruckIcon size={15}/>,  
+      icon: <TruckIcon size={15} />,
       link: '/individual-roles/Logistics & Operations'
     },
     {
       title: 'Human Resources',
-      icon: <Users size={15}/>,  
+      icon: <Users size={15} />,
       link: '/individual-roles/Human Resources'
     },
     {
       title: 'Content Writer',
-      icon: <Edit size={15}/>,  
+      icon: <Edit size={15} />,
       link: '/individual-roles/Content Writer'
     },
     {
       title: '3D Animation & Rendering',
-      icon: <Cuboid size={15}/>,  
+      icon: <Cuboid size={15} />,
       link: '/individual-roles/3D Animation & Rendering'
     },
     {
       title: 'Video Editor',
-      icon: <VideoIcon size={15}/>,  
+      icon: <VideoIcon size={15} />,
       link: '/individual-roles/Video Editor'
     },
     {
       title: 'Debt Collection',
-      icon: <FileMinusIcon size={15}/>,  
+      icon: <FileMinusIcon size={15} />,
       link: '/individual-roles/Debt Collection'
     },
     {
       title: 'Data Entry',
-      icon: <KeyboardIcon size={15}/>,  
+      icon: <KeyboardIcon size={15} />,
       link: '/individual-roles/Data Entry'
     },
     {
       title: 'Social Media Manager',
-      icon: <MessageCircleCode size={15}/>,  
+      icon: <MessageCircleCode size={15} />,
       link: '/individual-roles/Social Media Manager'
     },
     {
       title: 'Virtual Receptionist',
-      icon: <PhoneCallIcon size={15}/>,  
+      icon: <PhoneCallIcon size={15} />,
       link: '/individual-roles/Virtual Receptionist'
     },
     {
       title: 'Virtual Administrative Assistant',
-      icon: <ClipboardIcon size={15}/>,  
+      icon: <ClipboardIcon size={15} />,
       link: '/individual-roles/Virtual Administrative Assistant'
     },
     {
       title: 'Remote Monitoring',
-      icon: <ScanEyeIcon size={15}/>,  
+      icon: <ScanEyeIcon size={15} />,
       link: '/individual-roles/Remote Monitoring'
     }
   ];
-  
+
   const services = [
     {
       title: "Hire + Marketing Package",
       description:
         "Curated plan + 3 agents of your choice",
-      link: '/custom-services',
-      icon: <TargetIcon size={18}/>
+      link: '/marketplace#step1',
+      icon: <TargetIcon size={18} />
     },
     {
       title: "Individual Plan",
       description:
         "Choose How Ever Many Agents Part Time/Full Time",
-      link: '/custom-services',
-      icon: <UsersIcon size={20}/>
+      link: '/individual-roles',
+      icon: <UsersIcon size={20} />
     },
   ]
 
@@ -292,16 +292,16 @@ const Navbar = () => {
                 column2={roles}
                 column1Title='Sectors'
                 column2Title='Roles'
-              />              
-               <SimpleMenu
+              />
+              <SimpleMenu
                 menuTitle='Services'
                 menuItems={services}
-              /> 
+              />
               <SimpleMenu
                 menuTitle='Additional Services'
                 menuItems={AdditionalServicesItems}
               />
-               <Link to='/pricing' className=' font-semibold   '>Pricing</Link>
+              <Link to='/pricing' className=' font-semibold   '>Pricing</Link>
             </nav>
             <div>
               <span onClick={() => handleLinkClick('/marketplace#step1')}>

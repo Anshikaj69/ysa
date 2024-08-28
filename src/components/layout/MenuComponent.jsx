@@ -16,7 +16,7 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
     const [openMenu, setOpenMenu] = React.useState(false);
 
     return (
-        <Menu open={openMenu} handler={setOpenMenu} allowHover>
+        <Menu open={openMenu} handler={setOpenMenu} allowHover className='shadow-2xl border-2 border-blue-900'>
             <MenuHandler>
                 <button
                     variant="text"
