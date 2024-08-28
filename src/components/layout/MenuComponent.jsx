@@ -16,7 +16,7 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
     const [openMenu, setOpenMenu] = React.useState(false);
 
     return (
-        <Menu open={openMenu} handler={setOpenMenu} allowHover className='shadow-2xl border-2 border-blue-900'>
+        <Menu open={openMenu} handler={setOpenMenu} allowHover className='shadow-2xl border-2 border-blue-900 hover:border-none'>
             <MenuHandler>
                 <button
                     variant="text"
@@ -30,7 +30,7 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     />
                 </button>
             </MenuHandler>
-            <MenuList className="hidden w-[70rem] grid-cols-12 gap-3 overflow-visible lg:grid">
+            <MenuList className="hidden w-[70rem] grid-cols-12 gap-3 overflow-visible lg:grid hover:border-none">
 
                 <ul className={`${column2.length > 12 ? 'col-span-3' : 'col-span-4'} flex w-full flex-col hover:border-none py-5 pl-5 pr-2 gap-1.5`}>
                     <h1 className="text-black text-base font-semibold">{column1Title}</h1>
@@ -48,22 +48,20 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     ))}
                 </ul>
 
-                <ul className={`${column2.length > 12 ? 'col-span-5' : 'col-span-4'} flex flex-col hover:border-none p-5 gap-1.5`}>
+                <ul className={`${column2.length > 12 ? 'col-span-3' : 'col-span-4'} flex w-full flex-col hover:border-none py-5 pl-5 pr-2 gap-1.5`}>
                     <h1 className="text-black text-base font-semibold">{column2Title}</h1>
-                    <div className={`grid ${column2.length > 12 ? 'grid-cols-2' : 'grid-cols-1'}  col-span-4`}>
-                        {column2.map(({ title, link, icon }, index) => (
-                            <Link key={index} to={link}>
-                                <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#182548] transition-colors flex gap-2.5 p-2.5 rounded-md">
-                                    {icon}
-                                    <div className="flex flex-col">
-                                        <p className="flex gap-1 items-center text-sm font-medium text-black hover:text-[#182548]">
-                                            {title}
-                                        </p>
-                                    </div>
+                    {column2.map(({ title, link, icon }) => (
+                        <Link key={title} to={link}>
+                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#182548] transition-colors flex gap-2.5 p-1.5 rounded-md">
+                                {icon}
+                                <div className="flex flex-col">
+                                    <p className=" flex gap-1 items-center text-sm font-medium text-black">
+                                        {title}
+                                    </p>
                                 </div>
-                            </Link>
-                        ))}
-                    </div>
+                            </div>
+                        </Link>
+                    ))}
                 </ul>
 
                 <Card

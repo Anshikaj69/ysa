@@ -154,29 +154,9 @@ const Navbar = () => {
       link: '/individual-roles/Customer Support'
     },
     {
-      title: 'IT Support & Integration',
-      icon: <ServerIcon size={15} />,
-      link: '/individual-roles/IT Support & Integration'
-    },
-    {
-      title: 'Sourcing Agent',
-      icon: <SearchCheck size={15} />,
-      link: '/individual-roles/Sourcing Agent'
-    },
-    {
-      title: 'Payroll',
-      icon: <BadgeDollarSign size={15} />,
-      link: '/individual-roles/Payroll'
-    },
-    {
-      title: 'Medical Billing',
-      icon: <FileText size={15} />,
-      link: '/individual-roles/Medical Billing'
-    },
-    {
-      title: 'Bookkeeping',
-      icon: <BookOpen size={15} />,
-      link: '/individual-roles/Bookkeeping'
+      title: 'Executive Assistance',
+      icon: <Briefcase size={15} />,
+      link: '/individual-roles/Executive Assistance'
     },
     {
       title: 'Lead Generation & Sales',
@@ -184,44 +164,14 @@ const Navbar = () => {
       link: '/individual-roles/Lead Generation & Sales'
     },
     {
-      title: 'Executive Assistance',
-      icon: <Briefcase size={15} />,
-      link: '/individual-roles/Executive Assistance'
-    },
-    {
-      title: 'Design & Graphics',
-      icon: <PenTool size={15} />,
-      link: '/individual-roles/Design & Graphics'
-    },
-    {
       title: 'Logistics & Operations',
       icon: <TruckIcon size={15} />,
       link: '/individual-roles/Logistics & Operations'
     },
     {
-      title: 'Human Resources',
-      icon: <Users size={15} />,
-      link: '/individual-roles/Human Resources'
-    },
-    {
-      title: 'Content Writer',
-      icon: <Edit size={15} />,
-      link: '/individual-roles/Content Writer'
-    },
-    {
-      title: '3D Animation & Rendering',
-      icon: <Cuboid size={15} />,
-      link: '/individual-roles/3D Animation & Rendering'
-    },
-    {
-      title: 'Video Editor',
-      icon: <VideoIcon size={15} />,
-      link: '/individual-roles/Video Editor'
-    },
-    {
-      title: 'Debt Collection',
-      icon: <FileMinusIcon size={15} />,
-      link: '/individual-roles/Debt Collection'
+      title: 'Payroll & Bookkeeping',
+      icon: <BadgeDollarSign size={15} />,
+      link: '/individual-roles/Payroll'
     },
     {
       title: 'Data Entry',
@@ -229,25 +179,37 @@ const Navbar = () => {
       link: '/individual-roles/Data Entry'
     },
     {
-      title: 'Social Media Manager',
-      icon: <MessageCircleCode size={15} />,
-      link: '/individual-roles/Social Media Manager'
+      title: 'Design & Graphics',
+      icon: <PenTool size={15} />,
+      link: '/individual-roles/Design & Graphics'
     },
     {
-      title: 'Virtual Receptionist',
-      icon: <PhoneCallIcon size={15} />,
-      link: '/individual-roles/Virtual Receptionist'
+      title: 'Content Writer',
+      icon: <Edit size={15} />,
+      link: '/individual-roles/Content Writer'
     },
     {
-      title: 'Virtual Administrative Assistant',
-      icon: <ClipboardIcon size={15} />,
-      link: '/individual-roles/Virtual Administrative Assistant'
+      title: 'Video Editor',
+      icon: <VideoIcon size={15} />,
+      link: '/individual-roles/Video Editor'
     },
     {
       title: 'Remote Monitoring',
       icon: <ScanEyeIcon size={15} />,
       link: '/individual-roles/Remote Monitoring'
-    }
+    },
+    {
+      title: 'Medical Billing',
+      icon: <FileText size={15} />,
+      link: '/individual-roles/Medical Billing'
+    },
+    {
+      title: 'Sourcing Agent',
+      icon: <SearchCheck size={15} />,
+      link: '/individual-roles/Sourcing Agent'
+    },
+
+  
   ];
 
   const services = [
