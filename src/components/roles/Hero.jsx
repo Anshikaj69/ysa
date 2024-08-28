@@ -49,11 +49,11 @@ const Hero = ({ RoleName }) => {
                         <div className="flex flex-col bg-black md:px-6 md:py-4 px-3 py-2 gap-2 absolute md:bottom-[-10%] bottom-[-14%] md:left-[70%] left-[50%]  rounded-xl text-white">
                             <div className="flex gap-2">
                             <p className='font-medium 2xl:text-sm text-xs'>Cost :</p>
-                            <p className=' 2xl:text-sm md:text-xs '>Hourly- $9.50</p>
+                            <p className=' 2xl:text-sm md:text-xs '>Hourly - $9.50</p>
                             </div>
                             <p className='2xl:text-sm md:text-xs '>
-                                Full Time- $1520 /
-                                Part Time- $760
+                                Full Time - $1520 |
+                                Part Time - $760
                             </p>
                         </div>
                     </div>

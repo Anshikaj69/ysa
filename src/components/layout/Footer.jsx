@@ -17,17 +17,17 @@ const Footer = () => {
                 <div className="flex gap-10 md:gap-0 md:justify-evenly w-full text-sm md:text-base">
                 <div className="flex flex-col text-gray-400">
                     <p className='text-white'>Useful Links</p>
-                    <Link >Home</Link>
-                    <Link >MarketPlace</Link>
-                    <Link >Individual Roles</Link>
+                    <Link to='/'>Home</Link>
+                    <Link to='/marketplace'>MarketPlace</Link>
+                    <Link to='/individual-roles'>Individual Roles</Link>
                 </div>
                 
 
                 <div className="flex flex-col text-gray-400">
                     <p className='text-white'>Links</p>
-                    <Link >Resources</Link>
-                    <Link >About Us</Link>
-                    <Link >Pricing</Link>
+                    <Link to='/resources'>Resources</Link>
+                    <Link to='/'>About Us</Link>
+                    <Link to='/pricing'>Pricing</Link>
                 </div>
                 </div>
 

@@ -49,7 +49,7 @@ const Advantages = ({ sectionName }) => {
                 <div
                   key={index}
                   className={`border border-[#D4DFED] shadow-lg shadow-[#D4DFED] md:py-10 md:px-6 p-5 flex flex-col md:gap-4 gap-2 items-center rounded-xl md:my-4 my-2
-        ${whyus.advantages.length === 4 ? 'md:w-[45%]' : 'md:w-[31%]'}`}
+                  ${whyus.advantages.length === 4 ? 'md:w-[45%]' : 'md:w-[31%]'}`}
                 >
                   <img src="/tick.svg" alt='tick' className='md:w-fit md:h-fit w-7 h-7'></img>
                   <h4 className='text-[#253359] 2xl:text-lg md:text-base text-sm font-semibold text-center'>{item.title}</h4>
@@ -73,11 +73,11 @@ const Advantages = ({ sectionName }) => {
                   <div className='bg-[#F4F3F1] flex flex-col md:flex-row w-full  md:gap-5 gap-2 md:py-8 md:px-10 p-4 rounded-xl justify-between' key={item.title}>
                     <h4 className='text-[#253359] 2xl:text-lg md:text-sm text-xs font-semibold text-left text-wrap md:w-[10%]'>{item.title}</h4>
                     <p className='text-[#253359] 2xl:text-base md:text-xs text-xs font-medium text-left pt-1 text-wrap md:w-[70%]'>{item.description}</p>
-                    
-                    {snap.service !== 'Marketing' && 
-                    <p className='text-[#BA7C44] 2xl:text-base text-xs font-medium md:self-center mr-2 cursor-pointer'
-                    onClick={()=> changeService(item.title)}
-                    >Read More</p>
+
+                    {snap.service !== 'Marketing' &&
+                      <p className='text-[#BA7C44] 2xl:text-base text-xs font-medium md:self-center mr-2 cursor-pointer'
+                        onClick={() => changeService(item.title)}
+                      >Read More</p>
                     }
                   </div>
                 ))}

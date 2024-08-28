@@ -36,9 +36,9 @@ export function SimpleMenu({ menuTitle, menuItems }) {
         <ul className="col-span-6 flex w-full flex-col hover:border-none p-1 gap-1.5">
           {menuItems.map(({ title, description, link ,icon }) => (
             <Link key={title} to={link}>
-              <MenuItem className="hover:bg-gray-200 text-gray-600 hover:text-[#253359] transition-colors flex gap-2.5 items-start">
+              <MenuItem className="hover:bg-gray-200 text-gray-600 hover:text-[#4D4DFF] transition-colors flex gap-2.5 items-start">
                 {icon}
-              <div className="flex flex-col text-black hover:text-[#253359]">
+              <div className="flex flex-col text-black hover:text-[#4D4DFF]">
                 <Typography variant="h6" className=" flex gap-1 items-center text-sm ">
                  {title} <SquareArrowOutUpRight size={14} strokeWidth={2}/>
                 </Typography>
@@ -57,7 +57,7 @@ export function SimpleMenu({ menuTitle, menuItems }) {
 
         <Card
           shadow={false}
-          className="col-span-6 flex h-full w-full items-center justify-center rounded p-4 bg-[#d6dce9] hover:border-0 border-0"
+          className="col-span-6 flex h-full w-full items-center justify-center rounded p-4 bg-[#d8dce5] hover:border-0 border-0"
         >
           <ProcessCard />
         </Card>

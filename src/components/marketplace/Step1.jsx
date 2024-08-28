@@ -117,7 +117,7 @@ const Step1 = () => {
 
             <div className='flex flex-col bg-white rounded-xl md:w-[25%] w-[70%]  items-center '>
               <div className='bg-[#8AA1A0] w-full flex justify-center rounded-t-xl'>
-                <h1 className=' text-white md:py-2 md:mt-10 font-medium w-fit text-center 2xl:text-2xl md:text-xl text-sm md:my-8 my-4 uppercase'>Services</h1>
+                <h1 className=' text-white md:py-2 md:mt-10 font-medium w-fit text-center 2xl:text-2xl md:text-xl text-sm md:my-10 my-4 uppercase'>Services</h1>
               </div>
               <div className=' text-[#253359] flex flex-col items-center 2xl:justify-center md:justify-start w-full h-full bg-white my-4 '>
                 <h4 className='text-center 2xl:text-sm text-xs font-medium 2xl:p-3 md:p-2.5 p-1.5 bg-[#F3F2F2] w-full '>Monthly  Ad Credit</h4>
