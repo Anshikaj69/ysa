@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import Container from './Container';
-import { Menu } from 'lucide-react';
+import { BadgeDollarSign, BatteryChargingIcon, BlocksIcon, BookOpen, BookOpenText, Bot, BoxesIcon, Briefcase, BrushIcon, ClipboardCheck, ClipboardIcon, CoffeeIcon, Cuboid, Edit, FileJson2Icon, FileMinusIcon, FileText, HeadsetIcon, HeartHandshakeIcon, HousePlus, KeyboardIcon, LucideAreaChart, MenuIcon, MessageCircleCode, NotebookPenIcon, PenTool, PhoneCallIcon, ScaleIcon, ScanEyeIcon, SearchCheck, ServerIcon, ShieldCheckIcon, ShoppingCartIcon, TargetIcon, TruckIcon, Users, UsersIcon, VideoIcon, WrenchIcon } from 'lucide-react';
 import state from '../../store'
+import { SimpleMenu } from './SimpleMenu';
+import { LightbulbIcon } from "lucide-react";
+import { MenuComponent } from './MenuComponent';
+
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [openNav, setOpenNav] = React.useState(false);
 
   const handleLinkClick = (path) => {
     navigate(path);
@@ -17,25 +22,286 @@ const Navbar = () => {
     setIsNavOpen(!isNavOpen);
   };
 
+  const AboutUsItems = [
+    {
+      title: "Why us",
+      description:
+        "Empower Your Business with Our Expert Support",
+      link: '/',
+      icon: <LightbulbIcon size={19}/>
+    },
+    {
+      title: "Resources",
+      description:
+        "Explore Valuable Resources to Enhance Your Success",
+      link: '/resources',
+      icon: <BookOpenText size={19}/>
+    },
+    {
+      title: "Careers",
+      description:
+        "Become a Part of Our Dynamic Team",
+      link: '/careers',
+      icon: <LucideAreaChart size={19}/>
+    }
+  ]
+
+  const AdditionalServicesItems = [
+    {
+      title: "Web & App Development",
+      description:
+        "Custom Webiste and Mobile Apps",
+      link: '/custom-services',
+      icon: <FileJson2Icon size={18}/>
+    },
+    {
+      title: "Bespoke Marketing",
+      description:
+        "Tailored Marketing Strategy to Enhance Your Success",
+      link: '/custom-services',
+      icon: <NotebookPenIcon size={18}/>
+    },
+    {
+      title: "Blockchain",
+      description:
+        "Revolutionize Your Business with Blockchain",
+      link: '/individual-roles/Blockchain',
+      icon: <BlocksIcon size={18}/>
+    },
+    {
+      title: "3D Animation & Rendering",
+      description:
+        "Bring Your Vision to Life in Stunning 3D",
+      link: '/individual-roles/3D Animations',
+      icon: <BoxesIcon size={18}/>
+    },
+    {
+      title: "Trading Bot",
+      description:
+        "Trade Smarter with Our Advanced Bots",
+      link: '/individual-roles/Bot Design',
+      icon: <Bot size={18}/>
+    }
+  ]
+
+  const sectors = [
+    {
+      title: 'Ecommerce & Marketplace',
+      icon: <ShoppingCartIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Insurance & Financial Services',
+      icon: <ShieldCheckIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Digital Marketing & Design',
+      icon: <BrushIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Healthcare & HealthTech',
+      icon: <HeartHandshakeIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Hospitality',
+      icon: <CoffeeIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Real Estate and Retail',
+      icon: <HousePlus size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Maintenance Services',
+      icon: <WrenchIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Transportation & Logistics',
+      icon: <TruckIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Legal',
+      icon: <ScaleIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Energy & Utilities',
+      icon: <BatteryChargingIcon size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Education & Training',
+      icon: <BookOpenText size={15}/>,  
+      link: '/marketplace'
+    },
+    {
+      title: 'Back Office Processing',
+      icon: <ClipboardCheck size={15}/>,  
+      link: '/marketplace'
+    }
+  ];
+
+  const roles = [
+    {
+      title: 'Customer Support',
+      icon: <HeadsetIcon size={15}/>,  
+      link: '/individual-roles/Customer Support'
+    },
+    {
+      title: 'IT Support & Integration',
+      icon: <ServerIcon size={15}/>,  
+      link: '/individual-roles/IT Support & Integration'
+    },
+    {
+      title: 'Sourcing Agent',
+      icon: <SearchCheck size={15}/>,  
+      link: '/individual-roles/Sourcing Agent'
+    },
+    {
+      title: 'Payroll',
+      icon: <BadgeDollarSign size={15}/>,  
+      link: '/individual-roles/Payroll'
+    },
+    {
+      title: 'Medical Billing',
+      icon: <FileText size={15}/>,  
+      link: '/individual-roles/Medical Billing'
+    },
+    {
+      title: 'Bookkeeping',
+      icon: <BookOpen size={15}/>,  
+      link: '/individual-roles/Bookkeeping'
+    },
+    {
+      title: 'Lead Generation & Sales',
+      icon: <TargetIcon size={15}/>,  
+      link: '/individual-roles/Lead Generation & Sales'
+    },
+    {
+      title: 'Executive Assistance',
+      icon: <Briefcase size={15}/>,  
+      link: '/individual-roles/Executive Assistance'
+    },
+    {
+      title: 'Design & Graphics',
+      icon: <PenTool size={15}/>,  
+      link: '/individual-roles/Design & Graphics'
+    },
+    {
+      title: 'Logistics & Operations',
+      icon: <TruckIcon size={15}/>,  
+      link: '/individual-roles/Logistics & Operations'
+    },
+    {
+      title: 'Human Resources',
+      icon: <Users size={15}/>,  
+      link: '/individual-roles/Human Resources'
+    },
+    {
+      title: 'Content Writer',
+      icon: <Edit size={15}/>,  
+      link: '/individual-roles/Content Writer'
+    },
+    {
+      title: '3D Animation & Rendering',
+      icon: <Cuboid size={15}/>,  
+      link: '/individual-roles/3D Animation & Rendering'
+    },
+    {
+      title: 'Video Editor',
+      icon: <VideoIcon size={15}/>,  
+      link: '/individual-roles/Video Editor'
+    },
+    {
+      title: 'Debt Collection',
+      icon: <FileMinusIcon size={15}/>,  
+      link: '/individual-roles/Debt Collection'
+    },
+    {
+      title: 'Data Entry',
+      icon: <KeyboardIcon size={15}/>,  
+      link: '/individual-roles/Data Entry'
+    },
+    {
+      title: 'Social Media Manager',
+      icon: <MessageCircleCode size={15}/>,  
+      link: '/individual-roles/Social Media Manager'
+    },
+    {
+      title: 'Virtual Receptionist',
+      icon: <PhoneCallIcon size={15}/>,  
+      link: '/individual-roles/Virtual Receptionist'
+    },
+    {
+      title: 'Virtual Administrative Assistant',
+      icon: <ClipboardIcon size={15}/>,  
+      link: '/individual-roles/Virtual Administrative Assistant'
+    },
+    {
+      title: 'Remote Monitoring',
+      icon: <ScanEyeIcon size={15}/>,  
+      link: '/individual-roles/Remote Monitoring'
+    }
+  ];
+  
+  const services = [
+    {
+      title: "Hire + Marketing Package",
+      description:
+        "Curated plan + 3 agents of your choice",
+      link: '/custom-services',
+      icon: <TargetIcon size={18}/>
+    },
+    {
+      title: "Individual Plan",
+      description:
+        "Choose How Ever Many Agents Part Time/Full Time",
+      link: '/custom-services',
+      icon: <UsersIcon size={20}/>
+    },
+  ]
+
+
+
+
   return (
     <>
       <Container>
         <div className='flex justify-between items-center px-2 md:px-10 2xl:px-0 w-full'>
+          {/* Logo */}
           <div className='box-border'>
             <Link to='/'><img src='/logo.svg' alt='YSA LOGO' className='flex items-center h-[60%] w-[60%] py-2 md:py-0 md:h-[90%] md:w-[90%]'></img></Link>
           </div>
+
           <div className='gap-12 items-center hidden md:flex'>
-            <nav className='flex gap-5 items-center text-[#253359] 2xl:text-sm md:text-xs'>
-              <Link to='/#industries' className=' font-semibold'>Industries</Link>
-              <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
-              <span onClick={() => {
-                state.service = 'Marketing'
-                handleLinkClick('/marketplace')
-              }} className='cursor-pointer font-semibold'>Marketing Service</span>
-              <Link to='/custom-services' className=' font-semibold   '>Custom Service</Link>
-              <Link to='/careers' className=' font-semibold '>Careers</Link>
-              <Link to='/resources' className=' font-semibold   '>Resources</Link>
-              <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
+            {/* NavMenu */}
+            <nav className='flex gap-7 items-center justify-center text-[#253359] 2xl:text-sm md:text-xs'>
+              <SimpleMenu
+                menuTitle='About us'
+                menuItems={AboutUsItems}
+              />
+              <MenuComponent
+                menuTitle='Outsourcing'
+                column1={sectors}
+                column2={roles}
+                column1Title='Sectors'
+                column2Title='Roles'
+              />              
+               <SimpleMenu
+                menuTitle='Services'
+                menuItems={services}
+              /> 
+              <SimpleMenu
+                menuTitle='Additional Services'
+                menuItems={AdditionalServicesItems}
+              />
+               <Link to='/pricing' className=' font-semibold   '>Pricing</Link>
             </nav>
             <div>
               <span onClick={() => handleLinkClick('/marketplace#step1')}>
@@ -46,7 +312,7 @@ const Navbar = () => {
           <div className="flex md:hidden font-semibold space-x-8 md:text-sm text-xs">
             {/* mobile menu */}
             <button onClick={handleNavToggle}>
-              <Menu size={20} />
+              <MenuIcon size={20} />
             </button>
           </div>
         </div>
