@@ -20,7 +20,7 @@ export function SimpleMenu({ menuTitle, menuItems }) {
       <MenuHandler>
         <button
           variant="text"
-          className="flex items-center gap-0.5 2xl:text-sm md:text-xs font-semibold text-[#253359] capitalize tracking-normal p-0 hover:bg-transparent"
+          className="flex items-center gap-0.5 2xl:text-sm md:text-xs font-semibold text-white md:text-[#253359] capitalize tracking-normal p-0 hover:bg-transparent"
         >
           {menuTitle}{" "}
           <ChevronDownIcon
@@ -31,7 +31,7 @@ export function SimpleMenu({ menuTitle, menuItems }) {
           />
         </button>
       </MenuHandler>
-      <MenuList className="hidden w-[42rem] grid-cols-12 gap-3 overflow-visible lg:grid shadow-2xl">
+      <MenuList className=" md:w-[42rem] grid-cols-12 gap-3 overflow-visible md:grid shadow-2xl">
 
         <ul className="col-span-6 flex w-full flex-col hover:border-none p-1 gap-1.5">
           {menuItems.map(({ title, description, link ,icon }) => (
@@ -57,7 +57,7 @@ export function SimpleMenu({ menuTitle, menuItems }) {
 
         <Card
           shadow={false}
-          className="col-span-6 flex h-full w-full items-center justify-center rounded p-4 bg-[#d8dce5] hover:border-0 border-0"
+          className="hidden col-span-6 md:flex h-full w-full items-center justify-center rounded p-4 bg-[#d8dce5] hover:border-0 border-0"
         >
           <ProcessCard />
         </Card>

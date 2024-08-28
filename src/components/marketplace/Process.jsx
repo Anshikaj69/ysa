@@ -6,7 +6,7 @@ import {  Slide } from 'react-awesome-reveal';
 
 const Process = () => {
   return (
-    <div className='md:px-10 md:pt-8 md:pb-20 px-5 pb-8'>
+    <div className='md:px-10  md:pb-20 px-5 pb-8'>
       <Container>
         <div className="flex flex-col md:gap-8 gap-5 items-center">
 

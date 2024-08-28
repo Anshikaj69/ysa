@@ -292,18 +292,28 @@ const Navbar = () => {
             {isNavOpen ? "✕" : "☰"}
           </button>
         </div>
-        <nav className="flex flex-col items-center justify-start space-y-5 pt-20 text-white ">
-          <Link to='/#industries' onClick={() => handleLinkClick('/#industries')} className='font-semibold'>Industries</Link>
-          <span onClick={() => handleLinkClick('/individual-roles')} className='cursor-pointer font-semibold'>Individual Roles</span>
-          <span onClick={() => {
-            state.service = 'Marketing'
-            handleLinkClick('/marketplace')
-          }} className='cursor-pointer font-semibold'>Marketing Service</span>
-          <Link to='/custom-services' className=' font-semibold   '>Custom Service</Link>
-          <Link to='/resources' onClick={() => handleLinkClick('/resources')} className='font-semibold'>Resources</Link>
-          <Link to='/careers' className=' font-semibold '>Careers</Link>
-          <Link to='/marketplace#pricing' className=' font-semibold   '>Pricing</Link>
-        </nav>
+        <nav className='flex flex-col gap-7 items-center justify-center text-white 2xl:text-sm md:text-xs'>
+              <MenuComponent
+                menuTitle='Outsourcing'
+                column1={sectors}
+                column2={roles}
+                column1Title='Sectors'
+                column2Title='Roles'
+              />
+              <SimpleMenu
+                menuTitle='About us'
+                menuItems={AboutUsItems}
+              />
+              <SimpleMenu
+                menuTitle='Services'
+                menuItems={services}
+              />
+              <SimpleMenu
+                menuTitle='Additional Services'
+                menuItems={AdditionalServicesItems}
+              />
+              <Link to='/pricing' className=' font-semibold  '>Pricing</Link>
+            </nav>
       </div>
     </>
   );

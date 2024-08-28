@@ -11,7 +11,7 @@ const Footer = () => {
                
                 <div className="flex flex-col">
                 <p className='text-xl md:text-2xl font-bold'>YSA</p>
-                <p className='text-gray-500 text-wrap text-xs md:text-base '>Elite offshore talent to support your business needs. Your Support Agent is here to help you scale your business faster and more affordably.</p>
+                <p className='text-gray-500 text-wrap text-xs md:text-base'>Elite offshore talent to support your business needs. Your Support Agent is here to help you scale your business faster and more affordably.</p>
                 </div>
                 
                 <div className="flex gap-10 md:gap-0 md:justify-evenly w-full text-sm md:text-base">

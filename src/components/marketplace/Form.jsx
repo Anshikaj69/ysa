@@ -14,7 +14,7 @@ import {
 import { useSnapshot } from "valtio";
 import state from "../../store"
 import { useState } from "react";
-import axios from 'axios'
+import axios, { formToJSON } from 'axios'
 import envCompatible from 'vite-plugin-env-compatible'
 
 export function BookingForm() {
@@ -47,23 +47,24 @@ export function BookingForm() {
         formData.append('companySize', companySize);
         formData.append('additionalInfo', additionalInfo);
         formData.append('file', file);
-        formData.append('plan', state.plan);
-        formData.append('agents', JSON.stringify(state.agents));
-        formData.append('day', state.day);
-        formData.append('date', state.date);
+        formData.append('plan', snap.plan);
+        formData.append('agents', JSON.stringify(state.agents.map(agent => agent.name)));
+        formData.append('date', snap.date);
+        formData.append('time', snap.time);
 
-        // Send formData to the backend (e.g., using fetch or axios)
-        axios.post(`${import.meta.env.REACT_APP_BACKEND_URL}/api/email`, {
-            formData
+        //Send formData to the backend 
+        axios.post(`${import.meta.env.REACT_APP_BACKEND_URL}/api/email`, formData, {
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            }
         })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Success:', data);
-                state.open = false;
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
+        .then(response => {
+            console.log('Success:', response.data);
+            state.open = false;
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
     };
 
     return (

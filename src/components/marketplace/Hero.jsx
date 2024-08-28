@@ -34,7 +34,7 @@ const Hero = ({ sectionName }) => {
   const { heroSection } = sectionData
  
   return (
-    <div className='md:px-10 px-3 pt-6 2xl:mt-28 md:mt-16'>
+    <div className='md:px-10 px-3 pt-6 2xl:mt-16 md:mt-14'>
       <Container>
         <div className='flex flex-col md:flex-row md:py-20 pb-9 pt-20 w-full justify-between gap-5 md:gap-0'>
           <div className='flex flex-col md:gap-8 gap-3 2xl:w-[52%] md:w-[55%] xl:w-[50%]  self-center 2xl:max-w-2xl max-w-3xl'>

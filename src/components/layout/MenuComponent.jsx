@@ -20,7 +20,7 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
             <MenuHandler>
                 <button
                     variant="text"
-                    className="flex items-center gap-0.5 2xl:text-sm md:text-xs font-semibold text-[#253359] capitalize tracking-normal p-0 hover:bg-transparent"
+                    className="flex items-center gap-0.5 2xl:text-sm md:text-xs font-semibold text-white md:text-[#253359] capitalize tracking-normal p-0 hover:bg-transparent"
                 >
                     {menuTitle}{" "}
                     <ChevronDownIcon
@@ -30,16 +30,16 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     />
                 </button>
             </MenuHandler>
-            <MenuList className="hidden w-[70rem] grid-cols-12 gap-3 overflow-visible lg:grid hover:border-none">
+            <MenuList className=" md:w-[70rem] grid-cols-12 gap-3 overflow-visible grid hover:border-none">
 
-                <ul className={`${column2.length > 12 ? 'col-span-3' : 'col-span-4'} flex w-full flex-col hover:border-none py-5 pl-5 pr-2 gap-1.5`}>
-                    <h1 className="text-black text-base font-semibold">{column1Title}</h1>
+                <ul className={`col-span-6 md:col-span-4 flex w-full flex-col hover:border-none md:py-5 md:pl-5 md:pr-2 p-2 gap-1.5`}>
+                    <h1 className="text-black text-sm md:text-base font-semibold">{column1Title}</h1>
                     {column1.map(({ title, link, icon }) => (
                         <Link key={title} to={link}>
-                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#4D4DFF] transition-colors flex gap-2.5 p-1.5 rounded-md">
+                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#4D4DFF] transition-colors flex gap-2.5 md:p-1.5 p-1 rounded-md">
                                 {icon}
                                 <div className="flex flex-col">
-                                    <p className=" flex gap-1 items-center text-sm font-medium text-black hover:text-[#4D4DFF]">
+                                    <p className=" flex gap-1 items-center text-xs md:text-sm font-medium text-black hover:text-[#4D4DFF]">
                                         {title}
                                     </p>
                                 </div>
@@ -48,14 +48,14 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     ))}
                 </ul>
 
-                <ul className={`${column2.length > 12 ? 'col-span-3' : 'col-span-4'} flex w-full flex-col hover:border-none py-5 pl-5 pr-2 gap-1.5`}>
-                    <h1 className="text-black text-base font-semibold">{column2Title}</h1>
+                <ul className={`col-span-6 md:col-span-4 flex w-full flex-col hover:border-none md:py-5 md:pl-5 md:pr-2 p-2 gap-1.5`}>
+                    <h1 className="text-black text-sm md:text-base font-semibold">{column2Title}</h1>
                     {column2.map(({ title, link, icon }) => (
                         <Link key={title} to={link}>
-                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#4D4DFF] transition-colors flex gap-2.5 p-1.5 rounded-md">
+                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#4D4DFF] transition-colors flex gap-2.5 md:p-1.5 p-1 rounded-md">
                                 {icon}
                                 <div className="flex flex-col">
-                                    <p className=" flex gap-1 items-center text-sm font-medium text-black hover:text-[#4D4DFF]">
+                                    <p className=" flex gap-1 items-center text-xs md:text-sm font-medium text-black hover:text-[#4D4DFF]">
                                         {title}
                                     </p>
                                 </div>
@@ -66,7 +66,7 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
 
                 <Card
                     shadow={false}
-                    className="col-span-4 flex h-full w-full items-center justify-center rounded  bg-[#d6dce9] hover:border-0 border-0 p-4"
+                    className="hidden col-span-4 md:flex h-full w-full items-center justify-center rounded  bg-[#d6dce9] hover:border-0 border-0 p-4"
                 >
                     <ProcessCard />
                 </Card>
