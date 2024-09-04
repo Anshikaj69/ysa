@@ -7,6 +7,171 @@ import { SimpleMenu } from './SimpleMenu';
 import { LightbulbIcon } from "lucide-react";
 import { MenuComponent } from './MenuComponent';
 
+export const AdditionalServicesItems = [
+  {
+    title: "Web & App Development",
+    description:
+      "Custom Webiste and Mobile Apps",
+    link: '/custom-services',
+    icon: <FileJson2Icon size={18} />
+  },
+  {
+    title: "Bespoke Marketing",
+    description:
+      "Tailored Marketing Strategy to Enhance Your Success",
+    link: '/custom-services',
+    icon: <NotebookPenIcon size={18} />
+  },
+  {
+    title: "Blockchain",
+    description:
+      "Revolutionize Your Business with Blockchain",
+    link: '/individual-roles/Blockchain',
+    icon: <BlocksIcon size={18} />
+  },
+  {
+    title: "3D Animation & Rendering",
+    description:
+      "Bring Your Vision to Life in Stunning 3D",
+    link: '/individual-roles/3D Animations',
+    icon: <BoxesIcon size={18} />
+  },
+  {
+    title: "Trading Bot",
+    description:
+      "Trade Smarter with Our Advanced Bots",
+    link: '/individual-roles/Bot Design',
+    icon: <Bot size={18} />
+  }
+]
+
+export const sectors = [
+  {
+    title: 'Ecommerce & Marketplace',
+    icon: <ShoppingCartIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Insurance & Financial Services',
+    icon: <ShieldCheckIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Digital Marketing & Design',
+    icon: <BrushIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Healthcare & HealthTech',
+    icon: <HeartHandshakeIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Hospitality',
+    icon: <CoffeeIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Real Estate and Retail',
+    icon: <HousePlus size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Maintenance Services',
+    icon: <WrenchIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Transportation & Logistics',
+    icon: <TruckIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Legal',
+    icon: <ScaleIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Energy & Utilities',
+    icon: <BatteryChargingIcon size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Education & Training',
+    icon: <BookOpenText size={15} />,
+    link: '/marketplace'
+  },
+  {
+    title: 'Back Office Processing',
+    icon: <ClipboardCheck size={15} />,
+    link: '/marketplace'
+  }
+];
+
+export  const roles = [
+  {
+    title: 'Customer Support',
+    icon: <HeadsetIcon size={15} />,
+    link: '/individual-roles/Customer Support'
+  },
+  {
+    title: 'Executive Assistance',
+    icon: <Briefcase size={15} />,
+    link: '/individual-roles/Executive Assistance'
+  },
+  {
+    title: 'Lead Generation & Sales',
+    icon: <TargetIcon size={15} />,
+    link: '/individual-roles/Lead Generation & Sales'
+  },
+  {
+    title: 'Logistics & Operations',
+    icon: <TruckIcon size={15} />,
+    link: '/individual-roles/Logistics & Operations'
+  },
+  {
+    title: 'Payroll & Bookkeeping',
+    icon: <BadgeDollarSign size={15} />,
+    link: '/individual-roles/Payroll'
+  },
+  {
+    title: 'Data Entry',
+    icon: <KeyboardIcon size={15} />,
+    link: '/individual-roles/Data Entry'
+  },
+  {
+    title: 'Design & Graphics',
+    icon: <PenTool size={15} />,
+    link: '/individual-roles/Design & Graphics'
+  },
+  {
+    title: 'Content Writer',
+    icon: <Edit size={15} />,
+    link: '/individual-roles/Content Writer'
+  },
+  {
+    title: 'Video Editor',
+    icon: <VideoIcon size={15} />,
+    link: '/individual-roles/Video Editor'
+  },
+  {
+    title: 'Remote Monitoring',
+    icon: <ScanEyeIcon size={15} />,
+    link: '/individual-roles/Remote Monitoring'
+  },
+  {
+    title: 'Medical Billing',
+    icon: <FileText size={15} />,
+    link: '/individual-roles/Medical Billing'
+  },
+  {
+    title: 'Sourcing Agent',
+    icon: <SearchCheck size={15} />,
+    link: '/individual-roles/Sourcing Agent'
+  },
+
+
+];
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -46,172 +211,6 @@ const Navbar = () => {
     }
   ]
 
-  const AdditionalServicesItems = [
-    {
-      title: "Web & App Development",
-      description:
-        "Custom Webiste and Mobile Apps",
-      link: '/custom-services',
-      icon: <FileJson2Icon size={18} />
-    },
-    {
-      title: "Bespoke Marketing",
-      description:
-        "Tailored Marketing Strategy to Enhance Your Success",
-      link: '/custom-services',
-      icon: <NotebookPenIcon size={18} />
-    },
-    {
-      title: "Blockchain",
-      description:
-        "Revolutionize Your Business with Blockchain",
-      link: '/individual-roles/Blockchain',
-      icon: <BlocksIcon size={18} />
-    },
-    {
-      title: "3D Animation & Rendering",
-      description:
-        "Bring Your Vision to Life in Stunning 3D",
-      link: '/individual-roles/3D Animations',
-      icon: <BoxesIcon size={18} />
-    },
-    {
-      title: "Trading Bot",
-      description:
-        "Trade Smarter with Our Advanced Bots",
-      link: '/individual-roles/Bot Design',
-      icon: <Bot size={18} />
-    }
-  ]
-
-  const sectors = [
-    {
-      title: 'Ecommerce & Marketplace',
-      icon: <ShoppingCartIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Insurance & Financial Services',
-      icon: <ShieldCheckIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Digital Marketing & Design',
-      icon: <BrushIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Healthcare & HealthTech',
-      icon: <HeartHandshakeIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Hospitality',
-      icon: <CoffeeIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Real Estate and Retail',
-      icon: <HousePlus size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Maintenance Services',
-      icon: <WrenchIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Transportation & Logistics',
-      icon: <TruckIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Legal',
-      icon: <ScaleIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Energy & Utilities',
-      icon: <BatteryChargingIcon size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Education & Training',
-      icon: <BookOpenText size={15} />,
-      link: '/marketplace'
-    },
-    {
-      title: 'Back Office Processing',
-      icon: <ClipboardCheck size={15} />,
-      link: '/marketplace'
-    }
-  ];
-
-  const roles = [
-    {
-      title: 'Customer Support',
-      icon: <HeadsetIcon size={15} />,
-      link: '/individual-roles/Customer Support'
-    },
-    {
-      title: 'Executive Assistance',
-      icon: <Briefcase size={15} />,
-      link: '/individual-roles/Executive Assistance'
-    },
-    {
-      title: 'Lead Generation & Sales',
-      icon: <TargetIcon size={15} />,
-      link: '/individual-roles/Lead Generation & Sales'
-    },
-    {
-      title: 'Logistics & Operations',
-      icon: <TruckIcon size={15} />,
-      link: '/individual-roles/Logistics & Operations'
-    },
-    {
-      title: 'Payroll & Bookkeeping',
-      icon: <BadgeDollarSign size={15} />,
-      link: '/individual-roles/Payroll'
-    },
-    {
-      title: 'Data Entry',
-      icon: <KeyboardIcon size={15} />,
-      link: '/individual-roles/Data Entry'
-    },
-    {
-      title: 'Design & Graphics',
-      icon: <PenTool size={15} />,
-      link: '/individual-roles/Design & Graphics'
-    },
-    {
-      title: 'Content Writer',
-      icon: <Edit size={15} />,
-      link: '/individual-roles/Content Writer'
-    },
-    {
-      title: 'Video Editor',
-      icon: <VideoIcon size={15} />,
-      link: '/individual-roles/Video Editor'
-    },
-    {
-      title: 'Remote Monitoring',
-      icon: <ScanEyeIcon size={15} />,
-      link: '/individual-roles/Remote Monitoring'
-    },
-    {
-      title: 'Medical Billing',
-      icon: <FileText size={15} />,
-      link: '/individual-roles/Medical Billing'
-    },
-    {
-      title: 'Sourcing Agent',
-      icon: <SearchCheck size={15} />,
-      link: '/individual-roles/Sourcing Agent'
-    },
-
-  
-  ];
-
   const services = [
     {
       title: "Hire + Marketing Package",
@@ -228,9 +227,6 @@ const Navbar = () => {
       icon: <UsersIcon size={20} />
     },
   ]
-
-
-
 
   return (
     <>

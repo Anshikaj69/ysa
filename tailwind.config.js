@@ -8,7 +8,11 @@ export default withMT({
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'pattern': "url('/bg-pattern.svg')",
+      }
+    }
   },
   plugins: [],
 })

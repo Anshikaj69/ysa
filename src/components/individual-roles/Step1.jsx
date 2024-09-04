@@ -13,9 +13,22 @@ const Step1 = () => {
   const [selectedAgents, setSelectedAgents] = useState([]);
   const [agentOptions, setAgentOptions] = useState({});
   const navigate = useNavigate()
-  const excludeList = ['Web Development', 'App Development', 'Blockchain', '3D Animations', 'Bot Design'];
+  const includeList = [
+    'Customer Support',
+    'Executive Assistance',
+    'Lead Generation & Sales',
+    'Payroll',
+    'Data Entry',
+    'Design & Graphics',
+    'Video Editor',
+    'Content Writer',
+    'Remote Monitoring',
+    'Logistics & Operations',
+    'Medical Billing',
+    'Sourcing Agent'
+  ]
 
-  const agentsList = Object.keys(roleData).filter(service => !excludeList.includes(service));
+  const agentsList = Object.keys(roleData).filter(service => includeList.includes(service));
 
   const changeService = (item) => {
     state.role = item
@@ -55,7 +68,7 @@ const Step1 = () => {
           ${selectedAgents.includes(agent) ? 'border-[#97bebc]' : 'border-[#F0F0F0]'} `}
           style={{ backgroundImage: `url(${roleData[agent].heroSection.image_url})` }}
         >
-          <div className="flex flex-col justify-center items-center  2xl:p-9 md:py-9 md:px-5 py-6 px-2 backdrop-blur-[2px] backdrop-brightness-50 w-full h-full">
+          <div className="flex flex-col justify-center items-center  2xl:px-4 2xl:py-12 md:py-9  py-6 px-2 backdrop-blur-[2px] backdrop-brightness-50 w-full h-full">
             {/* small check box */}
             <Fade
               className={`md:w-5 md:h-5 h-4 w-4 mr-2 absolute top-1 left-1 flex items-center justify-center transition-all ease-in  rounded ${selectedAgents.includes(agent) ? 'bg-[#97bebc]' : 'bg-white border-2'}`}>
@@ -173,7 +186,7 @@ const Step1 = () => {
             </Fade>
           </div>
 
-          <div className="grid grid-cols-3 md:grid-cols-5 md:gap-5 gap-2 mt-4 md:px-10 2xl:px-8" id='individuals' ref={individualsRef}>
+          <div className="grid grid-cols-3 md:grid-cols-4 2xl:gap-8 md:gap-6 gap-2 mt-4 md:px-10 2xl:px-8" id='individuals' ref={individualsRef}>
             {renderAgents()}
           </div>
 

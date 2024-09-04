@@ -8,9 +8,21 @@ import roleData from '../../utils/roleData.json'
 const Agents = () => {
 
   const navigate = useNavigate()
-  const excludeList = ['Web Development', 'App Development', 'Blockchain', '3D Animations', 'Bot Design'];
+  const includeList = [
+    'Customer Support',
+    'Executive Assistance',
+    'Lead Generation & Sales',
+    'Payroll',
+    'Data Entry',
+    'Design & Graphics',
+    'Video Editor',
+    'Content Writer',
+    'Remote Monitoring',
+    'Logistics & Operations',
+    'Medical Billing',
+    'Sourcing Agent']
 
-  const agentsList = Object.keys(roleData).filter(service => !excludeList.includes(service));
+  const agentsList = Object.keys(roleData).filter(service => includeList.includes(service));
 
   const changeService = (item) => {
     state.role = item
