@@ -47,9 +47,10 @@ const Solutions = () => {
   return (
     <>
       {/* sulutions */}
-      <div className='bg-white px-4 py-8 md:px-10 md:py-20' id='industries' ref={industryRef}>
+      <div className='bg-white px-4 py-8 md:px-10 md:py-14' id='industries' ref={industryRef}>
         <Container>
-        <Tabs value={activeTab}>
+          <h2 className='playfair-display-font font-bold text-4xl text-center text-[#253359] md:mb-12'>Our Range of Outsourcing Solutions</h2>
+        <Tabs value={activeTab} className='poppins'>
       <TabsHeader
         className="rounded-none border-b border-blue-gray-100 bg-transparent p-0"
         indicatorProps={{

@@ -12,11 +12,12 @@ const Hero = () => {
           <div className=' flex flex-col gap-3 md:gap-10 2xl:pt-16 md:pt-20 md:w-[50%]'>
 
             <Slide direction='left' duration={1500} delay={-700} >
-              <h1 className='text-[#253359] text-xl md:text-5xl 2xl:text-6xl font-bold playfair-display-font text-center md:text-left'>Enhance Efficiency. <br></br> Upscale Your Business.</h1>
+              <h1 className='text-[#253359] text-xl md:text-4xl 2xl:text-5xl font-bold playfair-display-font text-center md:text-left'>Empowering Businesses Through Digital Transformation
+              and Global Talent</h1>
             </Slide>
             
             <Slide direction='left' duration={1500} delay={-800} >
-              <p className='text-[#253359] md:max-w-lg 2xl:max-w-xl text-sm md:text-lg xl:text-xl 2xl:text-2xl font-normal text-center md:text-left'>Outsourcing Solutions That Connect You with Elite Talent, Enhance Seamless Delegation, and Empower Your Business Growth!</p>
+              <p className='text-[#253359] md:max-w-lg 2xl:max-w-xl text-sm md:text-base  2xl:text-xl font-normal text-center md:text-left'>On a mission to help businesses thrive by automating processes, connecting them with skilled overseas talent, and creating tailored marketing strategies.</p>
             </Slide>
           </div>
           <div className=' md:w-[50%] flex justify-end items-end self-end'>

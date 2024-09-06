@@ -49,30 +49,22 @@ const Packages = () => {
   ]
 
   return (
-    <div className='py-16 bg-gradient-to-b from-[#f4f6ff] to-[#ffffff] outfit'
-    // style={{
-    //   backgroundImage: `url(${'/circular-pattern.svg?url'})`,
-    //   backgroundSize: 'cover',
-    //   backgroundPosition: 'center top',
-    //   backgroundRepeat: 'no-repeat'
-    // }}  
-    >
+    <div className='py-16 bg-gradient-to-b from-[#f4f6ff] to-[#ffffff] poppins'>
       <Container>
         <div className="flex flex-col w-full justify-center items-center gap-3">
-          <h2 className='font-medium text-4xl'>Find Your Perfect Plan</h2>
+          <h2 className='font-semibold text-4xl text-[#253359] playfair-display-font'>Find Your Perfect Plan</h2>
           <h4 className='text-gray-600 max-w-xl text-center'>Discover the ideal plan to fuel your business growth. Our pricing options are carefully crafted to cater to businesses.</h4>
         </div>
         <div className="grid grid-cols-3 gap-4 md:mx-20 mt-10">
           {plansData.map((plan) => (
-            <div className={`flex flex-col gap-3 col-span-1 border border-[#E7EBFF] rounded-lg shadow-xl shadow-[#BCCAFF21] p-5
-              ${plan.title === 'Custom' ? "bg-pattern" : "bg-white"}`}
+            <div className={`flex flex-col gap-3 col-span-1 border border-[#E7EBFF] rounded-lg shadow-xl shadow-[#BCCAFF21] p-5 bg-no-repeat hover:bg-pattern transition-colors ease-in bg-cover bg-white`}
               key={plan.title}>
               <div className="flex">
                 <img src={plan.iconurl} />
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col">
                 <h3 className='text-2xl font-medium'>{plan.title}</h3>
-                <h4 className={` ${plan.title === 'Custom' ? "text-black" : "text-gray-600"} text-sm font-light w-xs`}>{plan.description}</h4>
+                <h4 className={` hover:text-black text-sm font-light w-xs`}>{plan.description}</h4>
               </div>
               <h4 className='text-2xl font-medium flex gap-2 items-center border-b pb-3 mb-2'>{plan.monthly} <span className='text-gray-700 text-sm font-light'>per month</span></h4>
               <div className="flex aspect-[16/9]   border-white rounded-lg overflow-hidden relative">
@@ -96,7 +88,7 @@ const Packages = () => {
                 ))}
               </div>
               <Link to={plan.url}>
-                <button className='w-full border border-black rounded-lg py-2 transition-colors hover:text-[#6d94ff] hover:border-[#6d94ff]'>Get Started</button>
+                <button className='w-full border border-black rounded-lg py-2 transition-colors hover:text-[#2e4a96] hover:border-[#2e4a96]'>Get Started</button>
               </Link>
             </div>
           ))}

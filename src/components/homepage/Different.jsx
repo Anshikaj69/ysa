@@ -4,8 +4,49 @@ import bg1 from '/different.svg'
 import bg2 from '/unleashed.svg'
 import Container from '../layout/Container'
 import { Fade, Slide, Zoom } from 'react-awesome-reveal'
+import { Check } from 'lucide-react'
 
 const Different = () => {
+
+  const data = [
+    {
+      title: 'Your Support Agent',
+      cost: '$3,500 -  $7,500',
+      explaination: [
+        'Marketing Included',
+        'Dedicated Account Manager',
+        'Dedicated Agents To One Client',
+        'Easily Able to Pivot by Adding and Replacing Agents',
+        'Work From Our Office Space',
+      ],
+      iconurl: '/union-icon.svg?url',
+    },
+    {
+      title: 'Competitor',
+      cost: '$4,999 - $8,999',
+      explaination: [
+        'N/A',
+        'Dedicated Account Manager',
+        'Agents May have Multiple Clients',
+        'Stuck With Agents Till The End Of Contract',
+        'Maybe Remote or In Various Locations',
+      ],
+      iconurl: '/star-icon.svg?url',
+    },
+    {
+      title: 'Freelancer',
+      cost: '$4,500- $8,500',
+      explaination: [
+        'N/A',
+        'N/A',
+        '5-15 Other Clients & No Team Effort',
+        'Wasting Time & Money Trying To Find The Perfect Fit',
+        'Remote In Various Locations & Time Zones'
+      ],
+      iconurl: '/freelancer-icon.svg?url',
+    }
+  ]
+
   return (
     <div>
       {/* what makes us different */}
@@ -20,43 +61,28 @@ const Different = () => {
           <div className="flex flex-col md:gap-16 gap-8">
 
             <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl text-xl font-bold playfair-display-font text-center'>What Makes Us Different?</h1>
-            <div className='flex flex-col md:flex-row w-[100%] md:gap-[3.5%] gap-5  justify-center items-center md:items-stretch'>
-
-              <div className='flex flex-col bg-gradient-to-b from-[#253359] to-[#25335900] p-2 rounded-3xl 2xl:w-[31%] w-[70%] md:w-[29%] items-center  shadow-xl'>
-                <h1 className=' text-[#253359] md:py-2 md:px-4 px-3 py-1 bg-white my-3 md:mt-10 md:mb-8 mx-4 rounded-3xl font-bold w-fit text-center 2xl:text-lg md:text-base text-sm'>YourSupportAgent</h1>
-                <div className='flex flex-col items-center justify-center w-full h-full rounded-2xl bg-white text-xs md:text-sm xl:text-base'>
-                  <h4 className='text-[#253359] text-center  p-3 md:p-8 w-full '>$3,500 - $7,500</h4>
-                  <h4 className='text-[#253359] text-center bg-[#F3F2F2] p-3 md:p-8 w-full '>Marketing Included</h4>
-                  <h4 className='text-[#253359] text-center  p-3 md:p-8 w-full'>Dedicated Account Manager</h4>
-                  <h4 className='text-[#253359] text-center bg-[#F3F2F2] p-3 md:p-8 w-full text-wrap px-10'>Dedicated Agents To One Client</h4>
-                  <h4 className='text-[#253359] text-center  p-3 md:p-8 w-full'>Easily Able to Pivot by Adding and Replacing Agents </h4>
-                  <h4 className='text-[#253359] text-center bg-[#F3F2F2] p-3 md:p-8 w-full h-[100%] rounded-b-2xl'>Work From Our Office Space <br /></h4>
+            <div className='grid md:grid-cols-3 grid-cols-1 w-[100%] gap-5 justify-center items-center md:items-stretch'>
+              {data.map((item) => (
+                <div className="grid-cols-1 flex flex-col p-6 bg-white hover:bg-[#677AAE] transition-colors rounded text-black hover:text-white group">
+                  <div className="flex flex-col gap-2 border-b pb-2 group-hover:border-none">
+                  <div className="flex items-center justify-center rounded-full pr-3 pl-3 pt-3 pb-2 w-fit bg-gradient-to-b from-[#A5D6FD] to-[#253359] group-hover:from-[#ffffff34] group-hover:to-[#ffffff34] group-hover:border-2 group-hover:border-[#e3e2e2ae] group-hover:backdrop-blur-lg transition-all">
+                    <img src={item.iconurl} />
+                  </div>
+                  <h3 className="group-hover:text-white text-xl font-medium">{item.title}</h3>
+                  <p className="group-hover:text-white">{item.cost}</p>
+                  </div>
+                  <div className="flex flex-col py-5 px-6 gap-2">
+                  {item.explaination.map((text) => (
+                    <div className="flex gap-3 items-center ">
+                      <div className="flex bg-[#A5D6FD] group-hover:bg-white my-1 rounded-full p-0.5 h-fit w-fit">
+                     <Check className='text-white group-hover:text-[#A5D6FD]' strokeWidth={2} size={15}/>
+                      </div>
+                      <p className='text-sm'>{text}</p>
+                    </div>
+                  ))}
+                  </div>
                 </div>
-              </div>
-
-              <div className='flex flex-col bg-gradient-to-b from-[#D2D2D2] to-[#ffffff00] p-2 rounded-3xl 2xl:w-[31%] w-[70%] md:w-[29%] items-center border-4 border-white shadow-xl'>
-                <h1 className=' text-[#253359] md:py-2 md:px-4 px-3 py-1 bg-white my-3 md:mt-10 md:mb-8 mx-4 rounded-3xl font-bold w-fit text-center 2xl:text-lg md:text-base text-sm'>Competitor</h1>
-                <div className=' text-[#253359] flex flex-col items-center justify-center w-full h-full rounded-2xl bg-white text-xs md:text-sm xl:text-base'>
-                  <h4 className='text-center  p-3 md:p-8 w-full'>$4,999 -  $8,999</h4>
-                  <h4 className='text-center bg-[#F3F2F2] p-3 md:p-8 w-full '>N/A</h4>
-                  <h4 className='text-center  p-3 md:p-8 w-full'>Dedicated Account Manager</h4>
-                  <h4 className='text-center bg-[#F3F2F2] p-3 md:p-8 w-full '>Agents May have Multiple Clients</h4>
-                  <h4 className='text-center  p-3 md:p-8 w-full'>Stuck With Agents Till The End Of Contract </h4>
-                  <h4 className='text-center bg-[#F3F2F2] p-3 md:p-8 w-full '>Maybe Remote or In Various Locations</h4>
-                </div>
-              </div>
-
-              <div className='flex flex-col bg-gradient-to-b from-[#D2D2D2] to-[#ffffff00] p-2 rounded-3xl 2xl:w-[31%] w-[70%] md:w-[29%] items-center  border-4 border-white shadow-xl'>
-                <h1 className='text-[#253359] md:py-2 md:px-4 px-3 py-1 bg-white my-3 md:mt-10 md:mb-8 mx-4 rounded-3xl font-bold w-fit text-center 2xl:text-lg md:text-base text-sm'>Freelancer</h1>
-                <div className='text-[#253359] flex flex-col items-center justify-center w-full h-full rounded-2xl bg-white text-xs md:text-sm xl:text-base'>
-                  <h4 className='text-center  p-3 md:p-8 w-full'>$1,500 - $6,000</h4>
-                  <h4 className='text-center bg-[#F3F2F2] p-3 md:p-8 w-full '>N/A</h4>
-                  <h4 className='text-center  p-3 md:p-8 w-full'>N/A</h4>
-                  <h4 className='text-center bg-[#F3F2F2] p-3 md:p-8 w-full '>5-15 Other Clients & No Team Effort</h4>
-                  <h4 className='text-center  p-3 md:p-8 w-full'>Wasting Time & Money Trying To Find The Perfect Fit </h4>
-                  <h4 className='text-center bg-[#F3F2F2] p-3 md:p-8 w-full '>Remote In Various Locations & Time Zones</h4>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </Container>
@@ -163,9 +189,9 @@ const Different = () => {
                   <h1 className='text-[#253359] 2xl:text-4xl xl:text-3xl md:text-2xl text-lg font-bold playfair-display-font md:text-nowrap'>Don't Grow it Alone!</h1>
                 </Slide>
                 <Slide direction='up' duration={2000} delay={-800}>
-                <p className='text-[#253359] 2xl:text-xl xl:text-lg md:text-base text-xs font-normal max-w-xl xl:max-w-full'>Don't let headcount become a headache. We'll connect you with talent that meets your needs.<br /><br />
-                  Your dedicated new team members will become experts in your world — your customers, your tech, your data, your systems — so they can expand on what you've built.
-                </p>
+                  <p className='text-[#253359] 2xl:text-xl xl:text-lg md:text-base text-xs font-normal max-w-xl xl:max-w-full'>Don't let headcount become a headache. We'll connect you with talent that meets your needs.<br /><br />
+                    Your dedicated new team members will become experts in your world — your customers, your tech, your data, your systems — so they can expand on what you've built.
+                  </p>
                 </Slide>
               </div>
             </div>

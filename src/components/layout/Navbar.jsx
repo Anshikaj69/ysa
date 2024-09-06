@@ -192,7 +192,7 @@ const Navbar = () => {
       title: "Why us",
       description:
         "Empower Your Business with Our Expert Support",
-      link: '/',
+      link: '/about-us',
       icon: <LightbulbIcon size={19} />
     },
     {

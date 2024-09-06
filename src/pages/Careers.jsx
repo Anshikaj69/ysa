@@ -1,7 +1,7 @@
 import React from 'react'
 import { Contact, Footer } from '../components/layout'
-import Hero from '../components/Careers/Hero'
-import { ApplicationForm } from '../components/Careers/ApplicationForm'
+import Hero from '../components/careers/Hero'
+import { ApplicationForm } from '../components/careers/ApplicationForm'
 
 const Careers = () => {
   return (

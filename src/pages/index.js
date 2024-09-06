@@ -5,5 +5,6 @@ import Roles from './Roles'
 import Resources from './Resources'
 import Careers from './Careers'
 import CustomService from './CustomService'
+import AboutUs from './AboutUs'
 
-export {Home, Marketplace, IndividualRoles, Roles, Resources, Careers, CustomService} 
+export {Home, Marketplace, IndividualRoles, Roles, Resources, Careers, CustomService, AboutUs} 

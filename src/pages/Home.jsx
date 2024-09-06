@@ -17,8 +17,8 @@ const Home = () => {
       <Contact />
       <Hero />
       <Suspense fallback={<div className='flex w-full h-[30vh] items-center justify-center'><CircularProgress color="secondary" /></div>}>
-        <Packages />
         <Solutions />
+        <Packages />
         <Process />
       </Suspense>
       <Suspense fallback={<div className='flex w-full h-[30vh] items-center justify-center'><CircularProgress color="secondary" /></div>}>
