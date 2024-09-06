@@ -1,6 +1,6 @@
 import React from 'react'
 import { Contact, Footer } from '../components/layout'
-import {Hero} from '../components/careers/Hero' 
+import Hero from '../components/careers/Hero' 
 import { ApplicationForm } from '../components/careers/ApplicationForm'
 
 const Careers = () => {
