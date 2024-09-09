@@ -5,12 +5,13 @@ import './index.css'
 
 import { ThemeProvider } from "@material-tailwind/react";
 import { BrowserRouter } from 'react-router-dom';
+import theme from '../theme.js';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <ThemeProvider>
+      <ThemeProvider theme={theme}>
         <App />
       </ThemeProvider>
     </BrowserRouter>

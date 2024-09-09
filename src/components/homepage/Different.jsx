@@ -4,7 +4,7 @@ import bg1 from '/different.svg'
 import bg2 from '/unleashed.svg'
 import Container from '../layout/Container'
 import { Fade, Slide, Zoom } from 'react-awesome-reveal'
-import { Check } from 'lucide-react'
+import { Award, Check, FileX, HandCoins, NotepadText, Users } from 'lucide-react'
 
 const Different = () => {
 
@@ -118,36 +118,46 @@ const Different = () => {
         <Container>
           <div className="flex flex-col md:gap-10 gap-6">
             <Fade>
+              <div className="flex flex-col xl:gap-2 md:gap-1">
               <h1 className='text-[#253359] 2xl:text-4xl text-xl md:text-3xl font-bold playfair-display-font text-center'>Why Choose Us As Your Service Agent!</h1>
+              <p className='text-[#253359] text-xs md:text-sm text-center'>Your Vision, Our Dedication—A Partnership for Success.<br />Let's Build a Better Future, Together.</p>
+              </div>
             </Fade>
             <div className='flex md:flex-row flex-col justify-center w-full h-full md:gap-[1.7%] gap-5'>
+              
               <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl md:w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <div className='flex flex-col gap-2 md:gap-4 md:px-5 md:py-9 p-4 w-full h-full'>
-                  <h3 className='text-[#253359] font-semibold text-sm md:text-base 2xl:text-lg uppercase'>Expertise</h3>
+                <div className='flex flex-col gap-2 items-center justify-between w-ful h-full'>
+                  <h3 className='flex gap-2 items-center text-[#252B42] font-bold text-sm md:text-base  uppercase  md:px-5 md:py-5 p-4'><span className='bg-white rounded-full p-2 md:p-4 text-[#253359]'><Users /></span> Expertise</h3>
+                  <div className="flex bg-white rounded-2xl md:gap-4 md:px-5  p-4 w-full h-full">
                   <p className='text-[#253359] 2xl:text-base md:text-sm text-xs '>With years of experience in the industry, we have the knowledge and skills to deliver exceptional results</p>
+                  </div>
                 </div>
               </Zoom>
 
               <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl md:w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <div className='flex flex-col gap-2 md:gap-4 md:px-5 md:py-9 p-4 w-full h-full'>
-                  <h3 className='text-[#253359] font-semibold text-sm md:text-base 2xl:text-lg uppercase'>Customized Solutions</h3>
+                <div className='flex flex-col gap-2 items-center justify-between w-ful h-full'>
+                  <h3 className='flex gap-2 items-center text-[#252B42] font-bold text-sm md:text-base  uppercase  md:px-5 md:py-5 p-4'><span className='bg-white rounded-full p-2 md:p-4 text-[#253359]'><Award /></span> Customized Solutions</h3>
+                  <div className="flex bg-white rounded-2xl md:gap-4 md:px-5  p-4 w-full h-full">
                   <p className='text-[#253359] 2xl:text-base md:text-sm text-xs '>We understand that every business is unique. That's why we work closely with our clients to develop customized solutions that address their specific needs and goals.</p>
+                  </div>
                 </div>
               </Zoom>
 
               <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl md:w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <div className='flex flex-col gap-2 md:gap-4 md:px-5 md:py-9 p-4 w-full h-full'>
-                  <h3 className='text-[#253359] font-semibold text-sm md:text-base 2xl:text-lg uppercase'>Reliability</h3>
-                  <p className='text-[#253359] 2xl:text-base md:text-sm text-xs '>You can count on us to deliver reliable and consistent service, allowing you to focus on growing your business with peace of mind.
-                  </p>
+                <div className='flex flex-col gap-2 items-center justify-between w-ful h-full'>
+                  <h3 className='flex gap-2 items-center text-[#252B42] font-bold text-sm md:text-base  uppercase  md:px-5 md:py-5 p-4'><span className='bg-white rounded-full p-2 md:p-4 text-[#253359]'><HandCoins /></span> Financial Services </h3>
+                  <div className="flex bg-white rounded-2xl md:gap-4 md:px-5  p-4 w-full h-full">
+                  <p className='text-[#253359] 2xl:text-base md:text-sm text-xs '>You can count on us to deliver reliable and consistent service, allowing you to focus on growing your business with peace of mind.</p>
+                  </div>
                 </div>
               </Zoom>
 
               <Zoom delay={-300} className='bg-[#EFF5F2] border border-[#CBD8D3] rounded-2xl md:w-[24%] shadow-xl shadow-[#EFF5F2]'>
-                <div className='flex flex-col gap-2 md:gap-4 md:px-5 md:py-9 p-4 w-full h-full'>
-                  <h3 className='text-[#253359] font-semibold text-sm md:text-base 2xl:text-lg uppercase'>Cost-Effectiveness</h3>
-                  <p className='text-[#253359] 2xl:text-base md:text-sm text-xs '> Outsourcing to Your Support Agent is not only convenient but also cost-effective. Save time and resources by leveraging our expertise and infrastructure.
-                  </p>
+                <div className='flex flex-col gap-2 items-center justify-between w-ful h-full'>
+                  <h3 className='flex gap-2 items-center text-[#252B42] font-bold text-sm md:text-base  uppercase  md:px-5 md:py-5 p-4'><span className='bg-white rounded-full p-2 md:p-4 text-[#253359]'><NotepadText /></span> Cost-Effectiveness </h3>
+                  <div className="flex bg-white rounded-2xl md:gap-4 md:px-5  p-4 w-full h-full">
+                  <p className='text-[#253359] 2xl:text-base md:text-sm text-xs '>Outsourcing to Your Support Agent is not only convenient but also cost-effective. Save time and resources by leveraging our expertise and infrastructure.</p>
+                  </div>
                 </div>
               </Zoom>
             </div>

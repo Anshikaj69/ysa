@@ -9,9 +9,9 @@ const Hero = () => {
                 <div className="grid grid-cols-1 md:grid-cols-[6fr,8fr] bg-[#253359] w-full rounded-xl p-10 text-white">
                     <div className="flex flex-col justify-evenly  items-start ">
                         <div className="flex flex-col gap-3">
-                        <h5 className='text-base'>Pleasure and so read the was hope.</h5>
+                        <h5 className='text-base'>ELite offshore talent to support your business needs</h5>
                         <h4 className='text-5xl font-semibold playfair-display-font mb-2'>What makes us different ?</h4>
-                        <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit- et ut massa libero egestas malesuada viverra gravida libero cursus nulla leo pulvinar.</p>
+                        <p className=''>Your Support Agent is here to you scale your business faster and more affordably with our individual or team plan for only one low price of $2999</p>
                         </div>
                         <div className="flex gap-3 justify-center items-center">
                             <div className="flex">

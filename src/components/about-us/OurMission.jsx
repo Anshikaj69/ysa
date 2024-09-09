@@ -4,12 +4,12 @@ import { Check } from 'lucide-react'
 
 const OurMission = () => {
     const items = [
-        'Moonlight newspaper up its ',
-        'She new course gets living.',
-        'She new course gets living.',
-        'Rooms oh fully taken by worse.',
-        'Perceived end certainly day.',
-        'Preference any astonished unreserved Mrs.'
+        'tailored process',
+        'extensive expertise',
+        'commitment to your success',
+        'Dedicated Agents',
+        'Business Strategy',
+        'Seamless Integration'
     ]
     return (
         <div className='py-10 px-4 md:px-10 bg-[#CBD8D3]'>
@@ -18,8 +18,8 @@ const OurMission = () => {
                     <div className="flex flex-col justify-evenly  items-start ">
                         <div className="flex flex-col gap-3 text-[#253359]">
                             <h5 className='text-lg font-bold'>Our Mission.</h5>
-                            <h4 className='text-5xl font-semibold playfair-display-font mb-2'>Boost your with your business.</h4>
-                            <p className=''>He moonlights difficult engrossed it, sportsmen. Interested has all Devonshire difficulty gay assistance joy.</p>
+                            <h4 className='text-5xl font-semibold playfair-display-font mb-2'>Upscale Your Business with Your Support Agent.</h4>
+                            <p className=''>Outsourcing Solutions That Connect You with Elite Talent, Enhance Seamless Delegation, and Empower Your Business Growth! <br /><br /> We aim to ensure seamless workflows, personalized solutions, and exceptional results </p>
                         </div>
                         <div className="grid grid-cols-2 gap-3">
                         {items.map((text) => (

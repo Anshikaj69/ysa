@@ -36,10 +36,10 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     <h1 className="text-black text-sm md:text-base font-semibold">{column1Title}</h1>
                     {column1.map(({ title, link, icon }) => (
                         <Link key={title} to={link}>
-                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#4D4DFF] transition-colors flex gap-2.5 md:p-1.5 p-1 rounded-md">
+                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors flex gap-2.5 md:p-1.5 p-1 rounded-md">
                                 {icon}
                                 <div className="flex flex-col">
-                                    <p className=" flex gap-1 items-center text-xs md:text-sm font-medium text-black hover:text-[#4D4DFF]">
+                                    <p className=" flex gap-1 items-center text-xs md:text-sm font-medium text-black hover:text-[#31319a]">
                                         {title}
                                     </p>
                                 </div>
@@ -52,10 +52,10 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     <h1 className="text-black text-sm md:text-base font-semibold">{column2Title}</h1>
                     {column2.map(({ title, link, icon }) => (
                         <Link key={title} to={link}>
-                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#4D4DFF] transition-colors flex gap-2.5 md:p-1.5 p-1 rounded-md">
+                            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors flex gap-2.5 md:p-1.5 p-1 rounded-md">
                                 {icon}
                                 <div className="flex flex-col">
-                                    <p className=" flex gap-1 items-center text-xs md:text-sm font-medium text-black hover:text-[#4D4DFF]">
+                                    <p className=" flex gap-1 items-center text-xs md:text-sm font-medium text-black hover:text-[#31319a]">
                                         {title}
                                     </p>
                                 </div>
