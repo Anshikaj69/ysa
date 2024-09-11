@@ -49,62 +49,191 @@ export const sectors = [
   {
     title: 'Ecommerce & Marketplace',
     icon: <ShoppingCartIcon size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'MarketPlace',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/MarketPlace'
+      },
+      {
+        title: 'E-Commerce',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/E-Commerce'
+      },
+      {
+        title: 'Marketing Agency',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Marketing Agency'
+      },
+      {
+        title: 'Social Media',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Social Media'
+      }
+    ]
   },
   {
     title: 'Insurance & Financial Services',
     icon: <ShieldCheckIcon size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'Financial Services',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Financial Services'
+      },
+      {
+        title: 'Accounting Firm',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Accounting Firm'
+      },
+      {
+        title: 'Health Plans',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Health Plans'
+      },
+    ]
   },
   {
     title: 'Digital Marketing & Design',
     icon: <BrushIcon size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'Interior Design/ Architecture',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Interior Design or Architecture'
+      },
+      {
+        title: 'Marketing Agency',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Marketing Agency'
+      },
+      {
+        title: 'MarketPlace',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/MarketPlace'
+      },
+      {
+        title: 'Social Media',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Social Media'
+      }
+    ]
   },
   {
     title: 'Healthcare & HealthTech',
     icon: <HeartHandshakeIcon size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'Healthcare',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Healthcare'
+      },
+      {
+        title: 'Health Plans',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Health Plans'
+      },
+    ]
   },
   {
     title: 'Hospitality',
     icon: <CoffeeIcon size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'Hospitality',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Hospitality'
+      },
+      {
+        title: 'Airbnb',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Airbnb'
+      }
+    ]
   },
   {
     title: 'Real Estate and Retail',
     icon: <HousePlus size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'Real Estate',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Real Estate'
+      },
+      {
+        title: 'C-store/ Gas Station',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/C-store or Gas Station'
+      },
+      {
+        title: 'Airbnb',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Airbnb'
+      }
+      
+    ]
   },
   {
     title: 'Maintenance Services',
     icon: <WrenchIcon size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'HVAC',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/HVAC'
+      },
+      {
+        title: 'Plumbing',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Plumbing'
+      },
+      {
+        title: 'Fencing & Roofing',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Fencing & Roofing'
+      },
+      {
+        title: 'Pool Cleaning',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Pool Cleaning'
+      }
+    ]
   },
   {
     title: 'Transportation & Logistics',
     icon: <TruckIcon size={15} />,
-    link: '/marketplace'
+    subSectors: [
+      {
+        title: 'Transportation & Logistics',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Transportation & Logistics'
+      },
+      {
+        title: 'Automotive',
+        icon: <ShieldCheckIcon size={15} />,
+        link: '/sectors/Automotive'
+      },
+    ]
   },
   {
     title: 'Legal',
     icon: <ScaleIcon size={15} />,
-    link: '/marketplace'
+    link: '/sectors/Legal'
   },
   {
     title: 'Energy & Utilities',
     icon: <BatteryChargingIcon size={15} />,
-    link: '/marketplace'
+    link: '/sectors/Energy & Utilities'
   },
   {
     title: 'Education & Training',
     icon: <BookOpenText size={15} />,
-    link: '/marketplace'
+    link: '/sectors/Education & Training'
   },
   {
     title: 'Back Office Processing',
     icon: <ClipboardCheck size={15} />,
-    link: '/marketplace'
+    link: '/sectors/Back Office Processing'
   }
 ];
 
@@ -193,21 +322,21 @@ const Navbar = () => {
       description:
         "Empower Your Business with Our Expert Support",
       link: '/about-us',
-      icon: <LightbulbIcon size={19} />
+      icon: <LightbulbIcon size={22} />
     },
     {
       title: "Resources",
       description:
         "Explore Valuable Resources to Enhance Your Success",
       link: '/resources',
-      icon: <BookOpenText size={19} />
+      icon: <BookOpenText size={22} />
     },
     {
       title: "Careers",
       description:
         "Become a Part of Our Dynamic Team",
       link: '/careers',
-      icon: <LucideAreaChart size={19} />
+      icon: <LucideAreaChart size={22} />
     }
   ]
 
@@ -216,7 +345,7 @@ const Navbar = () => {
       title: "Hire + Marketing Package",
       description:
         "Curated plan + 3 agents of your choice",
-      link: '/marketplace#step1',
+      link: '/sectors/marketplace#step1',
       icon: <TargetIcon size={18} />
     },
     {

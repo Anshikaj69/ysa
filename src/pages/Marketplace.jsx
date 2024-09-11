@@ -4,11 +4,13 @@ import { Contact, Footer } from '../components/layout'
 
 import { useSnapshot } from 'valtio'
 import state from '../store'
+import { useParams } from 'react-router-dom'
 
 const Marketplace = () => {
 
   const snap = useSnapshot(state)
-
+  const { sector } = useParams()
+  state.service = sector
   return (
     <>
       <Contact />
