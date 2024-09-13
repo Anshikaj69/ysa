@@ -8,14 +8,14 @@ import {
 import { ChevronDownIcon, ChevronRightIcon, SquareArrowOutUpRightIcon } from "lucide-react";
 import ProcessCard from "./ProcessCard";
 import { Link } from "react-router-dom";
-import {AnimatePresence, motion} from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 export function MenuComponent({ menuTitle, column1, column2, column1Title, column2Title }) {
     const [openMenu, setOpenMenu] = React.useState(false);
 
 
     return (
-        <Menu open={openMenu} handler={setOpenMenu} allowHover  className="shadow-2xl border-2 border-blue-900 hover:border-none max-h-[800px] overflow-y-clip">
+        <Menu open={openMenu} handler={setOpenMenu} allowHover className="shadow-2xl border-2 border-blue-900 hover:border-none max-h-[800px] overflow-y-clip">
             <MenuHandler>
                 <button
                     variant="text"
@@ -28,16 +28,12 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     />
                 </button>
             </MenuHandler>
-            <MenuList className="md:w-[70rem] grid-cols-12 gap-3 overflow-visible grid hover:border-none">
-                <Card
-                    shadow={false}
-                    className="hidden col-span-4 md:flex h-full w-full items-center justify-center rounded bg-[#f0f2f8] hover:border-0 border-0 p-4"
-                >
-                    <ProcessCard />
-                </Card>
+            <MenuList className="lg:w-[75rem]  gap-3 overflow-visible hover:border-none">
+               
 
-                <MenuColumn title={column1Title} items={column1} setOpenMenu={setOpenMenu}/>
-                <MenuColumn title={column2Title} items={column2} setOpenMenu={setOpenMenu}/>
+                <MenuColumn title={column1Title} items={column1} setOpenMenu={setOpenMenu} />
+                <MenuColumn title={column2Title} items={column2} setOpenMenu={setOpenMenu} />
+               
             </MenuList>
         </Menu>
     );
@@ -47,16 +43,18 @@ const MenuColumn = ({ title, items, setOpenMenu }) => {
     const [openSubSector, setOpenSubSector] = React.useState(null);
 
     return (
-        <ul className="col-span-6 md:col-span-4 flex w-full flex-col hover:border-none md:py-5 md:pl-5 md:pr-2 p-2 gap-1.5">
-            <h1 className="text-black text-sm md:text-base font-semibold poppins">{title}</h1>
+        <ul className=" w-full flex flex-col hover:border-none md:py-5  p-2 gap-1.5">
+            <h1 className="text-black text-sm md:text-base font-semibold poppins text-center">{title}</h1>
+            <div className=" grid grid-cols-2 md:grid-cols-4 gap-0.5 md:gap-0">
             {items.map(({ title, link, icon, subSectors }) => (
-                <MenuItemWithSubSectors 
-                key={title} title={title} link={link} icon={icon} subSectors={subSectors} 
-                setOpenMenu={setOpenMenu}
-                openSubSector={openSubSector} 
-                setOpenSubSector={setOpenSubSector}
+                <MenuItemWithSubSectors
+                    key={title} title={title} link={link} icon={icon} subSectors={subSectors}
+                    setOpenMenu={setOpenMenu}
+                    openSubSector={openSubSector}
+                    setOpenSubSector={setOpenSubSector}
                 />
             ))}
+            </div>
         </ul>
     );
 };
@@ -65,17 +63,17 @@ const MenuItemWithSubSectors = ({ title, link, icon, subSectors, openSubSector, 
     const isOpen = openSubSector === title;
 
     const toggleSubSectors = () => {
-        setOpenSubSector(isOpen ? null : title);  
+        setOpenSubSector(isOpen ? null : title);
     };
 
     return subSectors && subSectors.length > 0 ? (
         <div className="w-full">
-            <div className="flex justify-between items-center hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors p-1.5 rounded-md cursor-pointer group" onClick={toggleSubSectors} >
+            <div className="flex justify-between items-center hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors  md:p-2 rounded-md cursor-pointer group" onClick={toggleSubSectors} >
                 <div className="flex gap-2.5 items-center">
-                    <div className="flex bg-[#eaeef9] group-hover:bg-[#ebf0fe] p-1 rounded">
-                    {icon}
+                    <div className="flex bg-[#eaeef9] group-hover:bg-[#ebf0fe] p-2 rounded">
+                        {icon}
                     </div>
-                    <p className="text-xs md:text-sm font-medium text-black group-hover:text-[#31319a] poppins">{title}</p>
+                    <p className="text-[10px] md:text-sm font-medium text-black group-hover:text-[#31319a] poppins">{title}</p>
                 </div>
                 <ChevronRightIcon className={`h-3.5 w-3.5 transition-transform ${isOpen ? "rotate-90" : ""}`} />
             </div>
@@ -101,11 +99,11 @@ const MenuItemWithSubSectors = ({ title, link, icon, subSectors, openSubSector, 
         </div>
     ) : (
         <Link to={link} onClick={() => setOpenMenu(false)}>
-            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors flex gap-2.5 p-1.5 rounded-md group">
-            <div className="flex bg-[#eaeef9] group-hover:bg-[#ebf0fe] p-1 rounded">
+            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors flex items-center gap-2.5 md:p-2 rounded-md group border-none">
+                <div className="flex bg-[#eaeef9] group-hover:bg-[#ebf0fe] p-2 h-fit rounded">
                     {icon}
-                    </div>
-                <p className="text-xs md:text-sm font-medium text-black group-hover:text-[#31319a] poppins">{title}</p>
+                </div>
+                <p className="text-[10px] md:text-sm font-medium text-black group-hover:text-[#31319a] poppins">{title}</p>
             </div>
         </Link>
     );
