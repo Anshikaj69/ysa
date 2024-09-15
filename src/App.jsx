@@ -1,4 +1,4 @@
-import {Home, IndividualRoles, Marketplace, Roles, Resources, Careers, CustomService, AboutUs} from './pages'
+import {Home, IndividualRoles, Marketplace, Roles, Resources, Careers, CustomService, AboutUs, Pricing} from './pages'
 
 import { Route, Routes } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
@@ -23,6 +23,7 @@ function App() {
          <Route path='/careers' element={<Careers/>} />
          <Route path='/custom-services' element={<CustomService/>} />
          <Route path='/about-us' element={<AboutUs/>} />
+         <Route path='/pricing' element={<Pricing/>} />
        </Routes>
     </div>
     </ConfigProvider>

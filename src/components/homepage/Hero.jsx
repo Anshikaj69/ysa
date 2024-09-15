@@ -12,12 +12,13 @@ const Hero = () => {
           <div className=' flex flex-col gap-3 md:gap-10 2xl:pt-16 md:pt-20 md:w-[50%]'>
 
             <Slide direction='left' duration={1500} delay={-700} >
-              <h1 className='text-[#253359] text-xl md:text-4xl 2xl:text-5xl font-bold playfair-display-font text-center md:text-left'>Empowering Businesses Through Digital Transformation
-              and Global Talent</h1>
+              <h1 className='text-[#253359] text-xl md:text-4xl  font-bold playfair-display-font text-center md:text-left'>Expert Outsourcing for Seamless Business Growth <br/> — Empower Your Team with Skilled Agents Ready to Drive Results!</h1>
             </Slide>
             
             <Slide direction='left' duration={1500} delay={-800} >
-              <p className='text-[#253359] md:max-w-lg 2xl:max-w-xl text-sm md:text-base  2xl:text-xl font-normal text-center md:text-left'>On a mission to help businesses thrive by automating processes, connecting them with skilled overseas talent, and creating tailored marketing strategies.</p>
+              <p className='text-[#253359] md:max-w-lg 2xl:max-w-xl text-sm md:text-base  2xl:text-xl font-normal text-center md:text-left'>
+              Whether you need administrative, technical, or marketing support, our dedicated agents are ready to handle the workload. Scale your business efficiently, reduce overhead costs, and focus on what matters most — we've got the rest covered.
+              </p>
             </Slide>
           </div>
           <div className=' md:w-[50%] flex justify-end items-end self-end'>

@@ -28,7 +28,7 @@ export function MenuComponent({ menuTitle, column1, column2, column1Title, colum
                     />
                 </button>
             </MenuHandler>
-            <MenuList className="lg:w-[75rem]  gap-3 overflow-visible hover:border-none">
+            <MenuList className=" gap-3 overflow-visible hover:border-none">
                
 
                 <MenuColumn title={column1Title} items={column1} setOpenMenu={setOpenMenu} />
@@ -98,13 +98,13 @@ const MenuItemWithSubSectors = ({ title, link, icon, subSectors, openSubSector, 
             </AnimatePresence>
         </div>
     ) : (
-        <Link to={link} onClick={() => setOpenMenu(false)}>
-            <div className="hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors flex items-center gap-2.5 md:p-2 rounded-md group border-none">
+        <div >
+            <Link to={link} onClick={() => setOpenMenu(false)} className="link-no-outline hover:bg-[#eaeef9] text-gray-600 hover:text-[#31319a] transition-colors flex items-center gap-2.5 md:p-2 rounded-md group border-none">
                 <div className="flex bg-[#eaeef9] group-hover:bg-[#ebf0fe] p-2 h-fit rounded">
                     {icon}
                 </div>
                 <p className="text-[10px] md:text-sm font-medium text-black group-hover:text-[#31319a] poppins">{title}</p>
-            </div>
-        </Link>
+            </Link>
+        </div>
     );
 };

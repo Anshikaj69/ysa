@@ -8,40 +8,40 @@ const Packages = () => {
 
   const plansData = [
     {
-      title: 'Package',
+      title: 'Professional Agents',
       description: 'Unleash the Power of Your Business with Package Plan.',
       monthly: '$4500',
       yearly: '',
       explaination: [
-        'select a marketing plan (sliver, gold, platinum) which includes any three full time agents of your choice',
-        'save on  overhead by chosing a package',
-        'create a structure that works with your company needs'
+        'Select a package plan or Choose from a wide range of individual agents',
+        'Individual Plans (160 hours) <br/> Full-Time: $9.50/hour — $1,520  <br/> Part-Time: $9.50/hour — $760',
+        'Package Plans<br/> 3+ agents- $9.00/ $1,440 <br/> 10+ agents-$8.50/ $1,360',
       ],
       iconurl: '/sparkle-icon.svg?url',
       url: '/marketplace'
     },
     {
-      title: 'Individual',
+      title: 'Marketing & Sales',
       description: 'Unleash the Power of Your Business with Individual Plan.',
       monthly: '$6500',
       yearly: '',
       explaination: [
-        'Choose from a wide range of individual agents to fit your specific needs',
-        'Flexibility at its best—select only the agents you require, whenever you need them',
-        'Pay only for the agents you need, with no extra overhead costs'
+        'Select a marketing plan or Choose from a wide range of marketing agents',
+        'Individual Plans (160 hours) <br/> Full-Time: $9.50/hour — $1,520  <br/> Part-Time: $9.50/hour — $760',
+        'Package Plans<br/> 3+ agents- $9.00/ $1,440 <br/> 10+ agents-$8.50/ $1,360',
       ],
       iconurl: '/target-icon.svg?url',
       url: '/individual-roles'
     },
     {
-      title: 'Custom',
+      title: 'Additional Services',
       description: 'Take Your Business to the Next Level with Custom Plan.',
       monthly: '$8500',
       yearly: '',
       explaination: [
         'Fully customize your plan by selecting agents and services that that suit your needs',
-        'Adjust the number of agents and hours as your business grows—no one-size-fits-all',
-        'Design a workflow that is perfectly tailored to your operational needs'
+        '$100/hr.',
+        'Lead genration & Sales <br/> Web Dev & app Dev,<br/> Blockchain, 3D videos,<br/> Trading bot, Marketing, Automation'
       ],
       iconurl: '/gem-icon.svg?url',
       url: '/custom-services'
@@ -66,7 +66,7 @@ const Packages = () => {
                 <h3 className='md:text-2xl font-medium text-xl'>{plan.title}</h3>
                 <h4 className={` hover:text-black text-xs md:text-sm font-light w-xs`}>{plan.description}</h4>
               </div>
-              <h4 className='text-lg md:text-2xl font-medium flex gap-1 md:gap-2 items-center border-b md:pb-3 pb-2 mb-2'>{plan.monthly} <span className='text-gray-700 text-sm font-light'>per month</span></h4>
+              <h4 className='text-lg md:text-2xl font-normal flex gap-1 md:gap-2 items-center border-b md:pb-3 pb-2 mb-2'>{plan.monthly} <span className='text-gray-700 text-sm font-light'>per month</span></h4>
               <div className="flex aspect-[21/9] md:aspect-[16/9]   border-white rounded-lg overflow-hidden relative">
                 <img src='https://media.istockphoto.com/id/1423369897/photo/call-center-worker.jpg?s=612x612&w=0&k=20&c=KaxWNnsroknjxkXjfJijLhmdomOGFt4T-RwUF0qK3hc='
                   className=' backdrop-brightness-75 w-full object-cover object-center'
@@ -83,7 +83,7 @@ const Packages = () => {
                 {plan.explaination.map((content) => (
                   <div className="flex gap-4 items-start">
                     <img src='/check-mark.svg' className='mt-2 w-[5%] md:w-fit' />
-                    <p className='text-gray-600 text-xs md:text-sm'>{content}</p>
+                    <p className='text-gray-600 text-xs md:text-sm'   dangerouslySetInnerHTML={{ __html: content }}></p>
                   </div>
                 ))}
               </div>
