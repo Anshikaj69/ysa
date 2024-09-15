@@ -93,27 +93,23 @@ const Agents = () => {
         <h5 className='font-medium text-[#253359] '>Individual Plans{`(160 Hours)`}</h5>
         <div className="flex flex-col gap">
           <h6 className='text-left text-black font-medium mt-2 flex items-center gap-2'> Full-Time</h6>
-          <p className='text-black font-medium'> $9.50/hour — $1,520/month</p>
-          <p className='text-sm font-medium text-gray-700'>Get a full-time agent dedicated to your business, providing reliable, ongoing support.</p>
+          <p className='text-gray-700 font-medium'> $9.50/hour — $1,520/month</p>
           </div>
           <div className="flex flex-col gap mt-4">
           <h6 className='text-left text-black font-medium  flex items-center gap-2'> Part-Time</h6>
-          <p className='text-black font-medium'>$9.50/hour — $760/month</p>
-          <p className='text-sm font-medium text-gray-700'>Ideal for businesses with lighter workloads, our part-time plan offers flexible support for your operations.</p>
+          <p className='text-gray-700 font-medium'>$9.50/hour — $760/month</p>
           </div>        
           </div>
 
         <div className="flex flex-col justify-end items-end  py-2 px-8">
           <h5 className='font-medium text-[#253359] '>Package Plans</h5>
           <div className="flex flex-col gap w-full justify-end items-end">
-          <h6 className=' text-black font-medium mt-2 flex items-center gap-2'> Full-Time</h6>
-          <p className='text-black font-medium'> $9.50/hour — $1,520/month</p>
-          <p className='text-sm font-medium text-gray-700 text-end'>Get a full-time agent dedicated to your business, providing reliable, ongoing support.</p>
+          <h6 className=' text-black font-medium mt-2 flex items-center gap-2'>3+ Agents</h6>
+          <p className='text-gray-700 font-medium'> $9.50/hour — $1,520/month</p>
           </div>
           <div className="flex flex-col gap  w-full justify-end items-end mt-4">
-          <h6 className=' text-black font-medium  flex items-center gap-2'> Part-Time</h6>
-          <p className='text-black font-medium'>$9.50/hour — $760/month</p>
-          <p className='text-sm font-medium text-gray-700 text-end'>Ideal for businesses with lighter workloads, our part-time plan offers flexible support for your operations.</p>
+          <h6 className=' text-black font-medium  flex items-center gap-2'>10+ Agents</h6>
+          <p className='text-gray-700 font-medium'>$9.50/hour — $760/month</p>
           </div>        
         </div>
         
@@ -164,12 +160,12 @@ const Marketing = () => {
         <div className="flex flex-col justify-end items-end  py-2 px-8">
           <h5 className='font-medium text-[#253359] '>Package Plans</h5>
           <div className="flex flex-col gap w-full justify-end items-end">
-          <h6 className=' text-black font-medium mt-2 flex items-center gap-2'> Full-Time</h6>
+          <h6 className=' text-black font-medium mt-2 flex items-center gap-2'>3+ Agents</h6>
           <p className='text-black font-medium'> $9.50/hour — $1,520/month</p>
           <p className='text-sm font-medium text-gray-700 text-end'>Get a full-time agent dedicated to your business, providing reliable, ongoing support.</p>
           </div>
           <div className="flex flex-col gap  w-full justify-end items-end mt-4">
-          <h6 className=' text-black font-medium  flex items-center gap-2'> Part-Time</h6>
+          <h6 className=' text-black font-medium  flex items-center gap-2'>10+ Agents</h6>
           <p className='text-black font-medium'>$9.50/hour — $760/month</p>
           <p className='text-sm font-medium text-gray-700 text-end'>Ideal for businesses with lighter workloads, our part-time plan offers flexible support for your operations.</p>
           </div>        
