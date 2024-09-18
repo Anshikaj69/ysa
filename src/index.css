@@ -31,6 +31,9 @@
 
 /* styles.css */
 
+.btn{
+ background-color: #253359;
+}
 
 .btn1 {
   transition: all 0.3s ease-in-out;

@@ -19,7 +19,7 @@ const Advantages = ({ sectionName }) => {
     }
   }, [sectionName]);
 
-  if (!sectionData) return <div>Loading...</div>;
+  if (!sectionData) return <div></div>;
 
   const { whyus, services } = sectionData
 

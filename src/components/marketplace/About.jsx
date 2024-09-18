@@ -23,7 +23,7 @@ const About = ({ sectionName }) => {
     }
   }, [location]);
 
-  if (!sectionData) return <div>Loading...</div>;
+  if (!sectionData) return <div></div>;
 
   const { aboutUs } = sectionData;
 

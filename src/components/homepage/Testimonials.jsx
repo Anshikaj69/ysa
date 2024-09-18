@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel, IconButton } from "@material-tailwind/react";
 import Container from '../layout/Container';
 import { Fade } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 
 const Testimonials = () => {
 
@@ -111,7 +112,9 @@ const Testimonials = () => {
                         </p>
                     </Fade>
                     <Fade>
-                        <button className='hover:bg-[#e0efe3] border btn btn1 text-[#253359] bg-white rounded-3xl md:py-2.5 md:px-5 px-2 py-1 2xl:text-base text-sm w-fit'>Book a Call</button>
+                        <Link to='/sectors/marketplace#step1'>
+                        <button className='hover:bg-[#e0efe3] border  btn1 text-[#253359] bg-white rounded-3xl md:py-2.5 md:px-5 px-2 py-1 2xl:text-base text-sm w-fit'>Book a Call</button>
+                        </Link>
                     </Fade>
                 </div>
             </Container>

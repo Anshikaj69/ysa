@@ -42,6 +42,12 @@ export const AdditionalServicesItems = [
       "Trade Smarter with Our Advanced Bots",
     link: '/individual-roles/Bot Design',
     icon: <Bot size={18} />
+  },
+  {
+    title: "Lead Generation & Sales",
+    description: "Accelerate Growth with Targeted Leads and Proven Sales Strategies",
+    link: '/individual-roles/Lead Generation',
+    icon: <TargetIcon size={18} />
   }
 ]
 
@@ -170,7 +176,7 @@ export const sectors = [
         icon: <ShieldCheckIcon size={15} />,
         link: '/sectors/Airbnb'
       }
-      
+
     ]
   },
   {
@@ -235,9 +241,9 @@ export const sectors = [
     icon: <ClipboardCheck size={15} />,
     link: '/sectors/Back Office Processing'
   }
-];
+];  
 
-export  const roles = [
+export const roles = [
   {
     title: 'Customer Support',
     icon: <HeadsetIcon size={15} />,
@@ -391,7 +397,7 @@ const Navbar = () => {
               <Link to='/pricing' className=' font-semibold   '>Pricing</Link>
             </nav>
             <div>
-              <span onClick={() => handleLinkClick('/marketplace#step1')}>
+              <span onClick={() => handleLinkClick('/sectors/marketplace#step1')}>
                 <button className='hover:bg-[#e0efe3] bg-[#253359] font-normal rounded-3xl py-2 px-3 text-xs text-white 2xl:text-sm btn btn1'>Book a Call</button>
               </span>
             </div>
@@ -418,27 +424,27 @@ const Navbar = () => {
           </button>
         </div>
         <nav className='flex flex-col gap-7 items-center justify-center text-white 2xl:text-sm md:text-xs'>
-              <MenuComponent
-                menuTitle='Outsourcing'
-                column1={sectors}
-                column2={roles}
-                column1Title='Sectors'
-                column2Title='Roles'
-              />
-              <SimpleMenu
-                menuTitle='About us'
-                menuItems={AboutUsItems}
-              />
-              <SimpleMenu
-                menuTitle='Services'
-                menuItems={services}
-              />
-              <SimpleMenu
-                menuTitle='Additional Services'
-                menuItems={AdditionalServicesItems}
-              />
-              <Link to='/pricing' className=' font-semibold  '>Pricing</Link>
-            </nav>
+          <MenuComponent
+            menuTitle='Outsourcing'
+            column1={sectors}
+            column2={roles}
+            column1Title='Sectors'
+            column2Title='Roles'
+          />
+          <SimpleMenu
+            menuTitle='About us'
+            menuItems={AboutUsItems}
+          />
+          <SimpleMenu
+            menuTitle='Services'
+            menuItems={services}
+          />
+          <SimpleMenu
+            menuTitle='Additional Services'
+            menuItems={AdditionalServicesItems}
+          />
+          <Link to='/pricing' className=' font-semibold  '>Pricing</Link>
+        </nav>
       </div>
     </>
   );

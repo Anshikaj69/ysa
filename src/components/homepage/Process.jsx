@@ -93,8 +93,8 @@ const Process = () => {
                             </Slide>
 
                             <Slide duration={1500} delay={-800}>
-                                <Link to='/marketplace#step1'>
-                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
+                                <Link to='/sectors/marketplace#step1'>
+                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base '>Book a Call</button>
                                 </Link>
                             </Slide>
                         </div>
@@ -149,7 +149,7 @@ const Process = () => {
                             </Slide>
 
                             <Slide direction='right' duration={1500} delay={-800}>
-                                <Link to='/marketplace#step1'>
+                                <Link to='/sectors/marketplace#step1'>
                                     <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
                                 </Link>
                             </Slide>
@@ -197,7 +197,7 @@ const Process = () => {
                             </Slide>
 
                             <Slide duration={1500} delay={-800}>
-                                <Link to='/marketplace#step1'>
+                                <Link to='/sectors/marketplace#step1'>
                                     <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
                                 </Link>
                             </Slide>

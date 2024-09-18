@@ -2,6 +2,7 @@ import {Home, IndividualRoles, Marketplace, Roles, Resources, Careers, CustomSer
 
 import { Route, Routes } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
+import MarketingService from './pages/MarketingService';
 
 function App() {
 
@@ -22,8 +23,10 @@ function App() {
          <Route path='/resources' element={<Resources/>} />
          <Route path='/careers' element={<Careers/>} />
          <Route path='/custom-services' element={<CustomService/>} />
+         <Route path='/marketing-services' element={<MarketingService/>} />
          <Route path='/about-us' element={<AboutUs/>} />
          <Route path='/pricing' element={<Pricing/>} />
+
        </Routes>
     </div>
     </ConfigProvider>
