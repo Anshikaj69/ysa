@@ -113,7 +113,7 @@ const Testimonials = () => {
                     </Fade>
                     <Fade>
                         <Link to='/sectors/marketplace#step1'>
-                        <button className='hover:bg-[#e0efe3] border  btn1 text-[#253359] bg-white rounded-3xl md:py-2.5 md:px-5 px-2 py-1 2xl:text-base text-sm w-fit'>Book a Call</button>
+                        <button className='hover:bg-[#e0efe3] border  btn1 text-[#253359] bg-white rounded-3xl md:py-2.5 md:px-5 px-2 py-1 2xl:text-base text-sm w-fit font-medium'>Book a Call</button>
                         </Link>
                     </Fade>
                 </div>

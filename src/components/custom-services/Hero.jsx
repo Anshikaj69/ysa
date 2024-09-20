@@ -16,9 +16,9 @@ const Hero = () => {
     };
 
     return (
-        <div className='md:px-10 px-3 pt-6  md:mt-10'>
+        <div className='md:px-10 px-4 pt-6  md:mt-10'>
             <Container>
-                <div className='flex flex-col md:flex-row md:py-20 pb-9 pt-20 w-full justify-center items-center md:gap-10 gap-5'>
+                <div className='flex flex-col md:flex-row md:py-20 md:pb-9 pt-20 w-full justify-center items-center md:gap-10 gap-5'>
                     <div className='flex flex-col md:gap-8 gap-3 2xl:w-[52%] md:w-[55%] xl:w-[50%]  self-center justify-center xl:max-w-2xl max-w-3xl'>
                         <Slide direction='left' duration={1500} delay={-800}>
                             <h1 className='text-[#253359] md:text-4xl text-xl text-center md:text-left font-bold playfair-display-font leading-tight text-wrap'>
@@ -37,7 +37,7 @@ const Hero = () => {
                         )}
                         <Fade>
                             <img src='https://futuresoftindia.com/assets/images/Custom-Development-highress.png'
-                             className='w-fit h-fit' onLoad={handleImageLoad} ></img>
+                             className='w-fit h-fit hidden md:flex' onLoad={handleImageLoad} ></img>
                         </Fade>
                     </div>
                 </div>

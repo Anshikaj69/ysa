@@ -52,9 +52,9 @@ const Solutions = () => {
     <>
       {/* sulutions */}
 
-      <div className='bg-white px-4 py-8 md:px-10 md:py-14' id='outsourcing-agents' ref={agentsRef}>
+      <div className='bg-white px-4 py-6 md:px-10 md:py-14' id='outsourcing-agents' ref={agentsRef}>
         <Container>
-          <h2 className='playfair-display-font font-bold text-lg md:text-4xl text-center text-[#253359] mb-8 md:mb-12'>Our Range of Outsourcing Solutions</h2>
+          <h2 className='playfair-display-font font-bold text-xl md:text-4xl text-center text-[#253359] mb-8 md:mb-12'>Our Range of Outsourcing Solutions</h2>
           <Tabs value={activeTab} className='poppins' sx={{ fontFamily: 'Poppins, sans-serif' }}    >
             <TabsHeader
               className="rounded-none border-b border-blue-gray-100 bg-transparent p-0 "
@@ -109,7 +109,7 @@ const SolutionItemWithSubSectors = ({ item, openSubSector, setOpenSubSector }) =
     <div className="w-full">
       <div
         onClick={toggleSubSectors}
-        className="relative flex flex-col gap-2 md:gap-4 col-span-1 text-black hover:text-[#31319a] border border-[#31319a] rounded-md items-center justify-center py-4 md:py-8 px-1 cursor-pointer hover:shadow-[#31319a] hover:shadow transition">
+        className="h-full relative flex flex-col gap-2 md:gap-4 col-span-1 text-black hover:text-[#31319a] border border-[#31319a] rounded-md items-center justify-center py-4 md:py-8 px-1 cursor-pointer hover:shadow-[#31319a] hover:shadow transition">
         <div className='md:scale-[1.35] p-2 bg-[#F4F6FF] rounded text-[#31319a]'>{item.icon}</div>
         <div className="flex gap- items-center justify-center">
           <p className=' font-medium text-center text-xs md:text-xs lg:text-xs 2xl:text-base poppins'>{item.title}</p>
@@ -120,7 +120,7 @@ const SolutionItemWithSubSectors = ({ item, openSubSector, setOpenSubSector }) =
         <AnimatePresence initial={false}>
           {isOpen && (
             <motion.ul
-              className="absolute left-0 right-0 top-full mt-1 z-10 bg-[#F4F6FF] shadow-2xl rounded-md py-2 px-4 items-center justify-center flex flex-col"
+              className="absolute left-0 right-0 top-full mt-1 z-10 bg-[#F4F6FF] shadow-2xl rounded-md py-2  md:px-4 items-center justify-center flex flex-col"
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
@@ -128,7 +128,7 @@ const SolutionItemWithSubSectors = ({ item, openSubSector, setOpenSubSector }) =
             >
               {item.subSectors.map(subSector => (
                 <Link key={subSector.title} to={subSector.link} >
-                  <li className="text-xs md:text-sm font-medium text-gray-900 hover:text-[#31319a] transition-colors mb-1 flex gap-2 items-center">
+                  <li className="text-xs md:text-sm font-medium text-gray-900 hover:text-[#31319a] transition-colors mb-2 flex gap-1 md:gap-2 items-center">
                     {subSector.title} <SquareArrowOutUpRightIcon size={12} />
                   </li>
                 </Link>
@@ -139,7 +139,7 @@ const SolutionItemWithSubSectors = ({ item, openSubSector, setOpenSubSector }) =
       </div>
     </div>
   ) : (
-    <Link to={item.link}><div key={item.title} className="flex flex-col gap-2 md:gap-4 col-span-1 text-black hover:text-[#31319a] border border-[#31319a] rounded-md items-center justify-center py-4 md:py-8 px-2 cursor-pointer hover:shadow-[#31319a] hover:shadow transition">
+    <Link to={item.link}><div key={item.title} className="h-full flex flex-col gap-2 md:gap-4 col-span-1 text-black hover:text-[#31319a] border border-[#31319a] rounded-md items-center justify-center py-4 md:py-8 px-2 cursor-pointer hover:shadow-[#31319a] hover:shadow transition ">
       <div className='md:scale-[1.35] p-2 bg-[#F4F6FF] rounded text-[#31319a]'>{item.icon}</div>
       <p className=' font-medium text-center text-xs md:text-xs lg:text-xs 2xl:text-base poppins'>{item.title}</p>
     </div>

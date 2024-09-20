@@ -14,9 +14,9 @@ const Services = () => {
         navigate(`/individual-roles/${item}`)
     }
     return (
-        <div className='py-10 flex flex-col '>
+        <div className=' py-5 md:py-10 flex flex-col px-4'>
             <Container>
-                <h5 className='text-center text-2xl md:text-4xl font-bold text-black playfair-display-font'>Our Custom Services</h5>
+                <h5 className='text-center text-2xl md:text-4xl font-bold text-[#253359] playfair-display-font'>Our Custom Services</h5>
                 <div className="grid md:grid-cols-3 grid-cols-2 gap-5  md:my-8 my-5 justify-center items-center">
                     {agentsList.map((agent) => (
                         <div className="col-span-1 flex flex-col gap-3 cursor-pointer justify-center items-center" key={agent} onClick={() => { changeService(agent) }}>

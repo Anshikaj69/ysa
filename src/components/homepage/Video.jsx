@@ -39,7 +39,7 @@ const Video = () => {
         
        
         {isLoading && (
-              <Skeleton variant="rectangular" width={210} height={118} />
+              <Skeleton variant="rounded" width={210} height={118} />
         )}
         
         {!isPlaying && (

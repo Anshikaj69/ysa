@@ -8,17 +8,16 @@ const Hero = () => {
     <div className=' px-4 md:px-10 mt-[78px] md:mt-[90px] 2xl:mt-[100px] bg-[#CBD8D3]'
     >
       <Container>
-        <div className='flex flex-col md:flex-row justify-between gap-5 xl:gap-10 2xl:gap-8  w-full items-start  '>
-          <div className=' flex flex-col gap-3 md:gap-6 xl:gap-7 2xl:pt-16 md:pt-12 md:w-[50%]'>
+        <div className='flex flex-col md:flex-row justify-between gap-7  2xl:gap-8  w-full items-start py-6  '>
+          <div className=' flex flex-col gap-2 md:gap-6 xl:gap-7 2xl:pt-[100px] md:pt-20 xl:pt-24 md:w-[50%] justify-center'>
 
             <Slide direction='left' duration={1500} delay={-700} >
-              <h1 className='text-[#253359] text-xl 2xl:text-4xl md:text-3xl  font-bold playfair-display-font text-center md:text-left'>Cost-Effective Outsourcing for Accelerated Growth<br/> — Skilled Agents to Boost Your Business Results Quickly!</h1>
+              <h1 className='text-[#253359] text-2xl 2xl:text-4xl md:text-3xl  font-bold playfair-display-font text-center md:text-left'>Cost-Effective Outsourcing for Accelerated Growth — Skilled Agents to Boost Your Business Results Quickly!</h1>
             </Slide>
             
             <Slide direction='left' duration={1500} delay={-800} >
               <p className='text-[#253359] md:max-w-lg 2xl:max-w-xl text-sm md:text-base  2xl:text-xl font-normal text-center md:text-left'>
-              Whether you need administrative, technical, or marketing support, our dedicated agents are ready to handle the workload. Scale your business efficiently, reduce overhead costs, and focus on what matters most — we've got the rest covered.
-              </p>
+              Whether you need admin, tech, or marketing support, our agents are ready to help. Scale efficiently, cut costs, and focus on what matters — we'll handle the rest.              </p>
             </Slide>
           </div>
           <div className=' md:w-[50%] flex justify-end items-end self-end'>

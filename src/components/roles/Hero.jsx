@@ -36,7 +36,7 @@ const Hero = ({ RoleName }) => {
                         </div>
                         <div className="hidden md:flex flex-col bg-black px-6 py-4 gap-2 absolute bottom-[-10%] left-[18%] rounded-xl text-white ">
                             <p className='font-medium 2xl:text-sm md:text-xs'>Category :</p>
-                            <p className=' 2xl:text-sm md:text-xs'>{snap.service}</p>
+                            <p className=' 2xl:text-sm text-xs'>{snap.service}</p>
                         </div>
                         <div className="flex flex-col bg-black md:px-6 md:py-4 py-2 px-3 gap-2 absolute md:bottom-[-10%] bottom-[-14%] md:left-[35%] left-[7%] rounded-xl text-white ">
                             <p className='font-medium 2xl:text-sm text-xs'>Role :</p>
@@ -46,13 +46,13 @@ const Hero = ({ RoleName }) => {
                             <p className='font-medium 2xl:text-sm md:text-xs'>Time :</p>
                             <p className=' 2xl:text-sm text-xs'>{heroSection.time}</p>
                         </div>
-                        <div className="flex flex-col bg-black md:px-6 md:py-4 px-3 py-2 gap-2 absolute md:bottom-[-10%] bottom-[-14%] md:left-[70%] left-[50%]  rounded-xl text-white">
+                        <div className="flex flex-col bg-black md:px-6 md:py-4 px-3 py-2 gap-0.5 md:gap-2 absolute md:bottom-[-10%] bottom-[-14%] md:left-[70%] left-[50%]  rounded-xl text-white">
                             <div className="flex gap-2">
                             <p className='font-medium 2xl:text-sm text-xs'>Cost :</p>
-                            <p className=' 2xl:text-sm md:text-xs '>Hourly - $9.50</p>
+                            <p className=' 2xl:text-sm text-xs '>Hourly - $9.50</p>
                             </div>
-                            <p className='2xl:text-sm md:text-xs '>
-                                Full Time - $1520 |
+                            <p className='2xl:text-sm text-xs '>
+                                Full Time - $1520 | <br className='md:hidden'/>
                                 Part Time - $760
                             </p>
                         </div>

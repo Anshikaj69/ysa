@@ -28,7 +28,7 @@ const Perks = ({ RoleName }) => {
             <h1 className='text-[#253359] md:text-3xl text-xl font-bold playfair-display-font text-wrap text-center'
               dangerouslySetInnerHTML={{ __html: roles.title }}
             ></h1>
-            <h5>{roles.description}</h5>
+            <h5  className='text-center text-sm md:text-base'>{roles.description}</h5>
           </div>
           <div className='flex flex-col md:w-[80%] w-full gap-5 '>
             {roles.list.map((item) => (
@@ -64,15 +64,15 @@ const Perks = ({ RoleName }) => {
 
         <div className="flex flex-col gap-6 py-10 mt-4 md:mx-20">
           <div className='flex flex-col justify-center '>
-            <h1 className=' md:text-3xl  font-bold playfair-display-font text-center text-[#253359]'> {whyus.title}</h1>
+            <h1 className=' md:text-3xl text-xl font-bold playfair-display-font text-center text-[#253359]'> {whyus.title}</h1>
           </div>
-          <div className="grid grid-cols-2 mx-3 gap-5 font-mono justify-center ">
+          <div className="grid  md:grid-cols-2 mx-3 gap-4 md:gap-5 font-mono justify-center ">
             {whyus.advantages.map((advantage) => {
               count2 += 1;
               return (
-                <div className="col-span-1 flex flex-col gap-1">
-                <h3 className='flex gap-1 text-xs xl:text-base font-semibold text-[#253359] '><ArrowBigRight /> {advantage.title}</h3>
-              <span className='font-normal text-gray-700 flex gap-1 max-w-md'>{advantage.description}</span>
+                <div className="col-span-1 flex flex-col md:gap-1">
+                <h3 className='flex gap-1 text-sm xl:text-base font-semibold text-[#253359] '><ArrowBigRight className='h-4 md:h-7'/> {advantage.title}</h3>
+              <span className='font-normal text-gray-700 flex gap-1 max-w-md text-xs md:text-base'>{advantage.description}</span>
                 </div>
               )
             })}

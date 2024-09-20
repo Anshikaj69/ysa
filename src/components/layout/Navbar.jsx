@@ -158,7 +158,7 @@ export const sectors = [
     ]
   },
   {
-    title: 'Real Estate and Retail',
+    title: 'Real Estate & Retail',
     icon: <HousePlus size={15} />,
     subSectors: [
       {

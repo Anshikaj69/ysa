@@ -50,7 +50,7 @@ const Different = () => {
   return (
     <div>
       {/* what makes us different */}
-      <div className='md:px-10 px-5 md:pb-32 md:pt-52 pt-36 pb-8  '
+      <div className='md:px-10 px-5 pt-28 pb-10 md:py-14 '
         style={{
           backgroundImage: `url(${bg1})`,
           backgroundSize: 'cover',
@@ -60,24 +60,24 @@ const Different = () => {
         <Container>
           <div className="flex flex-col md:gap-16 gap-8">
 
-            <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl text-xl font-bold playfair-display-font text-center'>What Makes Us Different?</h1>
-            <div className='grid md:grid-cols-3 grid-cols-1 w-[100%] gap-5 justify-center items-center md:items-stretch'>
+            <h1 className='text-[#253359] 2xl:text-5xl md:text-4xl text-2xl font-bold playfair-display-font text-center'>What Makes Us Different?</h1>
+            <div className='grid md:grid-cols-3 grid-cols-1 w-[100%] gap-5 justify-center items-center md:items-stretch px-3 md:px-0'>
               {data.map((item) => (
-                <div className="grid-cols-1 flex flex-col p-6 bg-white hover:bg-[#677AAE] transition-colors rounded text-black hover:text-white group">
-                  <div className="flex flex-col gap-2 border-b pb-2 group-hover:border-none">
+                <div className="grid-cols-1 flex flex-col p-6 bg-white hover:bg-[#677AAE] transition-colors rounded text-black hover:text-white group ">
+                  <div className="flex flex-col md:gap-2 border-b pb-2 group-hover:border-none">
                   <div className="flex items-center justify-center rounded-full pr-3 pl-3 pt-3 pb-2 w-fit bg-gradient-to-b from-[#A5D6FD] to-[#253359] group-hover:from-[#ffffff34] group-hover:to-[#ffffff34] group-hover:border-2 group-hover:border-[#e3e2e2ae] group-hover:backdrop-blur-lg transition-all">
                     <img src={item.iconurl} />
                   </div>
-                  <h3 className="group-hover:text-white text-xl font-medium">{item.title}</h3>
-                  <p className="group-hover:text-white">{item.cost}</p>
+                  <h3 className="group-hover:text-white text-lg md:text-xl font-medium">{item.title}</h3>
+                  <p className="group-hover:text-white text-sm md:text-base">{item.cost}</p>
                   </div>
-                  <div className="flex flex-col py-5 px-6 gap-2">
+                  <div className="flex flex-col py-5 md:px-6 gap-2">
                   {item.explaination.map((text) => (
                     <div className="flex gap-3 items-center ">
-                      <div className="flex bg-[#A5D6FD] group-hover:bg-white my-1 rounded-full p-0.5 h-fit w-fit">
-                     <Check className='text-white group-hover:text-[#A5D6FD]' strokeWidth={2} size={15}/>
+                      <div className="flex bg-[#677AAE] group-hover:bg-white my-1 rounded-full p-0.5 h-fit w-fit">
+                     <Check className='text-white group-hover:text-[#677AAE]' strokeWidth={2} size={15}/>
                       </div>
-                      <p className='text-sm'>{text}</p>
+                      <p className='text-xs md:text-sm'>{text}</p>
                     </div>
                   ))}
                   </div>

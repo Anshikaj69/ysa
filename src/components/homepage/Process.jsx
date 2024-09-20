@@ -55,38 +55,38 @@ const Process = () => {
 
             {/* individual agents */}
 
-            <div className='px-6 md:px-10 pt-8 md:pt-20 w-full' >
+            <div className='px-6 md:px-10 pt-8 md:pt-20 w-full pb-9 md:pb-0' >
                 <Container>
                     <div className="flex justify-center w-full ">
-                        <div className='flex flex-col gap-8 md:w-[53%] 2xl:pt-5 md:pr-16'>
+                        <div className='flex flex-col gap-4 md:gap-8 md:w-[53%] 2xl:pt-5 md:pr-16'>
                             <Slide duration={1500} delay={-800}>
                                 <h1 className='text-[#253359] text-2xl md:text-4xl 2xl:text-5xl font-bold playfair-display-font '>Individual <span className='italic'>Agents</span></h1>
                             </Slide>
 
                             <Slide duration={1500} delay={-800}>
                                 <div className='text-[#253359] text-base 2xl:text-xl xl:text-lg font-normal grid grid-cols-2 gap-5 md:gap-9 2xl:mt-10 xl:mt-7 md:mt-4'>
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Clock className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg '>Full-time/Part-time</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg '>Full-time/Part-time</h2>
                                         <p className='2xl:text-base md:text-sm text-xs font-medium md:font-normal'>Hire experts on a freelance, part-time, or full-time basis.</p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <HandCoins className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg'>Cost-Effective</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg'>Cost-Effective</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Address staff shortages and demands efficiently.
                                         </p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Unplug className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg '>Seamless Integration</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg '>Seamless Integration</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Experts function like your regular team members.</p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Handshake className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg'>Personalized Partnership</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg'>Personalized Partnership</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Tailored support for your unique needs.</p>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ const Process = () => {
 
                             <Slide duration={1500} delay={-800}>
                                 <Link to='/sectors/marketplace#step1'>
-                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base '>Book a Call</button>
+                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl px-4 py-2 2xl:py-2.5 md:px-5 text-xs 2xl:text-base'>Book a Call</button>
                                 </Link>
                             </Slide>
                         </div>
@@ -107,42 +107,42 @@ const Process = () => {
 
             {/* marketing plans */}
 
-            <div className='px-6 md:px-10 md:py-10 w-full' id='marketing'>
+            <div className='px-6 md:px-10 md:py-10 w-full pb-9 md:pb-0' id='marketing'>
                 <Container>
                     <div className="flex justify-center w-full">
                         <Fade className='2xl:w-[44%] w-[40%]  self-center hidden md:block'>
                             <img src='/marketing-plans.svg' alt='agents' loading='lazy'></img>
                         </Fade>
 
-                        <div className='flex flex-col gap-8 md:w-[53%] 2xl:pt-5 md:pl-16 self-start'>
+                        <div className='flex flex-col  gap-4 md:gap-8 md:w-[53%] 2xl:pt-5 md:pl-16 self-start'>
                             <Slide direction='right' duration={1500} delay={-800}>
                                 <h1 className='text-[#253359] text-xl md:text-4xl 2xl:text-5xl  font-bold playfair-display-font'>Customized  <span className='italic'>Marketing Plans</span></h1>
                             </Slide>
 
                             <Slide direction='right' duration={1500} delay={-800}>
                                 <div className='text-[#253359] font-normal grid grid-cols-2 gap-5 md:gap-9 2xl:mt-10 xl:mt-7 md:mt-4'>
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Settings className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg '>Tailored Solutions</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg '>Tailored Solutions</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Maximize outreach and impact with bespoke packages.</p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Megaphone className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg '>Boost Brand Awareness</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg '>Boost Brand Awareness</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Strategies to make your business stand out.
                                         </p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Shrub className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg'>Drive Sales</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg'>Drive Sales</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Engage your target audience and increase conversions.</p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <UserCheck2 className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg '>{`User Generated Content (UGC)`}</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg '>{`User Generated Content (UGC)`}</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Enhance credibility and foster community engagement.</p>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@ const Process = () => {
 
                             <Slide direction='right' duration={1500} delay={-800}>
                                 <Link to='/sectors/marketplace#step1'>
-                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
+                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl px-4 py-2 2xl:py-2.5 md:px-5 text-xs 2xl:text-base'>Book a Call</button>
                                 </Link>
                             </Slide>
                         </div>
@@ -160,37 +160,37 @@ const Process = () => {
 
             {/* custom services */}
 
-            <div className='px-6 md:px-10 md:py-10 w-full' id='custom'>
+            <div className='px-6 md:px-10 md:py-10 w-full pb-9 md:pb-0' id='custom'>
                 <Container>
                     <div className="flex justify-center w-full">
-                        <div className='flex flex-col gap-8 md:w-[53%] md:pt-5 md:pr-16'>
+                        <div className='flex flex-col  gap-4 md:gap-8 md:w-[53%] md:pt-5 md:pr-16'>
                             <Slide duration={1500} delay={-800}>
                                 <h1 className='text-[#253359] text-2xl md:text-4xl 2xl:text-5xl font-bold playfair-display-font'>Custom <span className='italic'>Services</span></h1>
                             </Slide>
 
                             <Slide duration={1500} delay={-800}>
                                 <div className='text-[#253359] font-normal grid grid-cols-2 gap-6 md:gap-9 2xl:mt-10 xl:mt-7 md:mt-4'>
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Box className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg'>3D Sites</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg'>3D Sites</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Innovative and immersive web experiences.</p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Boxes className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg'>Blockchain</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg'>Blockchain</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Secure and decentralized solutions.</p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <CodeSquare className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg '>Software Development</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg '>Software Development</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Tailored software solutions.</p>
                                     </div>
 
-                                    <div className="flex flex-col gap-2 max-w-xs">
+                                    <div className="flex flex-col gap-1 md:gap-2 max-w-xs">
                                         <Target className='md:h-[26px] md:w-[26px] h-5' color='#56483a' />
-                                        <h2 className='font-bold text-sm md:text-base 2xl:text-lg'>Personalized Approach</h2>
+                                        <h2 className='font-bold text-xs md:text-base 2xl:text-lg'>Personalized Approach</h2>
                                         <p className='2xl:text-base md:text-sm text-xs'>Understanding your unique business goals and challenges. </p>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@ const Process = () => {
 
                             <Slide duration={1500} delay={-800}>
                                 <Link to='/sectors/marketplace#step1'>
-                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl py-2 2xl:py-2.5 px-5 text-sm 2xl:text-base'>Book a Call</button>
+                                    <button className='hover:bg-[#fff] btn btn1 text-white rounded-3xl px-4 py-2 2xl:py-2.5 md:px-5 text-xs 2xl:text-base'>Book a Call</button>
                                 </Link>
                             </Slide>
 
